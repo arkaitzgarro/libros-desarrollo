@@ -74,7 +74,7 @@ Al definir una tabla, se debe pensar en primer lugar en las filas que la forman 
 | --------------------: | :------------- |
 | **Atributos comunes** | básicos, internacionalización y eventos |
 | **Atributos propios** | `abbr="texto"` Permite describir el contenido de la celda (empleado sobre todo en los navegadores utilizados por personas discapacitadas)<br />`headers="lista_de_id"` Indica las celdas que actúan como cabeceras para esta celda (los títulos de las columnas y filas). Se indica como una lista de valores del atributo "id" de celdas<br />`scope="col, row, colgroup, rowgroup"` Indica las celdas para las que esta celda será su cabecera<br />`colspan="numero"` Número de columnas que ocupa esta celda<br />`rowspan="numero"` Número de filas que ocupa esta celda |
-| **Tipo de elemento**  | En bloque |
+| **Tipo de elemento**  | Celda de tabla |
 | **Descripción**       | Se emplea para definir cada una de las celdas que forman las filas de una tabla, es decir, las columnas de la tabla |
 
 De todos los **atributos** disponibles para las celdas, los más utilizados son `rowspan` y `colspan`, que se emplean para construir tablas complejas como las que se ven más adelante. Entre los demás atributos, sólo se utiliza de forma habitual el atributo `scope`, sobre todo con las celdas de cabecera que se ven a continuación.
@@ -85,7 +85,7 @@ Normalmente, algunas de las celdas de la tabla se utilizan como **cabecera** de 
 | --------------------: | :------------- |
 | **Atributos comunes** | básicos, internacionalización, eventos |
 | **Atributos propios** | `abbr="texto"` Permite describir el contenido de la celda (empleado sobre todo en los navegadores utilizados por personas discapacitadas)<br />`headers="lista_de_id"` Indica las celdas que actúan como cabeceras para esta celda (los títulos de las columnas y filas). Se indica como una lista de valores del atributo `id` de celdas<br />`scope="col, row, colgroup, rowgroup"` Indica las celdas para las que esta celda será su cabecera <br />`colspan="numero"` Número de columnas que ocupa esta celda<br />`rowspan="numero"` Número de filas que ocupa esta celda |
-| **Tipo de elemento**  | En bloque |
+| **Tipo de elemento**  | Celda de tabla |
 | **Descripción**       | Se emplea para definir las celdas que son cabecera de una fila o de una columna de la tabla |
 
 Los **atributos** de la etiqueta `<th>` son idénticos que los atributos definidos para la etiqueta `<td>`. En este caso, el atributo más utilizado es `scope`, que permite indicar si la celda es cabecera de la fila o de la columna (`<th scope="row">` y `<th scope="col">` respectivamente).

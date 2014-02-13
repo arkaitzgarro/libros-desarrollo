@@ -353,7 +353,7 @@ Existe una manera de mostrar el **texto tal y como está escrito**, respetando l
 | **Atributos comunes** | básicos, internacionalización, eventos |
 | **Atributos propios** | - |
 | **Tipo de elemento**  | En bloque |
-| **Descripción**       | Muestra el texto que encierra tal y como está escrito |
+| **Descripción**       | Muestra el texto que contiene tal y como está escrito |
 
 Los elementos `<pre>` son algo especiales, ya que los navegadores les aplican algunas reglas:
 
