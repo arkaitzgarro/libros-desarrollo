@@ -273,7 +273,7 @@ Afortunadamente, el lenguaje HTML incluye una etiqueta denominada `<label>` y qu
 | **Atributos comunes** | básicos, internacionalización, eventos |
 | **Atributos propios** | `for="id"` Indica el ID del campo del formulario para el que este elemento es su título<br />Otros: `accesskey`, `onfocus` y `onblur` |
 | **Tipo de elemento**  | En línea |
-| **Descripción**       | Se emplea para definir el título o leyenda de un conjunto de campos de formulario agrupados con la etiqueta fieldset |
+| **Descripción**       | Se emplea para definir el título o leyenda de los campos definidos en un formulario |
 
 El único atributo que suele utilizarse con la etiqueta `<label>` es `for`, que indica el identificador (atributo id) del campo de formulario para el que esta etiqueta hace de título.
 
@@ -321,14 +321,14 @@ La definición formal de la etiqueta `<textarea>` es:
 
 | Etiqueta              | `<textarea>`    |
 | --------------------: | :------------- |
-| **Atributos comunes** | básicos, internacionalización, eventos |
+| **Atributos comunes** | básicos, internacionalización, eventos, foco |
 | **Atributos propios** | `rows="numero"` Número de filas de texto que mostrará el textarea<br />`cols="numero"` Número de caracteres que se muestran en cada fila del textarea<br />Otros: `name`, `disabled`, `readonly`, `onselect`, `onchange`, `onfocus`, `onblur` |
 | **Tipo de elemento**  | En línea |
 | **Descripción**       | Se emplea para incluir un área de texto en un formulario |
 
 Los atributos más utilizados en las etiquetas `<textarea>` son los que controlan su anchura y altura. La anchura del área de texto se controla mediante el atributo cols, que indica las columnas o número de caracteres que se podrán escribir como máximo en cada fila. La altura del área de texto se controla mediante rows, que indica directamente las filas de texto que serán visibles.
 
-El principal inconveniente de los elementos `<textarea>` es que el lenguaje HTML no permite limitar el número máximo de caracteres que se pueden introducir. Mientras los elementos `<input type="text">` disponen del atributo maxlength, las áreas de texto no disponen de un atributo equivalente, por lo que sólo es posible limitar el número de caracteres mediante su programación con JavaScript.
+El principal inconveniente de los elementos `<textarea>` es que el lenguaje HTML no permite limitar el número máximo de caracteres que se pueden introducir. Mientras los elementos `<input type="text">` disponen del atributo `maxlength`, las áreas de texto no disponen de un atributo equivalente, por lo que sólo es posible limitar el número de caracteres mediante su programación con JavaScript.
 
 Por otra parte, el otro control disponible para los formularios es el de las listas desplegables:
 
