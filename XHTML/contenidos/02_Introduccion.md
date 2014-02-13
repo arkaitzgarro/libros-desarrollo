@@ -49,7 +49,7 @@ Las páginas HTML se dividen en:
            <title>Documento HTML</title>
         </head>
         <body>
-           <p><b>HTML</b> (HyperText Markup Language) es un lenguaje
+           <p><strong>HTML</strong> (HyperText Markup Language) es un lenguaje
             de marcas usado, de manera predominante, para la elaboración
             de páginas web.</p>
         </body>
