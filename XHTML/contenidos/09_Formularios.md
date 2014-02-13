@@ -34,8 +34,8 @@ La etiqueta `<form>` encierra todos los contenidos del formulario (botones, cuad
 
 | Etiqueta              | `<form>`    |
 | --------------------: | :------------- |
-| **Atributos comunes** | `action="url"` Indica la URL que se encarga de procesar los datos del formulario<br />`method="POST o GET"` Método HTTP empleado al enviar el formulario<br />`enctype="application/x-www-form-urlencoded o multipart/form-data"` Tipo de codificación empleada al enviar el formulario al servidor (sólo se indica de forma explícita en los formularios que permiten adjuntar archivos)<br />`accept="tipo"` Lista separada por comas de todos los tipos de archivos aceptados por el servidor (sólo para los formularios que permiten adjuntar archivos)<br />Otros: `accept-charset`, `onsubmit`, `onreset` |
-| **Atributos propios** | - |
+| **Atributos comunes** | básicos, internacionalización, eventos |
+| **Atributos propios** | `action="url"` Indica la URL que se encarga de procesar los datos del formulario<br />`method="POST o GET"` Método HTTP empleado al enviar el formulario<br />`enctype="application/x-www-form-urlencoded o multipart/form-data"` Tipo de codificación empleada al enviar el formulario al servidor (sólo se indica de forma explícita en los formularios que permiten adjuntar archivos)<br />`accept="tipo"` Lista separada por comas de todos los tipos de archivos aceptados por el servidor (sólo para los formularios que permiten adjuntar archivos)<br />Otros: `accept-charset`, `onsubmit`, `onreset` |
 | **Tipo de elemento**  | En bloque |
 | **Descripción**       | Se emplea para insertar un formulario en la página |
 
@@ -57,8 +57,8 @@ Los **elementos de formulario** como botones y cuadros de texto también se deno
 
 | Etiqueta              | `<input>`    |
 | --------------------: | :------------- |
-| **Atributos comunes** | `type="text | password | checkbox | radio | submit | reset | file | hidden | image | button"` Indica el tipo de control que se incluye en el formulario<br />`name="texto"` Asigna un nombre al control (es imprescindible para que el servidor pueda procesar el formulario)<br />`value="texto"` Valor inicial del control<br />`size="unidad"` Tamaño inicial del control (para los campos de texto y de password se refiere al número de caracteres, en el resto de controles se refiere a su tamaño en píxel)<br />`maxlength="numero"` Máximo número de caracteres para los controles de texto y de password<br />`checked="checked"` Para los controles checkbox y radiobutton permite indicar qué opción aparece preseleccionada<br />`disabled="disabled"` El control aparece deshabilitado y su valor no se envía al servidor junto con el resto de datos<br />`readonly="readonly"` El contenido del control no se puede modificar<br />`src="url"` Para el control que permite crear botones con imágenes, indica la URL de la imagen que se emplea como botón de formulario<br />`alt="texto"` Descripción del control |
-| **Atributos propios** | - |
+| **Atributos comunes** | básicos, internacionalización, eventos y foco |
+| **Atributos propios** | `type="text | password | checkbox | radio | submit | reset | file | hidden | image | button"` Indica el tipo de control que se incluye en el formulario<br />`name="texto"` Asigna un nombre al control (es imprescindible para que el servidor pueda procesar el formulario)<br />`value="texto"` Valor inicial del control<br />`size="unidad"` Tamaño inicial del control (para los campos de texto y de password se refiere al número de caracteres, en el resto de controles se refiere a su tamaño en píxel)<br />`maxlength="numero"` Máximo número de caracteres para los controles de texto y de password<br />`checked="checked"` Para los controles checkbox y radiobutton permite indicar qué opción aparece preseleccionada<br />`disabled="disabled"` El control aparece deshabilitado y su valor no se envía al servidor junto con el resto de datos<br />`readonly="readonly"` El contenido del control no se puede modificar<br />`src="url"` Para el control que permite crear botones con imágenes, indica la URL de la imagen que se emplea como botón de formulario<br />`alt="texto"` Descripción del control |
 | **Tipo de elemento**  | En línea y etiqueta vacía |
 | **Descripción**       | Se emplean para insertar un control en un formulario |
 
