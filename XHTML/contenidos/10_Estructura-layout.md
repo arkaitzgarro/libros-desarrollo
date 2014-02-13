@@ -8,7 +8,7 @@ No obstante, los estilos de CSS necesitan la ayuda de HTML/XHTML para crear los 
 
 La siguiente imagen muestra algunas de las zonas definidas en la página principal del sitio www.alistapart.com:
 
-![Ejemplo de página compleja estructurada con etiquetas div](cap09/estructura.png)
+![Ejemplo de página compleja estructurada con etiquetas div](imagenes/cap10/estructura.png)
 
 Para agrupar los elementos que forman cada zona o división de la página se utiliza la etiqueta `<div>`:
 

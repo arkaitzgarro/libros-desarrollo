@@ -9,11 +9,11 @@ El proceso posterior a estructurar el texto consiste en **marcar** los diferente
 
 Un **ejemplo** de texto original y otro de texto estructurado sería:
 
-![Resultado de estructurar un texto sencillo](cap04/texto_estructurado.png)
+![Resultado de estructurar un texto sencillo](imagenes/cap04/texto_estructurado.png)
 
 Este ejemplo muestra una transformación de un párrafo con un **texto simple** a un **texto estructurado y marcado** donde encontramos:
 
-![Resultado de marcar un texto sencillo](cap04/texto_estructurado2.png)
+![Resultado de marcar un texto sencillo](imagenes/cap04/texto_estructurado2.png)
 
 ## Cómo estructurar un texto
 
@@ -47,7 +47,7 @@ Un ejemplo de **código HTML** con la etiqueta `<p>` sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de texto HTML estructurado con párrafos](cap04/ejemplo_parrafo.png)
+![Ejemplo de texto HTML estructurado con párrafos](imagenes/cap04/ejemplo_parrafo.png)
 
 ### Secciones
 
@@ -81,7 +81,7 @@ Un ejemplo de **código HTML** con la etiqueta `<p>` más las etiquetas `<h1>`y 
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de texto HTML estructurado con párrafos y secciones](cap04/ejemplo_secciones.png)
+![Ejemplo de texto HTML estructurado con párrafos y secciones](imagenes/cap04/ejemplo_secciones.png)
 
 
 ## Marcado básico de un texto
@@ -118,7 +118,7 @@ Un ejemplo de **código HTML** con las etiquetas `<em>` y `<strong>` sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de uso de etiquetas em y strong](cap04/em_strong.png)
+![Ejemplo de uso de etiquetas em y strong](imagenes/cap04/em_strong.png)
 
 HTML también permite marcar de forma adecuada las modificaciones realizadas en el contenido de una página: el texto que **ha sido eliminado** y el texto que **ha sido añadido**:
 
@@ -156,7 +156,7 @@ Un ejemplo de **código HTML** con las etiquetas `<ins>` y `<del>` sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de uso de etiquetas ins y del](cap04/ins_del.png)
+![Ejemplo de uso de etiquetas ins y del](imagenes/cap04/ins_del.png)
 
 Además de estas dos, encontramos la etiqueta `<blockquote>` para incluir citas textuales en las páginas web.
 
@@ -186,7 +186,7 @@ Un ejemplo de **código HTML** con la etiqueta `<blockquote>` sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de uso de etiqueta blockquote](cap04/blockquote.png)
+![Ejemplo de uso de etiqueta blockquote](imagenes/cap04/blockquote.png)
 
 <div class="exercise">
   <p class="title">Ejercicio 2</p>
@@ -234,7 +234,7 @@ Un ejemplo de **código HTML** con la etiqueta `<acronym>` sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de uso de etiqueta acronym](cap04/acronym.png)
+![Ejemplo de uso de etiqueta acronym](imagenes/cap04/acronym.png)
 
 La etiqueta `<dfn>` proporciona al usuario la definición de todas las palabras para las que se considere apropiado, y la etiqueta `<cite>` se utiliza para marcar un texto como una citación:
 
@@ -303,7 +303,7 @@ Un ejemplo de este comportamiento sería:
 
 Que un navegador visualizaría de esta manera:
 
-![Ejemplo de uso de la etiqueta p con espacios en blanco y nuevas líneas](cap04/espacios_en_blanco.png)
+![Ejemplo de uso de la etiqueta p con espacios en blanco y nuevas líneas](imagenes/cap04/espacios_en_blanco.png)
 
 Sin embargo, existen alternativas para incluir **espacios en blanco adicionales**. Esto se consigue sustituyendo cada nuevo espacio en blanco por el texto `&nbsp;`.
 
@@ -327,7 +327,7 @@ Si quisiéramos visualizar el texto del ejemplo anterior con todos los espacios 
 
 Que un navegador visualizaría de esta manera:
 
-![Ejemplo de uso `&nbsp;`](cap04/espacios_en_blanco2.png)
+![Ejemplo de uso `&nbsp;`](imagenes/cap04/espacios_en_blanco2.png)
 
 Este ejemplo de **código HTML** incluye la etiqueta `<br/>`, que se explica a continuación.
 
@@ -383,7 +383,7 @@ Un ejemplo de **código HTML** con la etiqueta `<pre>` sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de uso de la etiqueta pre](cap04/pre.png)
+![Ejemplo de uso de la etiqueta pre](imagenes/cap04/pre.png)
 
 También existe la etiqueta `<code>` que se utiliza para mostrar código fuente de cualquier lenguaje de programación.
 
@@ -418,7 +418,7 @@ Un ejemplo de **código HTML** con la etiqueta `<code>` sería:
         </body>
     </html>
 
-![Ejemplo de uso de la etiqueta code](cap04/code.png)
+![Ejemplo de uso de la etiqueta code](imagenes/cap04/code.png)
 
 <div class="exercise">
   <p class="title">Ejercicio 4</p>

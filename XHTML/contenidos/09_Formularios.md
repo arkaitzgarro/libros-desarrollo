@@ -28,7 +28,7 @@ Un ejemplo de **código HTML** con ambas etiquetas sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Formulario sencillo definido con las etiquetas form e input](cap09/formulario_sencillo.png)
+![Formulario sencillo definido con las etiquetas form e input](imagenes/cap09/formulario_sencillo.png)
 
 La etiqueta `<form>` encierra todos los contenidos del formulario (botones, cuadros de texto, listas desplegables) y la etiqueta `<input>` permite definir varios tipos diferentes de elementos (botones y cuadros de texto).
 
@@ -68,7 +68,7 @@ A continuación se muestran ejemplos para los diez controles que se pueden crear
 
 Se trata del elemento más utilizado en los formularios. En el caso más sencillo, se muestra un cuadro de texto vacío en el que el usuario puede escribir cualquier texto:
 
-![Ejemplo de etiqueta input (type=text)](cap09/input_text.png)
+![Ejemplo de etiqueta input (type=text)](imagenes/cap09/input_text.png)
 
     [html]
     Nombre <br/>
@@ -92,7 +92,7 @@ Por último, el __atributo `readonly`__ permite que el usuario pueda ver los con
 
 La única diferencia entre este control y el cuadro de texto normal es que el texto que el usuario escribe en un cuadro de contraseña no se ve en la pantalla. En su lugar, los navegadores ocultan el texto utilizando asteriscos o círculos, por lo que es ideal para escribir contraseñas y otros datos sensibles.
 
-![Ejemplo de etiqueta input (type=password)](cap09/input_password.png)
+![Ejemplo de etiqueta input (type=password)](imagenes/cap09/input_password.png)
 
     [html]
     Contraseña <br/>
@@ -104,7 +104,7 @@ Cambiando el valor del atributo `type` por `password` se transforma el cuadro de
 
 Los *checkbox* o "casillas de verificación" son controles de formulario que permiten al usuario seleccionar y deseleccionar opciones individualmente. Aunque en ocasiones se muestran varios *checkbox* juntos, cada uno de ellos es completamente independiente del resto. Por este motivo, se utilizan cuando el usuario puede activar y desactivar varias opciones relacionadas pero no excluyentes.
 
-![Ejemplo de etiqueta input (type=checkbox)](cap09/input_checkbox.png)
+![Ejemplo de etiqueta input (type=checkbox)](imagenes/cap09/input_checkbox.png)
 
     [html]
     Puestos de trabajo buscados <br/>
@@ -125,7 +125,7 @@ Si se quiere mostrar un *checkbox* seleccionado por defecto, se utiliza el atrib
 
 Los controles de tipo `radiobutton` son similares a los controles de tipo `checkbox`, pero presentan una diferencia muy importante: son mutuamente excluyentes. Los `radiobutton` se utilizan cuando el usuario solamente puede escoger una opción entre las distintas opciones relacionadas que se le presentan. Cada vez que se selecciona una opción, automáticamente se deselecciona la otra opción que estaba seleccionaba.
 
-![Ejemplo de etiqueta input (type=radio)](cap09/input_radio.png)
+![Ejemplo de etiqueta input (type=radio)](imagenes/cap09/input_radio.png)
 
     [html]
     Sexo <br/>
@@ -137,7 +137,7 @@ El valor del atributo `type` para estos controles de formulario es `radio`. El a
 ### Botón de envío de formulario
 La mayoría de formularios dispone de un botón para enviar al servidor los datos introducidos por el usuario:
 
-![Ejemplo de etiqueta input (type=submit)](cap09/input_submit.png)
+![Ejemplo de etiqueta input (type=submit)](imagenes/cap09/input_submit.png)
 
     [html]
     <input type="submit" name="buscar" value="Buscar" />
@@ -147,7 +147,7 @@ El valor del atributo `type` para este control de formulario es `submit`. El nav
 ### Botón de reseteo del formulario
 Aunque su uso era muy popular hace unos años, la mayoría de formularios modernos ya no utilizan este tipo de botón. Se trata de un botón especial que borra todos los datos introducidos por el usuario y devuelve el formulario a su estado original:
 
-![Ejemplo de etiqueta input (type=reset)](cap09/input_reset.png)
+![Ejemplo de etiqueta input (type=reset)](imagenes/cap09/input_reset.png)
 
     [html]
     <input type="reset" name="limpiar" value="Borrar datos del formulario" />
@@ -160,7 +160,7 @@ Como es habitual en los botones de formulario, el atributo `value` permite estab
 
 Los formularios también permiten adjuntar archivos para subirlos al servidor. Aunque desde el punto de vista de HTML y del navegador no existe ninguna limitación sobre el número, tipo o tamaño total de los archivos que se pueden adjuntar, todos los servidores añaden restricciones por motivos de seguridad.
 
-![Ejemplo de etiqueta input (type=file)](cap09/input_file.png)
+![Ejemplo de etiqueta input (type=file)](imagenes/cap09/input_file.png)
 
     [html]
     Fichero adjunto
@@ -260,7 +260,7 @@ Un ejemplo de **código HTML** con las etiquetas `<fieldset>` y `<legend>` serí
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de uso de las etiquetas fieldset y legend](cap09/formulario_fieldset_legend.png)
+![Ejemplo de uso de las etiquetas fieldset y legend](imagenes/cap09/formulario_fieldset_legend.png)
 
 La etiqueta `<fieldset>` agrupa todos los controles de formulario a los que encierra. El navegador muestra por defecto un borde resaltado para cada agrupación. La etiqueta `<legend>` se incluye dentro de cada etiqueta `<fieldset>` y establece el título que muestra el navegador para cada agrupación de elementos.
 
@@ -305,7 +305,7 @@ La etiqueta `<input>` permite crear diez tipos diferentes de controles de formul
 
 Las áreas de texto son útiles cuando se debe introducir una gran cantidad de texto, ya que es mucho más cómodo de introducir que en un campo de texto normal:
 
-![Ejemplo de uso de la etiqueta textarea](cap09/textarea.png)
+![Ejemplo de uso de la etiqueta textarea](imagenes/cap09/textarea.png)
 
     [html]
     <form action="insertar_producto.php" method="post">
@@ -332,7 +332,7 @@ El principal inconveniente de los elementos `<textarea>` es que el lenguaje HTML
 
 Por otra parte, el otro control disponible para los formularios es el de las listas desplegables:
 
-![Ejemplo de uso de la etiqueta select](cap09/select.png)
+![Ejemplo de uso de la etiqueta select](imagenes/cap09/select.png)
 
 La imagen anterior muestra los tres tipos de listas desplegables disponibles. El primero es el de las listas más utilizadas que sólo muestran un valor cada vez y sólo permiten seleccionar un valor. El segundo tipo de lista es el que sólo permite seleccionar un valor pero muestra varios a la vez. Por último, el tercer tipo de lista desplegable es aquella que muestra varios valores y permite realizar selecciones múltiples.
 
@@ -394,7 +394,7 @@ La etiqueta `<select>` define la lista y encierra todas las opciones que muestra
 
 Por otra parte, las listas desplegables permiten agrupar sus opciones de forma que el usuario pueda encontrar fácilmente las opciones cuando la lista es muy larga:
 
-![Ejemplo de uso de la etiqueta optgroup](cap09/optgroup.png)
+![Ejemplo de uso de la etiqueta optgroup](imagenes/cap09/optgroup.png)
 
 El **código HTML** correspondiente a la imagen anterior sería:
 

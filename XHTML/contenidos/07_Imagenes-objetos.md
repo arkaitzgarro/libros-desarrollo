@@ -88,7 +88,7 @@ Las áreas se definen mediante el atributo `shape` que indica el tipo de área y
 
 El siguiente ejemplo muestra una imagen sencilla que contiene cuatro figuras geométricas:
 
-![Mapa imagen](cap07/ejemplo_mapa_imagen.png)
+![Mapa imagen](imagenes/cap07/ejemplo_mapa_imagen.png)
 
 Utilizando un círculo, dos rectángulos y un polígono se pueden definir fácilmente cuatro zonas *pinchables* en la imagen mediante el siguiente código HTML:
 

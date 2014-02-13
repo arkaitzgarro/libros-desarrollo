@@ -15,7 +15,7 @@ Este organismo **W3C** elabora las normas a seguir para la creación de las pág
 
 El estándar XHTML 1.0 incluye el 95% del estándar HTML 4.01, ya que sólo añade pequeñas mejoras y modificaciones menores. Este sería un sencillo gráfico del esquema de relación y evolución de los lenguajes **HTML** y **XHTML** *(eXtensible HyperText Markup Language)* - que es básicamente HTML expresado como **XML** válido, una versión más estricta a nivel técnico - :
 
-![Esquema de la evolución de HTML y XHTML](cap02/xhtml.png)
+![Esquema de la evolución de HTML y XHTML](imagenes/cap02/xhtml.png)
 
 ### HTML, CSS y Javascript
 
@@ -25,7 +25,7 @@ La posterior aparición de tecnologías como **JavaScript** provocó que las pá
 
 Una página web está compuesta, como vemos en este gráfico, por **contenidos, presentación e interacción**. Esto es, está subdividida de manera que, en vez de incluir en una misma página todo, se utilizan mecanismos para separar dichos contenidos: como son **CSS** y **JavaScript**.
 
-![Separación de contenidos](cap02/contenidos.png)
+![Separación de contenidos](imagenes/cap02/contenidos.png)
 
 ## Estructura y primer documento
 
@@ -45,19 +45,19 @@ Las páginas HTML se dividen en:
 
     [html]
     <html>
-    	<head>
-    	   <title>Documento HTML</title>
-    	</head>
-    	<body>
-    	   <p><b>HTML</b> (HyperText Markup Language) es un lenguaje
+        <head>
+           <title>Documento HTML</title>
+        </head>
+        <body>
+           <p><b>HTML</b> (HyperText Markup Language) es un lenguaje
             de marcas usado, de manera predominante, para la elaboración
             de páginas web.</p>
-    	</body>
+        </body>
     </html>
 
 Si guardásemos este código HTML con un editor de texto sin formato y la extensión **.html**, y lo abriésemos con cualquier navegador, esto sería lo que veríamos:
 
-![Aspecto que muestra el primer documento HTML en cualquier navegador](cap02/html_intro_example.png)
+![Aspecto que muestra el primer documento HTML en cualquier navegador](imagenes/cap02/html_intro_example.png)
 
 En este ejemplo anterior, hemos utilizado los *tags* `<html>`, `<head>` y `<body>`, las tres etiquetas principales de un documento HTML:
 

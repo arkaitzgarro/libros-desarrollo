@@ -4,7 +4,7 @@ Desde sus primeras versiones, HTML incluyó el soporte para crear tablas de dato
 
 Las **tablas en HTML** utilizan los mismos conceptos de filas, columnas, cabeceras y títulos que los que se utilizan en cualquier otro entorno y pueden contener elementos simples, agrupaciones de filas y de columnas, cabeceras y pies de tabla, subdivisiones, cabeceras múltiples y otros elementos complejos.
 
-![Partes que componen una tabla compleja](cap08/estructura_tabla.png)
+![Partes que componen una tabla compleja](imagenes/cap08/estructura_tabla.png)
 
 El problema de las tablas es que no siempre se utilizan adecuadamente. Aunque parezca obvio, las tablas se deben utilizar para mostrar información tabular.
 
@@ -50,7 +50,7 @@ Un ejemplo de **código HTML** con una tabla sencilla sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de tabla sencilla creada con las etiquetas table, tr y td](cap08/tabla_sencilla.png)
+![Ejemplo de tabla sencilla creada con las etiquetas table, tr y td](imagenes/cap08/tabla_sencilla.png)
 
 La etiqueta `<table>` encierra todas las **filas y columnas de la tabla**. Las etiquetas `<tr>` (*table row*) definen cada fila de la tabla y encierran todas las columnas. Por último, la etiqueta `<td>` (*table data cell*) define cada una de las columnas de las filas (aunque realmente HTML no define columnas sino celdas de datos).
 
@@ -116,7 +116,7 @@ Un ejemplo de **código HTML** y una tabla compleja que ha fusionado dos columna
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo sencillo de fusión de columnas](cap08/tabla_fusion_columnas.png)
+![Ejemplo sencillo de fusión de columnas](imagenes/cap08/tabla_fusion_columnas.png)
 
 La primera fila de la tabla está formada sólo por una columna, mientras que la segunda fila está formada por dos columnas. En principio, podría pensarse en utilizar el siguiente código HTML para definir la tabla:
 
@@ -150,7 +150,7 @@ Un ejemplo de **código HTML** y na tabla HTML que fusiona filas sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo sencillo de fusión de filas](cap08/tabla_fusion_filas.png)
+![Ejemplo sencillo de fusión de filas](imagenes/cap08/tabla_fusion_filas.png)
 
 De forma análoga a la **fusión** de columnas del ejemplo anterior, la fusión de filas debe indicarse de forma especial. Como las tablas HTML tienen que ser regulares, todas las columnas deben tener el mismo número de filas. Así, si en el ejemplo anterior se utilizara el siguiente código,
 
@@ -171,7 +171,7 @@ Utilizando los atributos `rowspan` y `colspan`, es posible diseñar tablas tan c
 
 Ejemplo de fusión de múltiples columnas:
 
-![Ejemplo complejo de fusión de columnas](cap08/tabla_fusion_columnas_complejo.png)
+![Ejemplo complejo de fusión de columnas](imagenes/cap08/tabla_fusion_columnas_complejo.png)
 
 El **código HTML** necesario para fusionar las columnas de la tabla anterior sería:
 
@@ -207,7 +207,7 @@ El **código HTML** necesario para fusionar las columnas de la tabla anterior se
 
 Ejemplo de fusión de múltiples filas:
 
-![Ejemplo complejo de fusión de filas](cap08/tabla_fusion_filas_complejo.png)
+![Ejemplo complejo de fusión de filas](imagenes/cap08/tabla_fusion_filas_complejo.png)
 
 El **código HTML** necesario para fusionar las filas de la tabla anterior sería:
 
@@ -248,7 +248,7 @@ Algunas **tablas complejas** están formadas por más elementos que filas y celd
 
 Un ejemplo clásico de tablas avanzadas es el de las tablas utilizadas en **contabilidad**, como por ejemplo la tabla que muestra el balance de una empresa:
 
-![Ejemplo de tabla compleja correspondiente al balance de una empresa](cap08/tabla_balance.png)
+![Ejemplo de tabla compleja correspondiente al balance de una empresa](imagenes/cap08/tabla_balance.png)
 
 Las partes que componen las tablas complejas se definen mediante las etiquetas `<thead>`, `<tbody>` y `<tfoot>`. La cabecera de la tabla se define con la etiqueta `<thead>`, el pie de la tabla se define mediante `<tfoot>` y cada sección de datos se define con una etiqueta `<tbody>`.
 
@@ -320,7 +320,7 @@ Un ejemplo de **código HTML** con las etiquetas `<thead>`, `<tbody>` y `<tfoot>
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de tabla avanzada con cabecera, pie y secciones](cap08/tabla_avanzada.png)
+![Ejemplo de tabla avanzada con cabecera, pie y secciones](imagenes/cap08/tabla_avanzada.png)
 
 Aunque al principio resulta extraño, el elemento `<tfoot>` siempre se escribe antes que cualquier elemento `<tbody>` en el código HTML. De hecho, si la etiqueta `<tfoot>` aparece después de un elemento `<tbody>`, la página no se considera válida.
 
@@ -366,7 +366,7 @@ Un ejemplo de **código HTML** con la etiqueta `<col>` sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de tabla avanzada que usa la etiqueta col](cap08/tabla_avanzada_col.png)
+![Ejemplo de tabla avanzada que usa la etiqueta col](imagenes/cap08/tabla_avanzada_col.png)
 
 Por otra parte, la etiqueta `<colgroup>` se emplea para agrupar de forma estructural varias columnas de la tabla. La forma habitual de indicar el número de columnas que abarca la agrupación es utilizar el atributo `span`, que establece el número de columnas de cada agrupación.
 
@@ -408,7 +408,7 @@ Un ejemplo de **código HTML** con la etiqueta `<colgroup>` sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de tabla avanzada que usa la etiqueta colgroup](cap08/tabla_avanzada_colgroup.png)
+![Ejemplo de tabla avanzada que usa la etiqueta colgroup](imagenes/cap08/tabla_avanzada_colgroup.png)
 
 El uso de las etiquetas `<col>` y `<colgroup>` no está muy extendido, ya que la mayoría de navegadores no soportan muchas de sus funcionalidades.
 

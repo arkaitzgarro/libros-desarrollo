@@ -48,7 +48,7 @@ Un ejemplo de **código HTML** con las etiquetas `<ul>` y `<li>` sería:
 
 Que un navegador visualizaría de esta manera:
 
-![Ejemplo lista no ordenada](cap06/lista_no_ordenada.png)
+![Ejemplo lista no ordenada](imagenes/cap06/lista_no_ordenada.png)
 
 ## Listas ordenadas
 
@@ -86,7 +86,7 @@ Un ejemplo de **código HTML** con las etiquetas `<ol>` y `<li>` sería:
 
 Que un navegador visualizaría de esta manera:
 
-![Ejemplo lista ordenada](cap06/lista_ordenada.png)
+![Ejemplo lista ordenada](imagenes/cap06/lista_ordenada.png)
 
 ## Listas de definiciones
 
@@ -151,7 +151,7 @@ Un ejemplo de **código HTML** con estas tres etiquetas sería:
 
 Que un navegador visualizaría de esta manera:
 
-![Ejemplo lista definiciones](cap06/lista_de_definicion.png)
+![Ejemplo lista definiciones](imagenes/cap06/lista_de_definicion.png)
 
 ## Listas anidadas
 
@@ -193,7 +193,7 @@ Un ejemplo de **código HTML** de una lista anidada sería:
 
 Que un navegador visualizaría de esta manera:
 
-![Ejemplo lista anidada](cap06/lista_anidada.png)
+![Ejemplo lista anidada](imagenes/cap06/lista_anidada.png)
 
 <div class="exercise">
   <p class="title">Ejercicio 8</p>
