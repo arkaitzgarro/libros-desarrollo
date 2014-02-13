@@ -60,14 +60,14 @@ Al definir una tabla, se debe pensar en primer lugar en las filas que la forman 
 | --------------------: | :------------- |
 | **Atributos comunes** | básicos, internacionalización, eventos |
 | **Atributos propios** | `summary="texto"` Permite describir el contenido de la tabla (lo utilizan los buscadores y las personas discapacitadas) |
-| **Tipo de elemento**  | En bloque |
+| **Tipo de elemento**  | Tabla |
 | **Descripción**       | Se emplea para definir tablas de datos |
 
 | Etiqueta              | `<tr>`    |
 | --------------------: | :------------- |
 | **Atributos comunes** | básicos, internacionalización, eventos |
 | **Atributos propios** | - |
-| **Tipo de elemento**  | En bloque |
+| **Tipo de elemento**  | Fila de tabla |
 | **Descripción**       | Se emplea para definir cada fila de las tablas de datos |
 
 | Etiqueta              | `<td>`    |
