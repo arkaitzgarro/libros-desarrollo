@@ -6,7 +6,7 @@ La mayoría de **páginas HTML** disponen de estructuras complejas formadas por 
 
 No obstante, los estilos de CSS necesitan la ayuda de HTML/XHTML para crear los diseños más avanzados. En concreto, el código HTML se encarga de **agrupar** los elementos de la página en diferentes divisiones en función de su finalidad: la zona de la cabecera de la página, la zona de contenidos, una zona lateral para el menú y otras secciones menores, la zona del pie de página, etc.
 
-La siguiente imagen muestra algunas de las zonas definidas en la página principal del sitio www.alistapart.com:
+La siguiente imagen muestra algunas de las zonas definidas en la página principal del sitio [www.alistapart.com](www.alistapart.com):
 
 ![Ejemplo de página compleja estructurada con etiquetas div](imagenes/cap10/estructura.png)
 
