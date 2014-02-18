@@ -19,16 +19,17 @@ El siguiente ejemplo muestra el uso de los comentarios HTML para indicar el comi
     [html]
     <!-- Inicio del menú -->
     <div id="menu">
-    <ul>
-      <li>...</li>
-      <li>...</li>
-      <li>...</li>
-      <li>...</li>
-    </ul>
-    <!-- Fin del menú -->
+      <ul>
+        <li>...</li>
+        <li>...</li>
+        <li>...</li>
+        <li>...</li>
+      </ul>
+    </div>
+    <!-- /Fin del menú -->
     <!-- Inicio de la publicidad -->
     <div id="publicidad"> ... </div>
-    <!-- Fin de la publicidad -->
+    <!-- /Fin de la publicidad -->
 
 Los **comentarios de HTML** puede ocupar tantas líneas como sea necesario. Sin embargo, los comentarios no se pueden anidar, es decir, no se puede incluir un comentario dentro de otro comentario.
 
