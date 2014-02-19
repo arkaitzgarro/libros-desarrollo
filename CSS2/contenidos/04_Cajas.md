@@ -4,15 +4,15 @@ El modelo de cajas o "*box model*" es seguramente la característica más import
 
 Las cajas de una página se crean automáticamente. Cada vez que se inserta una etiqueta HTML, se crea una nueva caja rectangular que encierra los contenidos de ese elemento. La siguiente imagen muestra las tres cajas rectangulares que crean las tres etiquetas HTML que incluye la página:
 
-![Las cajas se crean automáticamente al definir cada elemento HTML](cap04/boxmodel.png)
+![Las cajas se crean automáticamente al definir cada elemento HTML](imagenes/cap04/boxmodel.png)
 
 Las cajas de las páginas no son visibles a simple vista porque inicialmente no muestran ningún color de fondo ni ningún borde. La siguiente imagen muestra las cajas que forman la página web de [http://www.alistapart.com/](http://www.alistapart.com/) después de forzar a que todas las cajas muestren su borde:
 
-![Cajas que forman la página alistapart.com](cap04/alistapart.png)
+![Cajas que forman la página alistapart.com](imagenes/cap04/alistapart.png)
 
 Los navegadores crean y colocan las cajas de forma automática, pero CSS permite modificar todas sus características. Cada una de las cajas está formada por seis partes, tal y como muestra la siguiente imagen:
 
-![Representación bidimensional del box model de CSS](cap04/boxmodel_2d.png)
+![Representación bidimensional del box model de CSS](imagenes/cap04/boxmodel_2d.png)
 
 Las partes que componen cada caja y su orden de visualización desde el punto de vista del usuario son las siguientes:
 
@@ -94,7 +94,7 @@ CSS define cuatro propiedades para controlar cada uno de los márgenes horizonta
 
 Cada una de las propiedades establece la separación entre el borde lateral de la caja y el resto de cajas adyacentes:
 
-![Las cuatro propiedades relacionadas con los márgenes](cap04/margen.png)
+![Las cuatro propiedades relacionadas con los márgenes](imagenes/cap04/margen.png)
 
 Las unidades más utilizadas para indicar los márgenes de un elemento son los píxeles (cuando se requiere una precisión total), los `em` (para hacer diseños que mantengan las proporciones) y los porcentajes (para hacer diseños líquidos o fluidos).
 
@@ -120,11 +120,11 @@ El siguiente ejemplo añade un margen izquierdo al segundo párrafo:
 
 A continuación se muestra el aspecto del ejemplo anterior en cualquier navegador:
 
-![Ejemplo de propiedad margin-left](cap04/margin-left.png)
+![Ejemplo de propiedad margin-left](imagenes/cap04/margin-left.png)
 
 Los márgenes verticales (`margin-top` y `margin-bottom`) sólo se pueden aplicar a los elementos de bloque y las imágenes, mientras que los márgenes laterales (`margin-left` y `margin-right`) se pueden aplicar a cualquier elemento, tal y como muestra la siguiente imagen:
 
-![Los márgenes verticales sólo se aplican a los elementos de bloque e imágenes](cap04/margen-vertical.png)
+![Los márgenes verticales sólo se aplican a los elementos de bloque e imágenes](imagenes/cap04/margen-vertical.png)
 
 La imagen anterior muestra el resultado de aplicar los mismos márgenes a varios enlaces (elementos en línea) y varios párrafos (elementos de bloque). En los elementos en línea los márgenes verticales no tienen ningún efecto, por lo que los enlaces no muestran ninguna separación vertical, al contrario de lo que sucede con los párrafos. Sin embargo, los márgenes laterales funcionan sobre cualquier tipo de elemento, por lo que los enlaces se muestran separados entre sí y los párrafos aumentan su separación con los bordes laterales de su elemento contenedor.
 
@@ -175,15 +175,15 @@ Otra alternativa:
 
 El comportamiento de los márgenes verticales es más complejo de lo que se puede imaginar. Cuando se juntan dos o más márgenes verticales, se fusionan de forma automática y la altura del nuevo margen será igual a la altura del margen más alto de los que se han fusionado.
 
-![Fusión automática de los márgenes verticales](cap04/fusion-vertical.png)
+![Fusión automática de los márgenes verticales](imagenes/cap04/fusion-vertical.png)
 
 De la misma forma, si un elemento está contenido dentro de otro elemento, sus márgenes verticales se fusionan y resultan en un nuevo margen de la misma altura que el mayor margen de los que se han fusionado:
 
-![Fusión automática de los márgenes interiores](cap04/fusion-interior.png)
+![Fusión automática de los márgenes interiores](imagenes/cap04/fusion-interior.png)
 
 Aunque en principio puede parecer un comportamiento extraño, la razón por la que se propuso este mecanismo de fusión automática de márgenes verticales es el de dar uniformidad a las páginas web habituales. En una página con varios párrafos, si no se diera este comportamiento y se estableciera un determinado margen a todos los párrafos, el primer párrafo no mostraría un aspecto homogéneo respecto de los demás.
 
-![Motivo por el que se fusionan automáticamente los márgenes verticales](cap04/fusion-motivo.png)
+![Motivo por el que se fusionan automáticamente los márgenes verticales](imagenes/cap04/fusion-motivo.png)
 
 En el caso de un elemento que se encuentra en el interior de otro y sus márgenes se fusionan de forma automática, se puede evitar este comportamiento añadiendo un pequeño relleno (`padding: 1px`) o un borde (`border: 1px solid transparent`) al elemento contenedor.
 
@@ -200,7 +200,7 @@ CSS define cuatro propiedades para controlar cada uno de los espacios de relleno
 
 Cada una de estas propiedades establece la separación entre el contenido y los bordes laterales de la caja del elemento:
 
-![Las cuatro propiedades relacionadas con los rellenos](cap04/padding.png)
+![Las cuatro propiedades relacionadas con los rellenos](imagenes/cap04/padding.png)
 
 Como sucede con los márgenes, CSS también define una propiedad de tipo "*shorthand*" llamada `padding` para establecer los cuatro rellenos de un elemento de forma simultánea.
 
@@ -250,7 +250,7 @@ La unidad de medida más habitual para establecer el grosor de los bordes es el 
 
 El siguiente ejemplo muestra un elemento con cuatro anchuras diferentes de borde:
 
-![Ejemplo de propiedad border-width](cap04/border-width.png)
+![Ejemplo de propiedad border-width](imagenes/cap04/border-width.png)
 
 Las reglas CSS utilizadas se muestran a continuación:
 
@@ -296,7 +296,7 @@ El color de los bordes se controla con las cuatro propiedades siguientes:
 
 El ejemplo anterior se puede modificar para mostrar cada uno de los bordes de un color diferente:
 
-![Ejemplo de propiedad border-color](cap04/border-color.png)
+![Ejemplo de propiedad border-color](imagenes/cap04/border-color.png)
 
 CSS incluye una propiedad "*shorthand*" llamada `border-color` para establecer de forma simultánea el color de todos los bordes de una caja:
 
@@ -324,7 +324,7 @@ El estilo de los bordes sólo se puede indicar mediante alguna de las palabras r
 
 Siguiendo el ejemplo anterior, se puede modificar el estilo de cada uno de los bordes:
 
-![Ejemplo de propiedad border-style](cap04/border-style.png)
+![Ejemplo de propiedad border-style](imagenes/cap04/border-style.png)
 
 Las reglas CSS necesarias para mostrar los estilos anteriores son las siguientes:
 
@@ -444,7 +444,7 @@ La anchura y altura de un elemento no solamente se calculan teniendo en cuenta s
 
 La anchura total con la que se muestra el elemento no son los `300` píxel indicados en la propiedad `width`, sino que también se añaden todos sus márgenes, rellenos y bordes:
 
-![La anchura total de un elemento tiene en cuenta los márgenes, rellenos y bordes](cap04/anchura.png)
+![La anchura total de un elemento tiene en cuenta los márgenes, rellenos y bordes](imagenes/cap04/anchura.png)
 
 De esta forma, la anchura del elemento en pantalla sería igual a la suma de la anchura original, los márgenes, los bordes y los rellenos:
 

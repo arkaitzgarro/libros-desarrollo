@@ -6,7 +6,7 @@
 
 Los estilos más sencillos que se pueden aplicar a los enlaces son los que modifican su tamaño de letra, su color y la decoración del texto del enlace. Utilizando las propiedades `text-decoration` y `font-weight` se pueden conseguir estilos como los que se muestran en la siguiente imagen:
 
-![Ejemplo de enlaces con estilos diferentes](cap07/ejemplo_enlaces.png)
+![Ejemplo de enlaces con estilos diferentes](imagenes/cap07/ejemplo_enlaces.png)
 
 A continuación se muestran las reglas CSS del ejemplo anterior:
 
@@ -47,7 +47,7 @@ El siguiente ejemplo muestra cómo ocultar el subrayado cuando el usuario pasa e
 
 Aplicando las reglas anteriores, los navegadores ocultan el subrayado del enlace sobre el que se posiciona el ratón:
 
-![Ocultando el subrayado de los enlaces al pasar el ratón por encima](cap07/ocultar_subrayado.png)
+![Ocultando el subrayado de los enlaces al pasar el ratón por encima](imagenes/cap07/ocultar_subrayado.png)
 
 Las pseudo-clases siempre incluyen dos puntos (`:`) por delante de su nombre y siempre se añaden a continuación del elemento al que se aplican, sin dejar ningún espacio en blanco por delante:
 
@@ -108,7 +108,7 @@ La propiedad `text-decoration` permite añadir o eliminar el subrayado de los en
 
 No obstante, utilizando la propiedad `border-bottom es posible añadir cualquier tipo de subrayado para los enlaces de las páginas. El siguiente ejemplo muestra algunos enlaces con el subrayado personalizado:
 
-![Enlaces con subrayado personalizado mediante la propiedad border](cap07/border.png)
+![Enlaces con subrayado personalizado mediante la propiedad border](imagenes/cap07/border.png)
 
 Las reglas CSS definidas en el ejemplo anterior se muestran a continuación:
 
@@ -137,7 +137,7 @@ La técnica consiste en mostrar una imagen de fondo sin repetición en el enlace
 
 El siguiente ejemplo personaliza el aspecto de dos enlaces añadiéndoles una imagen de fondo:
 
-![Personalizando el aspecto de los enlaces en función de su tipo](cap07/personalizacion.png)
+![Personalizando el aspecto de los enlaces en función de su tipo](imagenes/cap07/personalizacion.png)
 
 Las reglas CSS necesarias se muestran a continuación:
 
@@ -168,7 +168,7 @@ Las propiedades definidas por CSS permiten mostrar los enlaces con el aspecto de
 
 El siguiente ejemplo muestra un enlace simple formateado como un botón:
 
-![Mostrando un enlace como si fuera un botón](cap07/enlace_boton.png)
+![Mostrando un enlace como si fuera un botón](imagenes/cap07/enlace_boton.png)
 
 Las reglas CSS utilizadas en el ejemplo anterior son las siguientes:
 

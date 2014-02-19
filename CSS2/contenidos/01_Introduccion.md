@@ -197,7 +197,7 @@ Esta forma de incluir CSS directamente en los elementos HTML solamente se utiliz
 
 CSS define una serie de términos que permiten describir cada una de las partes que componen los estilos CSS. El siguiente esquema muestra las partes que forman un estilo CSS muy básico:
 
-![Componentes de un estilo CSS básico](cap01/componentes.png)
+![Componentes de un estilo CSS básico](imagenes/cap01/componentes.png)
 
 Los diferentes términos se definen a continuación:
 

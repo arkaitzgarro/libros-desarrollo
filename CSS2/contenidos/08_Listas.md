@@ -26,7 +26,7 @@ El resto de valores de la propiedad `list-style-type` se dividen en tres tipos: 
 * Por último, los valores alfanuméricos se controlan mediante `lower-latin`, `lower-alpha`, `upper-latin`, `upper-alpha` y `lower-greek`.
 La siguiente imagen muestra algunos de los valores definidos por la propiedad `list-style-type:
 
-![Ejemplo de propiedad list-style-type](cap08/list-style-type.png)
+![Ejemplo de propiedad list-style-type](imagenes/cap08/list-style-type.png)
 
 El código CSS de algunas de las listas del ejemplo anterior se muestra a continuación:
 
@@ -60,7 +60,7 @@ La propiedad `list-style-position` permite controlar la colocación de las viñe
 
 La diferencia entre los valores `outside` y `inside` se hace evidente cuando los elementos contienen mucho texto, como en la siguiente imagen:
 
-![Ejemplo de propiedad list-style-position](cap08/list-style-position.png)
+![Ejemplo de propiedad list-style-position](imagenes/cap08/list-style-position.png)
 
 Utilizando las propiedades anteriores (`list-style-type` y `list-style-position`), se puede seleccionar el tipo de viñeta y su posición, pero no es posible personalizar algunas de sus características básicas como su color y tamaño.
 
@@ -77,7 +77,7 @@ Las imágenes personalizadas se indican mediante la URL de la imagen. Si no se e
 
 La siguiente imagen muestra el uso de la propiedad `list-style-image` mediante tres ejemplos sencillos de listas con viñetas personalizadas:
 
-![Ejemplo de propiedad list-style-image](cap08/list-style-image.png)
+![Ejemplo de propiedad list-style-image](imagenes/cap08/list-style-image.png)
 
 Las reglas CSS correspondientes al ejemplo anterior se muestran a continuación:
 
@@ -125,7 +125,7 @@ Lista de enlaces original:
 
 Aspecto final del menú vertical:
 
-![Menú vertical sencillo creado con CSS](cap08/menu_vertical.png)
+![Menú vertical sencillo creado con CSS](imagenes/cap08/menu_vertical.png)
 
 El proceso de transformación de la lista en un menú requiere de los siguientes pasos:
 
@@ -134,7 +134,7 @@ El proceso de transformación de la lista en un menú requiere de los siguientes
     [css]
     ul.menu { width: 180px; }
 
-![Menú vertical: definiendo su anchura](cap08/menu_vertical2.png)
+![Menú vertical: definiendo su anchura](imagenes/cap08/menu_vertical2.png)
 
 2) Eliminar las viñetas automáticas y todos los márgenes y espaciados aplicados por defecto:
 
@@ -146,7 +146,7 @@ El proceso de transformación de la lista en un menú requiere de los siguientes
         width: 180px;
     }
 
-![Menú vertical: eliminar viñetas por defecto](cap08/menu_vertical3.png)
+![Menú vertical: eliminar viñetas por defecto](imagenes/cap08/menu_vertical3.png)
 
 3) Añadir un borde al menú de navegación y establecer el color de fondo y los bordes de cada elemento del menú:
 
@@ -165,7 +165,7 @@ El proceso de transformación de la lista en un menú requiere de los siguientes
         border-top: 1px solid #FFF;
     }
 
-![Menú vertical: añadiendo bordes](cap08/menu_vertical4.png)
+![Menú vertical: añadiendo bordes](imagenes/cap08/menu_vertical4.png)
 
 4) Aplicar estilos a los enlaces: mostrarlos como un elemento de bloque para que ocupen todo el espacio de cada `<li>` del menú, añadir un espacio de relleno y modificar los colores y la decoración por defecto:
 
@@ -177,7 +177,7 @@ El proceso de transformación de la lista en un menú requiere de los siguientes
         text-decoration: none;
     }
 
-![Aspecto final del menú vertical sencillo creado con CSS](cap08/menu_vertical5.png)
+![Aspecto final del menú vertical sencillo creado con CSS](imagenes/cap08/menu_vertical5.png)
 
 Los tipos de menús verticales que se pueden definir mediante las propiedades CSS son innumerables, como se puede observar en la página [http://www.exploding-boy.com/images/EBmenus/menus.html](http://www.exploding-boy.com/images/EBmenus/menus.html).
 
@@ -200,7 +200,7 @@ Código HTML del menú horizontal:
 
 Aspecto final del menú horizontal:
 
-![Menú horizontal creado con CSS](cap08/menu_horizontal1.png)
+![Menú horizontal creado con CSS](imagenes/cap08/menu_horizontal1.png)
 
 El proceso de creación del menú horizontal consta de los siguientes pasos:
 
@@ -222,7 +222,7 @@ El proceso de creación del menú horizontal consta de los siguientes pasos:
       text-decoration: none;
     }
    
-![Menú horizontal: estilo básico inicial](cap08/menu_horizontal2.png)       
+![Menú horizontal: estilo básico inicial](imagenes/cap08/menu_horizontal2.png)       
 
 2) Establecer la anchura de los elementos del menú. Como el menú es de anchura variable y contiene cinco elementos, se asigna una anchura del `20%` a cada elemento. Si se quiere tener un control más preciso sobre el aspecto de cada elemento, es necesario asignar una anchura fija al menú.
 
@@ -243,7 +243,7 @@ Como ya se explicó en las secciones anteriores, la solución de este problema c
       overflow: hidden;
     }
 
-![Menú horizontal: anchura y posicionamiento flotante](cap08/menu_horizontal3.png)
+![Menú horizontal: anchura y posicionamiento flotante](imagenes/cap08/menu_horizontal3.png)
 
 3) Establecer los bordes de los elementos que forman el menú:
 
@@ -253,7 +253,7 @@ Como ya se explicó en las secciones anteriores, la solución de este problema c
       border-right: 1px solid #7C7C7C;
     }
 
-![Menú horizontal: borde de los elementos](cap08/menu_horizontal4.png)
+![Menú horizontal: borde de los elementos](imagenes/cap08/menu_horizontal4.png)
 
 4) Por último, se elimina el borde derecho del último elemento de la lista, para evitar el borde duplicado:
 
@@ -266,7 +266,7 @@ Como ya se explicó en las secciones anteriores, la solución de este problema c
       <li><a href="#" style="border-right: none">Elemento 5</a></li>
     </ul>
 
-![Aspecto final del menú horizontal creado con CSS](cap08/menu_horizontal5.png)
+![Aspecto final del menú horizontal creado con CSS](imagenes/cap08/menu_horizontal5.png)
 
 El código CSS final se muestra a continuación:
 
@@ -298,13 +298,13 @@ El código CSS final se muestra a continuación:
 
 Modificando los estilos de cada elemento del menú y utilizando imágenes de fondo y las pseudo-clases `:hover` y `:active`, se pueden crear menús horizontales complejos, incluso con el aspecto de un menú de solapas o pestañas:
 
-![Ejemplos de menús horizontales con pestañas creados con CSS](cap08/menu_horizontal_pestañas.png)
+![Ejemplos de menús horizontales con pestañas creados con CSS](imagenes/cap08/menu_horizontal_pestañas.png)
 
 El código fuente de los menús de la imagen anterior y muchos otros se puede encontrar en [http://exploding-boy.com/images/cssmenus/menus.html](http://exploding-boy.com/images/cssmenus/menus.html)
 
 Además de los menús horizontales de pestañas, haciendo uso de las propiedades de CSS se pueden crear menús verticales y horizontales muy avanzados:
 
-![Ejemplos de menús horizontales y verticales complejos creados con CSS](cap08/menus_complejos.png)
+![Ejemplos de menús horizontales y verticales complejos creados con CSS](imagenes/cap08/menus_complejos.png)
 
 El código CSS de todos los ejemplos de la imagen anterior y muchos otros se pueden encontrar en: [http://alvit.de/css-showcase/css-navigation-techniques-showcase.php](http://alvit.de/css-showcase/css-navigation-techniques-showcase.php)
 

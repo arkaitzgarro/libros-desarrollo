@@ -76,7 +76,7 @@ A partir del código HTML y CSS que se muestra, añadir los selectores CSS que f
 
 A partir del código HTML proporcionado, añadir las reglas CSS necesarias para que la página resultante tenga el mismo aspecto que el de la siguiente imagen:
 
-![Aspecto final de la página](cap14/ej02.png)
+![Aspecto final de la página](imagenes/cap14/ej02.png)
 
 A continuación se muestra el código HTML de la página sin estilos:
 
@@ -169,7 +169,7 @@ Los nombres de los colores están estandarizados y se corresponden con el nombre
 
 A partir del código HTML y CSS proporcionados, determinar las reglas CSS necesarias para añadir los siguientes márgenes y rellenos:
 
-![Página original](cap14/ej03.png)
+![Página original](imagenes/cap14/ej03.png)
 
 1. El elemento `#cabecera` debe tener un relleno de `1em` en todos los lados.
 2. El elemento `#menu` debe tener un relleno de `0.5em` en todos los lados y un margen inferior de `0.5em`.
@@ -179,7 +179,7 @@ A partir del código HTML y CSS proporcionados, determinar las reglas CSS necesa
 6. El elemento `#publicidad` está separado `1em` de su elemento superior.
 7. El elemento `#pie` debe tener un margen superior de `1em`.
 
-![Página con márgenes y rellenos](cap14/ej03_final.png)
+![Página con márgenes y rellenos](imagenes/cap14/ej03_final.png)
 
 [Descargar ficheros](snippets/cap14/ej03.zip)
 
@@ -187,7 +187,7 @@ A partir del código HTML y CSS proporcionados, determinar las reglas CSS necesa
 
 A partir del código HTML y CSS proporcionados, determinar las reglas CSS necesarias para añadir los siguientes bordes:
 
-![Página original](cap14/ej04.png)
+![Página original](imagenes/cap14/ej04.png)
 
 1. Eliminar el borde gris que muestran por defecto todos los elementos.
 2. El elemento `#menu` debe tener un borde inferior de 1 píxel y azul (`#004C99`).
@@ -196,13 +196,13 @@ A partir del código HTML y CSS proporcionados, determinar las reglas CSS necesa
 5. El lateral formado por el elemento `#secundario` muestra un borde de 1 píxel y de color `#CC6600`.
 6. El elemento `#pie` debe mostrar un borde superior y otro inferior de 1 píxel y color gris claro `#C5C5C5`.
 
-![Página con bordes](cap14/ej04_final.png)
+![Página con bordes](imagenes/cap14/ej04_final.png)
 
 ### Ejercicio 5 ## {#ej05}
 
 A partir del código HTML y CSS proporcionados, determinar las reglas CSS necesarias para añadir los siguientes colores e imágenes de fondo:
 
-![Página original](cap14/ej05.png)
+![Página original](imagenes/cap14/ej05.png)
 
 - Los elementos `#noticias` y `#pie` tiene un color de fondo gris claro (`#F8F8F8`).
 - El elemento `#publicidad` muestra un color de fondo amarillo claro (`#FFF6CD`).
@@ -210,7 +210,7 @@ A partir del código HTML y CSS proporcionados, determinar las reglas CSS necesa
 - El fondo del elemento `#menu` se construye mediante una pequeña imagen llamada `fondo_menu.gif`.
 - El logotipo del sitio se muestra mediante una imagen de fondo del elemento `<h1>` contenido en el elemento `#cabecera` (la imagen se llama `logo.gif`).
 
-![Página con colores e imágenes de fondo](cap14/ej05_final.png)
+![Página con colores e imágenes de fondo](imagenes/cap14/ej05_final.png)
 
 [Descargar ficheros](snippets/cap14/ej05.zip)
 
@@ -240,7 +240,7 @@ A partir del código HTML proporcionado:
 
 Determinar las reglas CSS necesarias para que el resultado sea similar al mostrado en la siguiente imagen:
 
-![Elementos posicionados mediante float](cap14/ej06.png)
+![Elementos posicionados mediante float](imagenes/cap14/ej06.png)
 
 ## Capítulo 6
 
@@ -266,7 +266,7 @@ A partir del código HTML y CSS proporcionados, determinar las reglas CSS necesa
 
 Determinar las reglas CSS necesarias para que el resultado sea similar al mostrado en la siguiente imagen:
 
-![Página con propiedades tipográficas](cap14/ej07.png)
+![Página con propiedades tipográficas](imagenes/cap14/ej07.png)
 
 [Descargar ficheros](snippets/cap14/ej07.zip)
 
@@ -282,7 +282,7 @@ Definir las reglas CSS que permiten mostrar los enlaces con los siguientes estil
 
 3. Los enlaces visitados se muestran en color gris claro `#CCC`.
 
-![Enlaces con estilos aplicados mediante CSS](cap14/ej08.png)
+![Enlaces con estilos aplicados mediante CSS](imagenes/cap14/ej08.png)
 
 ## Capítulo 8
 
@@ -292,15 +292,15 @@ Modificar el menú vertical sencillo para que muestre el siguiente comportamient
 
 1) Los elementos deben mostrar una imagen de fondo (`flecha_inactiva.png`):
 
-![Menú vertical con imagen de fondo](cap14/ej0901.png)
+![Menú vertical con imagen de fondo](imagenes/cap14/ej0901.png)
 
 2) Cuando se pasa el ratón por encima de un elemento, se debe mostrar una imagen alternativa (`flecha_activa.png`):
 
-![Menú vertical con imagen de fondo alternativa](cap14/ej0902.png)
+![Menú vertical con imagen de fondo alternativa](imagenes/cap14/ej0902.png)
 
 3) El color de fondo del elemento también debe variar ligeramente y mostrar un color gris más oscuro (`#E4E4E4`) cuando se pasa el ratón por encima:
 
-![Menú vertical con imagen de fondo y color alternativos](cap14/ej0903.png)
+![Menú vertical con imagen de fondo y color alternativos](imagenes/cap14/ej0903.png)
 
 [Descargar ficheros](snippets/cap14/ej09.zip)
 
@@ -312,19 +312,19 @@ A partir del código HTML proporcionado:
 
 1) Aplicar las reglas CSS necesarias para que el formulario muestre el siguiente aspecto:
 
-![Formulario estructurado a dos columnas](cap14/ej1001.png)
+![Formulario estructurado a dos columnas](imagenes/cap14/ej1001.png)
 
 2) Cuando el usuario pasa el ratón por encima de cada grupo de elementos de formulario (es decir, por encima de cada `<li>`) se debe modificar su color de fondo (sugerencia: color amarillo claro `#FF9`). Además, cuando el usuario se posiciona en un cuadro de texto, se debe modificar su borde para resaltar el campo que está activo cada momento (sugerencia: color amarillo `#E6B700`):
 
-![Mejoras en los campos de formulario](cap14/ej1002.png)
+![Mejoras en los campos de formulario](imagenes/cap14/ej1002.png)
 
 3) Utilizando el menor número de reglas CSS, cambiar el aspecto del formulario para que se muestre como la siguiente imagen:
 
-![Formulario estructurado a una columna](cap14/ej1003.png)
+![Formulario estructurado a una columna](imagenes/cap14/ej1003.png)
 
 4) Cuando el usuario pasa el ratón por encima de un grupo de elementos de formulario (es decir, por encima de cada `<li>`) se debe mostrar el mensaje de ayuda asociado. Añadir las reglas CSS necesarias para que el formulario tenga el aspecto definitivo mostrado en la siguiente imagen:
 
-![Aspecto final del formulario](cap14/ej1004.png)
+![Aspecto final del formulario](imagenes/cap14/ej1004.png)
 
 [Descargar ficheros](snippets/cap14/ej10.html)
 
@@ -336,23 +336,23 @@ Determinar las reglas CSS necesarias para mostrar la siguiente tabla con el aspe
 
 Tabla original:
 
-![Aspecto original de la tabla](cap14/ej1101.png)
+![Aspecto original de la tabla](imagenes/cap14/ej1101.png)
 
 Tabla original:
 
-![Aspecto final de la tabla](cap14/ej1102.png)
+![Aspecto final de la tabla](imagenes/cap14/ej1102.png)
 
 1) Alinear el texto de las celdas, cabeceras y título. Definir los bordes de la tabla, celdas y cabeceras (color gris oscuro `#333`):
 
-![Tabla con texto alineado y bordes](cap14/ej1103.png)
+![Tabla con texto alineado y bordes](imagenes/cap14/ej1103.png)
 
 2) Formatear las cabeceras de fila y columna con la imagen de fondo correspondiente en cada caso (`fondo_gris.gif, euro.png, dolar.png, yen.png, libra.png`). Modificar el tipo de letra de la tabla y utilizar `Arial`. El color azul claro es `#E6F3FF`.
 
-![Tabla con colores e imágenes de fondo](cap14/ej1104.png)
+![Tabla con colores e imágenes de fondo](imagenes/cap14/ej1104.png)
 
 3) Mostrar un color alterno en las filas de datos (color amarillo claro `#FFFFCC`).
 
-![Tabla con colores de fila alternos](cap14/ej1105.png)
+![Tabla con colores de fila alternos](imagenes/cap14/ej1105.png)
 
 [Descargar ficheros](snippets/cap14/ej11.zip)
 

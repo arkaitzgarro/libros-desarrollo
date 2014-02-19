@@ -70,7 +70,7 @@ La principal característica de los elementos posicionados de forma flotante med
 
 La siguiente imagen muestra un elemento contenedor que encierra a dos elementos de texto. Como los elementos interiores están posicionados de forma flotante y el elemento contenedor no dispone de más contenidos, el resultado es el siguiente:
 
-![Los elementos posicionados de forma flotante se salen de su elemento contenedor](cap13/float.png)
+![Los elementos posicionados de forma flotante se salen de su elemento contenedor](imagenes/cap13/float.png)
 
 El código HTML y CSS del ejemplo anterior se muestra a continuación:
 
@@ -113,7 +113,7 @@ De esta forma, si se añade un elemento `<div>` invisible con la propiedad clear
 
 Ahora el elemento contenedor se visualiza correctamente porque encierra a todos sus elementos:
 
-![Solución tradicional al problema de los elementos posicionados de forma flotante](cap13/clear.png)
+![Solución tradicional al problema de los elementos posicionados de forma flotante](imagenes/cap13/clear.png)
 
 La técnica de corregir los problemas ocasionados por los elementos posicionados de forma flotante se suele denominar "*limpiar los float*".
 
@@ -164,7 +164,7 @@ Otra solución al problema de los elementos de la misma altura es la que present
 
 La solución de las columnas falsas consiste en establecer una imagen de fondo repetida verticalmente en el elemento contenedor. Como el contenedor es tan alto como la columna más alta, su imagen de fondo da la sensación de que todas las columnas son de la misma altura.
 
-![Las columnas parecen de la misma altura porque el elemento contenedor muestra una imagen de fondo repetida verticalmente](cap13/columns.png)
+![Las columnas parecen de la misma altura porque el elemento contenedor muestra una imagen de fondo repetida verticalmente](imagenes/cap13/columns.png)
 
 El principal inconveniente de esta técnica es que sólo se puede emplear cuando la estructura de la página es de anchura fija, es decir, cuando su diseño no es líquido y no se adapta a la anchura de la ventana del navegador.
 
@@ -212,7 +212,7 @@ La idea para mejorar el rendimiento de una página que descarga por ejemplo 15 i
 
 El siguiente ejemplo explica el uso de los *sprites* CSS en un sitio web que muestra la previsión meteorológica de varias localidades utilizando iconos:
 
-![Aspecto de la previsión meteorológica mostrada con iconos](cap13/sprite01.png)
+![Aspecto de la previsión meteorológica mostrada con iconos](imagenes/cap13/sprite01.png)
 
 La solución tradicional para crear la página anterior consiste en utilizar cuatro elementos <img> en el código HTML y disponer de cuatro imágenes correspondientes a los cuatro iconos:
 
@@ -241,7 +241,7 @@ Después del tamaño de los archivos descargados, el número de peticiones reali
 
 El primer paso consiste en crear una imagen grande que incluya las cuatro imágenes individuales. Como los iconos son cuadrados de tamaño `32px`, se crea una imagen de `32px` x `128px`:
 
-![Creando un sprite de CSS a partir de varias imágenes individuales](cap13/sprite02.png)
+![Creando un sprite de CSS a partir de varias imágenes individuales](imagenes/cap13/sprite02.png)
 
 Para facilitar el uso de esta técnica, todas las imágenes individuales ocupan el mismo sitio dentro de la imagen grande. De esta forma, los cálculos necesarios para desplazar la imagen de fondo se simplifican al máximo.
 
@@ -288,7 +288,7 @@ La clave de la técnica de los sprites CSS consiste en mostrar las imágenes med
 
 La siguiente imagen muestra lo que sucede con el segundo párrafo:
 
-![Funcionamiento de la técnica de los sprites CSS](cap13/sprite03.png)
+![Funcionamiento de la técnica de los sprites CSS](imagenes/cap13/sprite03.png)
 
 El párrafo tiene establecida una altura de `32px`, idéntica al tamaño de los iconos. Después de añadir un `padding-left` al párrafo, se añade la imagen de fondo mediante `background-image`. Para cambiar de una imagen a otra, sólo es necesario desplazar de forma ascendente o descendente la imagen grande.
 
@@ -308,7 +308,7 @@ La solución original utilizaba cuatro imágenes y realizaba cuatro peticiones a
 
 Los *sprites* que incluyen todas sus imágenes verticalmente son los más fáciles de manejar. Si en el ejemplo anterior se emplea un sprite con las imágenes dispuestas también horizontalmente:
 
-![Sprite complejo que dispone las imágenes de forma vertical y horizontal](cap13/sprite04.png)
+![Sprite complejo que dispone las imágenes de forma vertical y horizontal](imagenes/cap13/sprite04.png)
 
 Aparentemente, utilizar este nuevo sprite sólo implica que la imagen de fondo se debe desplazar también horizontalmente:
 
@@ -336,7 +336,7 @@ Aparentemente, utilizar este nuevo sprite sólo implica que la imagen de fondo s
 
 El problema del *sprite* anterior es que cuando una imagen tiene a su derecha o a su izquierda otras imágenes, estas también se ven:
 
-![Errores producidos por utilizar un sprite complejo](cap13/sprite05.png)
+![Errores producidos por utilizar un sprite complejo](imagenes/cap13/sprite05.png)
 
 La solución de este problema es sencilla, aunque requiere algún cambio en el código HTML:
 
@@ -385,11 +385,11 @@ El código anterior muestra uno de los trucos habituales para manejar sprites co
 
 Utilizar *sprites* CSS es una de las técnicas más eficaces para mejorar los tiempos de descarga de las páginas web complejas. La siguiente imagen muestra un *sprite* complejo que incluye 241 iconos del proyecto Tango y sólo ocupa 42 KB:
 
-![Sprite complejo que incluye 210 iconos en una sola imagen](cap13/sprite05.png)
+![Sprite complejo que incluye 210 iconos en una sola imagen](imagenes/cap13/sprite05.png)
 
 La mayoría de sitios web profesionales utilizan *sprites* para mostrar sus imágenes de adorno. La siguiente imagen muestra un *sprite* del sitio web Flickr:
 
-![Un sprite utilizado por el sitio web Flickr](cap13/flickr-sprite.png.v5)
+![Un sprite utilizado por el sitio web Flickr](imagenes/cap13/flickr-sprite.png.v5)
 
 Los principales inconvenientes de los *sprites* CSS son la poca flexibilidad que ofrece (añadir o modificar una imagen individual no es inmediato) y el esfuerzo necesario para crear el *sprite*.
 

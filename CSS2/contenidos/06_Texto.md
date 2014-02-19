@@ -96,7 +96,7 @@ Además de todas las unidades de medida relativas y absolutas y el uso de porcen
 
 La siguiente imagen muestra una comparación entre los tamaños típicos del texto y las unidades que más se utilizan:
 
-![Comparación visual de las distintas unidades para indicar el tamaño del texto](cap06/fontsize.png)
+![Comparación visual de las distintas unidades para indicar el tamaño del texto](imagenes/cap06/fontsize.png)
 
 CSS recomienda indicar el tamaño del texto en la unidad `em` o en porcentaje (`%`). Además, es habitual indicar el tamaño del texto en puntos (`pt`) cuando el documento está específicamente diseñado para imprimirlo.
 
@@ -115,7 +115,7 @@ Los valores que normalmente se utilizan son `normal` (el valor por defecto) y `b
 
 El siguiente ejemplo muestra una aplicación práctica de la propiedad `font-weight`:
 
-![Ejemplo de propiedad font-weight](cap06/fontweight.png)
+![Ejemplo de propiedad font-weight](imagenes/cap06/fontweight.png)
 
 Por defecto, los navegadores muestran el texto de los elementos `<em>` en cursiva y el texto de los elementos `<strong>` en negrita. La propiedad `font-weight` permite alterar ese aspecto por defecto y mostrar por ejemplo los elementos `<em>` como cursiva y negrita y los elementos `<strong>` destacados mediante un color de fondo y sin negrita.
 
@@ -155,7 +155,7 @@ Normalmente la propiedad `font-style` se emplea para mostrar un texto en cursiva
 
 El ejemplo anterior se puede modificar para personalizar aun más el aspecto por defecto de los elementos `<em>` y `<strong>`:
 
-![Ejemplo de propiedad font-style](cap06/fontstyle.png)
+![Ejemplo de propiedad font-style](imagenes/cap06/fontstyle.png)
 
 Ahora, el texto del elemento `<em>` se muestra como un texto en negrita y el texto del elemento `<strong>` se muestra como un texto en cursiva con un color de fondo muy destacado.
 
@@ -186,7 +186,7 @@ La propiedad `font-variant` no se suele emplear habitualmente, ya que sólo perm
 
 Siguiendo con el ejemplo anterior, se ha aplicado la propiedad `font-variant: small-caps al segundo párrafo de texto:
 
-![Ejemplo de propiedad font-variant](cap06/fontvariant.png)
+![Ejemplo de propiedad font-variant](imagenes/cap06/fontvariant.png)
 
 Para este último ejemplo, solamente es necesario añadir una regla a los estilos CSS:
 
@@ -252,7 +252,7 @@ Los valores definidos por CSS permiten alinear el texto según los valores tradi
 
 La siguiente imagen muestra el efecto de establecer el valor left, right, center y justify respectivamente a cada uno de los párrafos de la página.
 
-![Ejemplo de propiedad text-align](cap06/textalign.png)
+![Ejemplo de propiedad text-align](imagenes/cap06/textalign.png)
 
 La propiedad `text-align` no sólo alinea el texto que contiene un elemento, sino que también alinea todos sus contenidos, como por ejemplo las imágenes.
 
@@ -274,7 +274,7 @@ Además de todas las unidades de medida y el uso de porcentajes, la propiedad li
 
 Siempre que se utilice de forma moderada, el interlineado mejora notablemente la legibilidad de un texto, como se puede observar en la siguiente imagen:
 
-![Ejemplo de propiedad line-height](cap06/lineheight.png)
+![Ejemplo de propiedad line-height](imagenes/cap06/lineheight.png)
 
 Además de la decoración que se puede aplicar a la tipografía que utilizan los textos, CSS define otros estilos y decoraciones para el texto en su conjunto. La propiedad que decora el texto se denomina `text-decoration`.
 
@@ -300,7 +300,7 @@ La propiedad `text-transform` permite mostrar el texto original transformado en 
 
 La siguiente imagen muestra cada uno de los posibles valores:
 
-![Ejemplo de propiedad text-transform](cap06/texttransform.png)
+![Ejemplo de propiedad text-transform](imagenes/cap06/texttransform.png)
 
 Las reglas CSS del ejemplo anterior se muestran a continuación:
 
@@ -335,7 +335,7 @@ Uno de los principales problemas del diseño de documentos y páginas mediante C
 
 A continuación se muestra una imagen con el aspecto que muestran los navegadores para cada uno de los posibles valores de la propiedad `vertical-align`:
 
-![Ejemplo de propiedad vertical-align](cap06/verticalalign.png)
+![Ejemplo de propiedad vertical-align](imagenes/cap06/verticalalign.png)
 
 El valor por defecto es `baseline` y el valor más utilizado cuando se establece la propiedad `vertical-align` es middle.
 
@@ -350,7 +350,7 @@ En muchas publicaciones impresas suele ser habitual tabular la primera línea de
 
 La siguiente imagen muestra la comparación entre un texto largo formado por varios párrafos sin tabular y el mismo texto con la primera línea de cada párrafo tabulada:
 
-![Ejemplo de propiedad text-indent](cap06/textindent.png)
+![Ejemplo de propiedad text-indent](imagenes/cap06/textindent.png)
 
 CSS también permite controlar la separación entre las letras que forman las palabras y la separación entre las palabras que forman los textos. La propiedad que controla la separación entre letras se llama `letter-spacing` y la separación entre palabras se controla mediante `word-spacing`.
 
@@ -370,7 +370,7 @@ CSS también permite controlar la separación entre las letras que forman las pa
 
 La siguiente imagen muestra la comparación entre un texto normal y otro con las propiedades `letter-spacing` y `word-spacing aplicadas:
 
-![Ejemplo de propiedades letter-spacing y word-spacing](cap06/letterspacing.png)
+![Ejemplo de propiedades letter-spacing y word-spacing](imagenes/cap06/letterspacing.png)
 
 Las reglas CSS del ejemplo anterior se muestran a continuación:
 
@@ -434,7 +434,7 @@ En la siguiente tabla se resumen las características de cada valor:
 
 La siguiente imagen muestra las diferencias entre los valores permitidos para `white-space`. El párrafo original contiene espacios en blanco y nuevas líneas y se ha limitado la anchura de su elemento contenedor:
 
-![Ejemplo de propiedad white-space](cap06/whitespace.png)
+![Ejemplo de propiedad white-space](imagenes/cap06/whitespace.png)
 
 Por último, CSS define unos elementos especiales llamados *"pseudo-elementos"* que permiten aplicar estilos a ciertas partes de un texto. En concreto, CSS permite definir estilos especiales a la primera frase de un texto y a la primera letra de un texto.
 
@@ -442,7 +442,7 @@ El pseudo-elemento `:first-line` permite aplicar estilos a la primera línea de 
 
 La siguiente imagen muestra cómo aplica CSS los estilos indicados a la primera línea calculando para cada anchura las palabras que forman la primera línea:
 
-![Ejemplo de pseudo-elemento first-line](cap06/firstline.png)
+![Ejemplo de pseudo-elemento first-line](imagenes/cap06/firstline.png)
 
 La regla CSS utilizada para los párrafos del ejemplo se muestra a continuación:
 
@@ -453,7 +453,7 @@ La regla CSS utilizada para los párrafos del ejemplo se muestra a continuación
 
 De la misma forma, CSS permite aplicar estilos a la primera letra del texto mediante el pseudo-elemento `:first-letter`. La siguiente imagen muestra el uso del pseudo-elemento `:first-letter` para crear una letra capital:
 
-![Ejemplo de pseudo-elemento first-letter](cap06/firstletter.png)
+![Ejemplo de pseudo-elemento first-letter](imagenes/cap06/firstletter.png)
 
 El código HTML y CSS se muestra a continuación:
 

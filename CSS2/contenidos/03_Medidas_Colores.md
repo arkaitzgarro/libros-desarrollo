@@ -159,7 +159,7 @@ CSS define 17 palabras clave para referirse a los colores básicos. Las palabras
 
     aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, orange, purple, red, silver, teal, white, yellow
 
-![Colores definidos mediante las palabras clave de CSS](cap03/colores.png)
+![Colores definidos mediante las palabras clave de CSS](images/cap03/colores.png)
 
 La imagen anterior ha sido extraída de la [sección sobre colores de la especificación oficial de CSS](http://www.w3.org/TR/CSS21/syndata.html#value-def-color).
 

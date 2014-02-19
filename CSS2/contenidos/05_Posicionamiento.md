@@ -19,7 +19,7 @@ Los elementos de bloque ("*block elements*" en inglés) siempre empiezan en una 
 
 Debido a este comportamiento, el tipo de un elemento influye de forma decisiva en la caja que el navegador crea para mostrarlo. La siguiente imagen muestra las cajas que crea el navegador para representar los diferentes elementos que forman una página HTML:
 
-![Cajas creadas por los elementos de línea y los elementos de bloque](cap05/cajas.png)
+![Cajas creadas por los elementos de línea y los elementos de bloque](imagenes/cap05/cajas.png)
 
 El primer elemento de la página anterior es un párrafo. Los párrafos son elementos de bloque y por ese motivo su caja empieza en una nueva línea y llega hasta el final de esa misma línea. Aunque los contenidos de texto del párrafo no son suficientes para ocupar toda la línea, el navegador reserva todo el espacio disponible en la primera línea.
 
@@ -88,7 +88,7 @@ El posicionamiento normal o estático es el modelo que utilizan por defecto los 
 
 Los elementos de bloque forman lo que CSS denomina "*contextos de formato de bloque*". En este tipo de contextos, las cajas se muestran una debajo de otra comenzando desde el principio del elemento contenedor. La distancia entre las cajas se controla mediante los márgenes verticales.
 
-![Posicionamiento normal de los elementos de bloque](cap05/posicionamiento-normal.png)
+![Posicionamiento normal de los elementos de bloque](imagenes/cap05/posicionamiento-normal.png)
 
 Si un elemento se encuentra dentro de otro, el elemento padre se llama "*elemento contenedor*" y determina tanto la posición como el tamaño de todas sus cajas interiores.
 
@@ -96,7 +96,7 @@ Si un elemento no se encuentra dentro de un elemento contenedor, entonces su ele
 
 Los elementos en línea forman los "*contextos de formato en línea*". En este tipo de contextos, las cajas se muestran una detrás de otra de forma horizontal comenzando desde la posición más a la izquierda de su elemento contenedor. La distancia entre las cajas se controla mediante los márgenes laterales.
 
-![Posicionamiento normal de los elementos en línea](cap05/posicionamiento-enlinea.png)
+![Posicionamiento normal de los elementos en línea](imagenes/cap05/posicionamiento-enlinea.png)
 
 Si las cajas en línea ocupan más espacio del disponible en su propia línea, el resto de cajas se muestran en las líneas inferiores. Si las cajas en línea ocupan un espacio menor que su propia línea, se puede controlar la distribución de las cajas mediante la propiedad text-align para centrarlas, alinearlas a la derecha o justificarlas.
 
@@ -114,7 +114,7 @@ Por tanto, la propiedad `top` se emplea para mover las cajas de forma descendent
 
 El desplazamiento relativo de una caja no afecta al resto de cajas adyacentes, que se muestran en la misma posición que si la caja desplazada no se hubiera movido de su posición original.
 
-![Ejemplo de posicionamiento relativo de un elemento](cap05/posicionamiento-normal-relativo.png)
+![Ejemplo de posicionamiento relativo de un elemento](imagenes/cap05/posicionamiento-normal-relativo.png)
 
 En la imagen anterior, la caja 2 se ha desplazado lateralmente hacia la derecha y verticalmente de forma descendente. Como el resto de cajas de la página no modifican su posición, se producen solapamientos entre los contenidos de las cajas.
 
@@ -136,7 +136,7 @@ Cuando una caja se posiciona de forma absoluta, el resto de elementos de la pág
 
 En el siguiente ejemplo, se posiciona de forma absoluta la caja 2:
 
-![Ejemplo de posicionamiento absoluto de un elemento](cap05/posicionamiento-absoluto.png)
+![Ejemplo de posicionamiento absoluto de un elemento](imagenes/cap05/posicionamiento-absoluto.png)
 
 La caja 2 está posicionada de forma absoluta, lo que provoca que el resto de elementos de la página modifiquen su posición. En concreto, la caja 3 deja su lugar original y pasa a ocupar el hueco dejado por la caja 2.
 
@@ -160,7 +160,7 @@ Una vez determinada la referencia del posicionamiento absoluto, la interpretaci�
 
 En los siguientes ejemplos, se utiliza la página HTML que muestra la siguiente imagen:
 
-![Situación original antes de modificar el posicionamiento](cap05/posicionamiento-absoluto-ejemplo.png)
+![Situación original antes de modificar el posicionamiento](imagenes/cap05/posicionamiento-absoluto-ejemplo.png)
 
 A continuación, se muestra el código HTML y CSS de la página original:
 
@@ -193,7 +193,7 @@ En primer lugar, se posiciona de forma absoluta la imagen mediante la propiedad 
 
 El resultado visual se muestra en la siguiente imagen:
 
-![Imagen posicionada de forma absoluta](cap05/posicionamiento-absoluto-ejemplo-final.png)
+![Imagen posicionada de forma absoluta](imagenes/cap05/posicionamiento-absoluto-ejemplo-final.png)
 
 Para posicionar la imagen de forma absoluta, el navegador realiza los siguientes pasos:
 
@@ -222,7 +222,7 @@ A continuación, se modifica el ejemplo anterior posicionando de forma relativa 
       left: 50px;
     }
 
-![Imagen posicionada de forma absoluta](cap05/posicionamiento-relativo-absoluto-ejemplo.png)
+![Imagen posicionada de forma absoluta](imagenes/cap05/posicionamiento-relativo-absoluto-ejemplo.png)
 
 En este caso, como el elemento contenedor de la imagen está posicionado, se convierte en la referencia para el posicionamiento absoluto. El resultado es que la posición de la imagen es muy diferente a la del ejemplo anterior. Por tanto, si se quiere posicionar un elemento de forma absoluta respecto de su elemento contenedor, es imprescindible posicionar este último. Para ello, sólo es necesario añadir la propiedad `position: relative`, por lo que no es obligatorio desplazar el elemento contenedor respecto de su posición original.
 
@@ -246,7 +246,7 @@ Cuando una caja se posiciona con el modelo de posicionamiento flotante, automát
 
 La siguiente imagen muestra el resultado de posicionar de forma flotante hacia la derecha la caja 1:
 
-![Ejemplo de posicionamiento float de una caja](cap05/posicionamiento-float.png)
+![Ejemplo de posicionamiento float de una caja](imagenes/cap05/posicionamiento-float.png)
 
 Cuando se posiciona una caja de forma flotante:
 
@@ -255,7 +255,7 @@ Cuando se posiciona una caja de forma flotante:
 
 Si en el anterior ejemplo la caja 1 se posiciona de forma flotante hacia la izquierda, el resultado es el que muestra la siguiente imagen:
 
-![Ejemplo de posicionamiento float de una caja](cap05/posicionamiento-float-02.png)
+![Ejemplo de posicionamiento float de una caja](imagenes/cap05/posicionamiento-float-02.png)
 
 La caja 1 es de tipo flotante, por lo que desaparece del *flujo normal* de la página y el resto de cajas ocupan su lugar. El resultado es que la caja 2 ahora se muestra donde estaba la caja 1 y la caja 3 se muestra donde estaba la caja 2.
 
@@ -263,13 +263,13 @@ Al mismo tiempo, la caja 1 se desplaza todo lo posible hacia la izquierda de la 
 
 Si existen otras cajas flotantes, al posicionar de forma flotante otra caja, se tiene en cuenta el sitio disponible. En el siguiente ejemplo se posicionan de forma flotante hacia la izquierda las tres cajas:
 
-![Ejemplo de posicionamiento float de una caja](cap05/posicionamiento-float-03.png)
+![Ejemplo de posicionamiento float de una caja](imagenes/cap05/posicionamiento-float-03.png)
 
 En el ejemplo anterior, las cajas no se superponen entre sí porque las cajas flotantes tienen en cuenta las otras cajas flotantes existentes. Como la caja 1 ya estaba posicionada lo más a la izquierda posible, la caja 2 sólo puede colocarse al lado del borde derecho de la caja 1, que es el sitio más a la izquierda posible respecto de la zona en la que se encontraba.
 
 Si no existe sitio en la línea actual, la caja flotante baja a la línea inferior hasta que encuentra el sitio necesario para mostrarse lo más a la izquierda o lo más a la derecha posible en esa nueva línea:
 
-![Ejemplo de posicionamiento float de una caja](cap05/posicionamiento-float-04.png)
+![Ejemplo de posicionamiento float de una caja](imagenes/cap05/posicionamiento-float-04.png)
 
 Las cajas flotantes influyen en la disposición de todas las demás cajas. Los elementos en línea *hacen sitio* a las cajas flotantes adaptando su anchura al espacio libre dejado por la caja desplazada. Los elementos de bloque no les hacen sitio, pero sí que adaptan sus contenidos para que no se solapen con las cajas flotantes.
 
@@ -294,7 +294,7 @@ El valor `right` tiene un funcionamiento idéntico, salvo que en este caso, la c
 
 Los elementos que se encuentran alrededor de una caja flotante adaptan sus contenidos para que fluyan alrededor del elemento posicionado:
 
-![Elementos que fluyen alrededor de un elemento posicionado mediante float](cap05/posicionamiento-float-05.png)
+![Elementos que fluyen alrededor de un elemento posicionado mediante float](imagenes/cap05/posicionamiento-float-05.png)
 
 La regla CSS que se aplica en la imagen del ejemplo anterior es:
 
@@ -307,7 +307,7 @@ Uno de los principales motivos para la creación del posicionamiento `float` fue
 
 CSS permite controlar la forma en la que los contenidos fluyen alrededor de los contenidos posicionados mediante `float`. De hecho, en muchas ocasiones es admisible que algunos contenidos fluyan alrededor de una imagen, pero el resto de contenidos deben mostrarse en su totalidad sin fluir alrededor de la imagen:
 
-![Forzando a que un elemento no fluya alrededor de otro elemento posicionado mediante float](cap05/posicionamiento-float-06.png)
+![Forzando a que un elemento no fluya alrededor de otro elemento posicionado mediante float](imagenes/cap05/posicionamiento-float-06.png)
 
 La propiedad clear permite modificar el comportamiento por defecto del posicionamiento flotante para forzar a un elemento a mostrarse debajo de cualquier caja flotante. La regla CSS que se aplica al segundo párrafo del ejemplo anterior es la siguiente:
 
@@ -351,7 +351,7 @@ Si se considera el siguiente código CSS y HTML:
 
 Si se visualiza la página anterior en cualquier navegador, el resultado es el que muestra la siguiente imagen:
 
-![Visualización incorrecta de dos elementos posicionados mediante float](cap05/posicionamiento-float-07.png)
+![Visualización incorrecta de dos elementos posicionados mediante float](imagenes/cap05/posicionamiento-float-07.png)
 
 Los elementos `Anterior` y `Siguiente` se salen de su elemento contenedor y el resultado es visualmente incorrecto. El motivo de este comportamiento es que un elemento posicionado de forma flotante ya no pertenece al flujo normal de la página HTML. Por tanto, el elemento `<div id="paginacion">` en realidad no encierra ningún contenido y por eso se visualiza incorrectamente.
 
@@ -370,7 +370,7 @@ La solución consiste en utilizar la propiedad overflow (que se explica más ade
 
 Si se visualiza de nuevo la página anterior en cualquier navegador, el resultado ahora sí que es el esperado:
 
-![Visualización correcta de dos elementos posicionados mediante float](cap05/posicionamiento-float-08.png)
+![Visualización correcta de dos elementos posicionados mediante float](imagenes/cap05/posicionamiento-float-08.png)
 
 ## Visualización
 
@@ -388,7 +388,7 @@ Por otra parte, la propiedad `visibility` permite hacer invisible un elemento, l
 
 La siguiente imagen muestra la diferencia entre ocultar la caja número 5 mediante la propiedad `display` o hacerla invisible mediante la propiedad `visibility`:
 
-![Diferencias visuales entre las propiedades display y visibility](cap05/display.png)
+![Diferencias visuales entre las propiedades display y visibility](imagenes/cap05/display.png)
 
 En general, cuando se oculta un elemento no es deseable que siga ocupando sitio en la página, por lo que la propiedad `display` se utiliza mucho más que la propiedad `visibility`.
 
@@ -457,7 +457,7 @@ Los valores de la propiedad overflow tienen el siguiente significado:
 
 La siguiente imagen muestra un ejemplo de los tres valores típicos de la propiedad `overflow`:
 
-![Ejemplo de propiedad overflow](cap05/overflow.png)
+![Ejemplo de propiedad overflow](imagenes/cap05/overflow.png)
 
 ### Propiedad z-index
 
@@ -478,6 +478,6 @@ El valor más común de la propiedad `z-index` es un número entero. Aunque la e
 
 Cuanto más alto sea el valor numérico, más cerca del usuario se muestra la caja. Un elemento con `z-index: 10` se muestra por encima de los elementos con `z-index: 8` o `z-index: 9`, pero por debajo de elementos con `z-index: 20` o `z-index: 50`.
 
-![Ejemplo de propiedad z-index](cap05/zindex.png)
+![Ejemplo de propiedad z-index](imagenes/cap05/zindex.png)
 
 La propiedad `z-index` sólo tiene efecto en los elementos posicionados, por lo que es obligatorio que la propiedad `z-index` vaya acompañada de la propiedad position. Si debes posicionar un elemento pero no quieres moverlo de su posición original ni afectar al resto de elementos de la página, puedes utilizar el posicionamiento relativo (`position: relative`).

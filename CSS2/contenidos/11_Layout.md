@@ -23,11 +23,11 @@ Por otra parte, los navegadores alinean por defecto las páginas web a la izquie
 
 La solución más sencilla para evitar los grandes espacios en blanco consiste en crear páginas con una anchura fija adecuada y centrar la página horizontalmente respecto de la ventana del navegador. Las siguientes imágenes muestran el aspecto de una página centrada a medida que aumenta la anchura de la ventana del navegador.
 
-![Página de anchura fija centrada mediante CSS](cap11/anchura_fija_CSS.png)
+![Página de anchura fija centrada mediante CSS](imagenes/cap11/anchura_fija_CSS.png)
 
-![Página de anchura fija centrada mediante CSS](cap11/anchura_fija_CSS2.png)
+![Página de anchura fija centrada mediante CSS](imagenes/cap11/anchura_fija_CSS2.png)
 
-![Página de anchura fija centrada mediante CSS](cap11/anchura_fija_CSS3.png)
+![Página de anchura fija centrada mediante CSS](imagenes/cap11/anchura_fija_CSS3.png)
 
 Utilizando la propiedad `margin` de CSS, es muy sencillo centrar una página web horizontalmente. La solución consiste en agrupar todos los contenidos de la página en un elemento `<div>` y asignarle a ese `<div>` unos márgenes laterales automáticos. El `<div>` que encierra los contenidos se suele llamar `contenedor` (en inglés se denomina `wrapper` o `container`):
 
@@ -59,11 +59,11 @@ Estableciendo la anchura del elemento contenedor mediante un porcentaje, su anch
 
 Las siguientes imágenes muestran cómo se adapta el diseño dinámico a la anchura de la ventana del navegador, mostrando cada vez más contenidos a medida que se agranda la ventana.
 
-![Página de anchura variable centrada mediante CSS](cap11/anchura_variable_CSS.png)
+![Página de anchura variable centrada mediante CSS](imagenes/cap11/anchura_variable_CSS.png)
 
-![Página de anchura variable centrada mediante CSS](cap11/anchura_variable_CSS2.png)
+![Página de anchura variable centrada mediante CSS](imagenes/cap11/anchura_variable_CSS2.png)
 
-![Página de anchura variable centrada mediante CSS](cap11/anchura_variable_CSS3.png)
+![Página de anchura variable centrada mediante CSS](imagenes/cap11/anchura_variable_CSS3.png)
 
 ## Centrar una página verticalmente
 
@@ -94,7 +94,7 @@ Si el valor `auto` se puede utilizar para que los márgenes laterales se adapten
 
 La solución correcta para centrar verticalmente una página web se basa en el posicionamiento absoluto e implica realizar un cálculo matemático sencillo. A continuación se muestra el esquema gráfico de los cuatro pasos necesarios para centrar una página web en la ventana del navegador:
 
-![Pasos necesarios para centrar verticalmente una página web](cap11/centrar_verticalmente.png)
+![Pasos necesarios para centrar verticalmente una página web](imagenes/cap11/centrar_verticalmente.png)
 
 En primer lugar, se asigna una altura y una anchura al elemento que encierra todos los contenidos de la página. En la primera figura, los contenidos de la página tienen una anchura llamada `width` y una altura llamada `height` que son menores que la anchura y altura de la ventana del navegador. En el siguiente ejemplo, se supone que tanto la anchura como la altura de la página es igual a 500px:
 
@@ -162,11 +162,11 @@ Para centrar una página sólo verticalmente, se debe prescindir tanto del posic
 
 El objetivo de este diseño es definir una estructura de página con cabecera y pie, un menú lateral de navegación y una zona de contenidos. La anchura de la página se fija en `700px`, la anchura del menú es de `150px` y la anchura de los contenidos es de `550px`:
 
-![Esquema del diseño a 2 columnas con cabecera y pie de página](cap11/esquema1.png)
+![Esquema del diseño a 2 columnas con cabecera y pie de página](imagenes/cap11/esquema1.png)
 
 La solución CSS se basa en el uso de la propiedad `float` para los elementos posicionados como el menú y los contenidos y el uso de la propiedad `clear` en el pie de página para evitar los solapamientos ocasionados por los elementos posicionados con float`.
 
-![Propiedades CSS necesarias en el diseño a dos columnas con cabecera y pie de página](cap11/propiedades.png)
+![Propiedades CSS necesarias en el diseño a dos columnas con cabecera y pie de página](imagenes/cap11/propiedades.png)
 
 El código HTML y CSS mínimos para definir la estructura de la página sin aplicar ningún estilo adicional son los siguientes:
 
@@ -232,11 +232,11 @@ Si se indican la anchuras de los bloques que forman la página en porcentajes, e
 
 Además del diseño a dos columnas, el diseño más utilizado es el de tres columnas con cabecera y pie de página. En este caso, los contenidos se dividen en dos zonas diferenciadas: zona principal de contenidos y zona lateral de contenidos auxiliares:
 
-![Esquema del diseño a tres columnas con cabecera y pie de página](cap11/esquema2.png)
+![Esquema del diseño a tres columnas con cabecera y pie de página](imagenes/cap11/esquema2.png)
 
 La solución CSS emplea la misma estrategia del diseño a dos columnas y se basa en utilizar las propiedades `float` y `clear`:
 
-![Propiedades CSS necesarias en el diseño a 3 columnas con cabecera y pie de página](cap11/propiedades2.png)
+![Propiedades CSS necesarias en el diseño a 3 columnas con cabecera y pie de página](imagenes/cap11/propiedades2.png)
 
 El código HTML y CSS mínimos para definir la estructura de la página sin aplicar ningún estilo adicional son los siguientes:
 
@@ -392,6 +392,6 @@ La página principal del proyecto se puede encontrar en: [http://www.positionise
 
 Además, está disponible una herramienta interactiva para crear diseños basados en columnas con la posibilidad de definir el número de columnas, su anchura y obligar a que todas las columnas muestren la misma altura:
 
-![Herramienta online para diseñar layouts de varias columnas con CSS](cap11/herramienta.png)
+![Herramienta online para diseñar layouts de varias columnas con CSS](imagenes/cap11/herramienta.png)
 
 La herramienta interactiva se puede encontrar en: [http://www.fu2k.org/alex/css/onetruelayout/example/interactive](http://www.fu2k.org/alex/css/onetruelayout/example/interactive)

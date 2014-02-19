@@ -12,13 +12,13 @@ De esta forma, realizar una versión para imprimir de una página HTML es tan se
 
 El sitio web A List Apart es un excelente ejemplo de cómo los sitios web de calidad crean versiones específicas para impresora de las páginas web originales. Cuando se visualiza un artículo de ese sitio web en una pantalla normal, su aspecto es el siguiente:
 
-![Aspecto de un artículo de A List Apart como se ve en la pantalla](cap12/aspecto_pantalla.png)
+![Aspecto de un artículo de A List Apart como se ve en la pantalla](imagenes/cap12/aspecto_pantalla.png)
 
 Además de sus contenidos, las páginas de los artículos muestran el logotipo del sitio, el menú principal de navegación y una barra lateral con varias utilidades como un buscador.
 
 Sin embargo, cuando se imprime la página del mismo artículo, su aspecto es el que muestra la siguiente imagen:
 
-![specto de un artículo de A List Apart como se ve cuando se imprime](cap12/aspecto_impresion.png)
+![specto de un artículo de A List Apart como se ve cuando se imprime](imagenes/cap12/aspecto_impresion.png)
 
 La página impresa elimina todos los contenidos superfluos como los menús de navegación, el buscador y el formulario para añadir comentarios en el artículo. Además, modifica la estructura de la página para que la zona de contenidos ocupe toda la anchura de la página y el espacio se aproveche mejor.
 
@@ -194,7 +194,7 @@ La forma en la que se indica la hoja de estilo del usuario es diferente en cada 
 
 El orden normal en el que se aplican las hojas de estilo es el siguiente:
 
-![Orden en el que se aplican las diferentes hojas de estilos](cap12/orden.png)
+![Orden en el que se aplican las diferentes hojas de estilos](imagenes/cap12/orden.png)
 
 Por tanto, las reglas que menos prioridad tienen son las del CSS por defecto de los navegadores, ya que son las primeras que se aplican. A continuación se aplican las reglas definidas por los usuarios y por último se aplican las reglas CSS definidas por el diseñador, que por tanto son las que más prioridad tienen.
 
@@ -214,7 +214,7 @@ Sin embargo, como la primera declaración se ha marcado como de alta prioridad (
 
 El valor `!important` no sólo afecta a las declaraciones simples, sino que varía la prioridad de las hojas de estilo. Cuando se indican declaraciones de alta prioridad, el orden en el que se aplican las hojas de estilo es el siguiente:
 
-![Orden en el que se aplican las diferentes hojas de estilos cuando se utiliza la palabra resevada important](cap12/orden2.png)
+![Orden en el que se aplican las diferentes hojas de estilos cuando se utiliza la palabra resevada important](imagenes/cap12/orden2.png)
 
 Los estilos del usuario marcados como `!important` tienen más prioridad que los estilos marcados como `!important` en la hoja de estilos del diseñador. De esta forma, ninguna página web puede sobreescribir o redefinir ninguna propiedad de alta prioridad establecida por el usuario.
 

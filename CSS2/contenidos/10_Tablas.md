@@ -4,7 +4,7 @@
 
 Cuando se aplican bordes a las celdas de una tabla, el aspecto por defecto con el que se muestra en un navegador es el siguiente:
 
-![Aspecto por defecto de los bordes de una tabla](cap10/bordes_tabla.png)
+![Aspecto por defecto de los bordes de una tabla](imagenes/cap10/bordes_tabla.png)
 
 El código HTML y CSS del ejemplo anterior se muestra a continuación:
 
@@ -43,7 +43,7 @@ El modelo `collapse` fusiona de forma automática los bordes de las celdas adyac
 
 En general, los diseñadores prefieren el modelo `collapse` porque estéticamente resulta más atractivo y más parecido a las tablas de datos tradicionales. El ejemplo anterior se puede rehacer para mostrar la tabla con bordes sencillos y sin separación entre celdas:
 
-![Ejemplo de propiedad border-collapse](cap10/border-collapse.png)
+![Ejemplo de propiedad border-collapse](imagenes/cap10/border-collapse.png)
 
 El código CSS completo del ejemplo anterior se muestra a continuación:
 
@@ -85,7 +85,7 @@ Si solamente se indica como valor una medida, se asigna ese valor como separaci�
 
 La propiedad `border-spacing` sólo controla la separación entre celdas y por tanto, no se puede utilizar para modificar el tipo de modelo de bordes que se utiliza. En concreto, si se establece un valor igual a `0` para la separación entre los bordes de las celdas, el resultado es muy diferente al modelo `collapse`:
 
-![Ejemplo de propiedad border-spacing](cap10/border-spacing.png)
+![Ejemplo de propiedad border-spacing](imagenes/cap10/border-spacing.png)
 
 En la tabla del ejemplo anterior, se ha establecido la propiedad `border-spacing: 0`, por lo que el navegador no introduce ninguna separación entre los bordes de las celdas. Además, como no se ha establecido de forma explícita ningún modelo de bordes, el navegador utiliza el modelo `separate`.
 
@@ -106,11 +106,11 @@ El valor `hide` indica que las celdas vacías no se deben mostrar. Una celda vac
 
 La siguiente imagen muestra las diferencias entre una tabla normal y una tabla con la propiedad `empty-cells: hide`:
 
-![Ejemplo de propiedad empty-cells](cap10/empty-cells.png)
+![Ejemplo de propiedad empty-cells](imagenes/cap10/empty-cells.png)
 
 Desafortunadamente, Internet Explorer 6 y las versiones anteriores no interpretan correctamente esta propiedad y muestran el ejemplo anterior de la siguiente manera:
 
-![Internet Explorer no soporta la propiedad empty-cells](cap10/empty-cells2.png)
+![Internet Explorer no soporta la propiedad empty-cells](imagenes/cap10/empty-cells2.png)
 
 Por otra parte, el título de las tablas se establece mediante el elemento `<caption>`, que por defecto se muestra encima de los contenidos de la tabla. La propiedad `caption-side` permite controlar la posición del título de la tabla.
 
@@ -143,7 +143,7 @@ A continuación se muestra el código HTML y CSS de un ejemplo sencillo de uso d
 
 La siguiente imagen muestra el resultado de visualizar el ejemplo anterior en cualquier navegador:
 
-![Ejemplo de propiedad caption-side](cap10/firefox.png)
+![Ejemplo de propiedad caption-side](imagenes/cap10/firefox.png)
 
 
 <div class="exercise">
