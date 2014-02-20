@@ -90,7 +90,7 @@ A continuación se muestra el código HTML de la página sin estilos:
     </head>
      
     <body>
-        <h1 id="titulo">Lorem ipsum dolor sit amet</h1>
+        <h1 class="titulo">Lorem ipsum dolor sit amet</h1>
      
         <p>Nulla pretium. Sed tempus nunc vitae neque.
         <strong>Suspendisse gravida</strong>, metus a scelerisque
@@ -98,7 +98,7 @@ A continuación se muestra el código HTML de la página sin estilos:
         neque diam quis felis. <span class="destacado">Etiam
         sagittis tortor</span> sed arcu sagittis tristique.</p>
      
-        <h2 id="subtitulo">Aliquam tincidunt, sem eget volutpat porta</h2>
+        <h2 class="subtitulo">Aliquam tincidunt, sem eget volutpat porta</h2>
      
         <p>Vivamus velit dui, placerat vel, feugiat in, ornare et, urna.
         <a href="#">Aenean turpis metus, <em>aliquam non</em>, tristique in</a>
@@ -139,7 +139,7 @@ A continuación se muestra el código HTML de la página sin estilos:
         </tbody>
         </table>
      
-        <div id="adicional">
+        <div class="adicional">
             <p>Donec purus ipsum, posuere id, venenatis at,
             <span>placerat ac, lorem</span>. Curabitur blandit,
             eros sed gravida aliquet, risus justo 
@@ -171,13 +171,13 @@ A partir del código HTML y CSS proporcionados, determinar las reglas CSS necesa
 
 ![Página original](imagenes/cap14/ej03.png)
 
-1. El elemento `#cabecera` debe tener un relleno de `1em` en todos los lados.
-2. El elemento `#menu` debe tener un relleno de `0.5em` en todos los lados y un margen inferior de `0.5em`.
-3. El resto de elementos (`#noticias, #publicidad, #principal, #secundario`) deben tener `0.5em` de relleno en todos sus lados, salvo el elemento `#pie`, que sólo debe tener relleno en la zona superior e inferior.
-4. Los elementos `.articulo` deben mostrar una separación entre ellos de `1em`.
+1. El elemento con clase `cabecera` debe tener un relleno de `1em` en todos los lados.
+2. El elemento con clase `menu` debe tener un relleno de `0.5em` en todos los lados y un margen inferior de `0.5em`.
+3. El resto de elementos con clases `noticias, publicidad, principal, secundario` deben tener `0.5em` de relleno en todos sus lados, salvo el elemento `pie`, que sólo debe tener relleno en la zona superior e inferior.
+4. Los elementos con clase `articulo` deben mostrar una separación entre ellos de `1em`.
 5. Las imágenes de los artículos muestran un margen de `0.5em` en todos sus lados.
-6. El elemento `#publicidad` está separado `1em` de su elemento superior.
-7. El elemento `#pie` debe tener un margen superior de `1em`.
+6. El elemento con clase `publicidad` está separado `1em` de su elemento superior.
+7. El elemento con clase `pie` debe tener un margen superior de `1em`.
 
 ![Página con márgenes y rellenos](imagenes/cap14/ej03_final.png)
 
@@ -190,13 +190,15 @@ A partir del código HTML y CSS proporcionados, determinar las reglas CSS necesa
 ![Página original](imagenes/cap14/ej04.png)
 
 1. Eliminar el borde gris que muestran por defecto todos los elementos.
-2. El elemento `#menu` debe tener un borde inferior de 1 píxel y azul (`#004C99`).
-3. El elemento `#noticias` muestra un borde de 1 píxel y gris claro (`#C5C5C5`).
-4. El elemento `#publicidad` debe mostrar un borde discontinuo de 1 píxel y de color `#CC6600`.
-5. El lateral formado por el elemento `#secundario` muestra un borde de 1 píxel y de color `#CC6600`.
-6. El elemento `#pie` debe mostrar un borde superior y otro inferior de 1 píxel y color gris claro `#C5C5C5`.
+2. El elemento con clase `menu` debe tener un borde inferior de 1 píxel y azul (`#004C99`).
+3. El elemento con clase `noticias` muestra un borde de 1 píxel y gris claro (`#C5C5C5`).
+4. El elemento con clase `publicidad` debe mostrar un borde discontinuo de 1 píxel y de color `#CC6600`.
+5. El lateral formado por el elemento con clase `secundario` muestra un borde de 1 píxel y de color `#CC6600`.
+6. El elemento con clase `pie` debe mostrar un borde superior y otro inferior de 1 píxel y color gris claro `#C5C5C5`.
 
 ![Página con bordes](imagenes/cap14/ej04_final.png)
+
+[Descargar ficheros](snippets/cap14/ej04.zip)
 
 ### Ejercicio 5 ## {#ej05}
 
@@ -204,11 +206,11 @@ A partir del código HTML y CSS proporcionados, determinar las reglas CSS necesa
 
 ![Página original](imagenes/cap14/ej05.png)
 
-- Los elementos `#noticias` y `#pie` tiene un color de fondo gris claro (`#F8F8F8`).
-- El elemento `#publicidad` muestra un color de fondo amarillo claro (`#FFF6CD`).
-- Los elementos `<h2>` del lateral `#secundario` muestran un color de fondo `#DB905C` y un pequeño padding de `.2em`.
-- El fondo del elemento `#menu` se construye mediante una pequeña imagen llamada `fondo_menu.gif`.
-- El logotipo del sitio se muestra mediante una imagen de fondo del elemento `<h1>` contenido en el elemento `#cabecera` (la imagen se llama `logo.gif`).
+- Los elementos con clase `noticias` y `pie` tiene un color de fondo gris claro (`#F8F8F8`).
+- El elemento con clase `publicidad` muestra un color de fondo amarillo claro (`#FFF6CD`).
+- Los elementos `<h2>` del lateral con clase `secundario` muestran un color de fondo `#DB905C` y un pequeño padding de `.2em`.
+- El fondo del elemento con clase `menu` se construye mediante una pequeña imagen llamada `fondo_menu.gif`.
+- El logotipo del sitio se muestra mediante una imagen de fondo del elemento `<h1>` contenido en el elemento con clase `cabecera` (la imagen se llama `logo.gif`).
 
 ![Página con colores e imágenes de fondo](imagenes/cap14/ej05_final.png)
 
@@ -225,10 +227,9 @@ A partir del código HTML proporcionado:
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="Content-Type" content="text/html; charset=uft-8" />
       <title>Ejercicio posicionamiento float</title>
-      <style type="text/css">
-      </style>
+      <link rel="stylesheet" type="text/css" href="main.css" />
     </head>
      
     <body>
@@ -252,17 +253,17 @@ A partir del código HTML y CSS proporcionados, determinar las reglas CSS necesa
 
 2. Los elementos `<h2>` de .articulo se muestran en color `#CC6600`, con un tamaño de letra de `1.6em`, un interlineado de `1.2` y un margen inferior de `0.3em`.
 
-3. Los elementos del `#menu` deben mostrar un margen a su derecha de `1em` y los enlaces deben ser de color blanco y tamaño de letra `1.3em`.
+3. Los elementos del `menu` deben mostrar un margen a su derecha de `1em` y los enlaces deben ser de color blanco y tamaño de letra `1.3em`.
 
-4. El tamaño del texto de todos los contenidos de #lateral debe ser de `0.9em`. La fecha de cada noticia debe ocupar el espacio de toda su línea y mostrarse en color gris claro `#999`. El elemento `<h3>` de `#noticias` debe mostrarse de color `#003366`.
+4. El tamaño del texto de todos los contenidos de `lateral` debe ser de `0.9em`. La fecha de cada noticia debe ocupar el espacio de toda su línea y mostrarse en color gris claro `#999`. El elemento `<h3>` de `noticias` debe mostrarse de color `#003366`.
 
-5. El texto del elemento `#publicidad` es de color gris oscuro `#555` y todos los enlaces de color `#CC6600`.
+5. El texto del elemento con clase `publicidad` es de color gris oscuro `#555` y todos los enlaces de color `#CC6600`.
 
-6. Los enlaces contenidos dentro de .articulo son de color `#CC6600` y todos los párrafos muestran un margen superior e inferior de `0.3em`.
+6. Los enlaces contenidos dentro de `articulo` son de color `#CC6600` y todos los párrafos muestran un margen superior e inferior de `0.3em`.
 
-7. Añadir las reglas necesarias para que el contenido de #secundario se vea como en la imagen que se muestra.
+7. Añadir las reglas necesarias para que el contenido de `secundario` se vea como en la imagen que se muestra.
 
-8. Añadir las reglas necesarias para que el contenido de #pie se vea como en la imagen que se muestra.
+8. Añadir las reglas necesarias para que el contenido de `pie` se vea como en la imagen que se muestra.
 
 Determinar las reglas CSS necesarias para que el resultado sea similar al mostrado en la siguiente imagen:
 
