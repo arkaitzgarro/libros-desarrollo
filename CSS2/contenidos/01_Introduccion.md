@@ -14,9 +14,9 @@ Una vez creados los contenidos, se utiliza el lenguaje CSS para definir el aspec
 
 La especificación o norma oficial que se utiliza actualmente para diseñar páginas web con CSS es la versión CSS 2.1, actualizada por última vez el 7 de junio de 2011 y que se puede consultar libremente en [w3.org/TR/CSS21](http://www.w3.org/TR/CSS21/)
 
-Desde hace varios años, el organismo W3C trabaja en la elaboración de la próxima versión de CSS, conocida como CSS 3. Esta nueva versión incluye multitud de cambios importantes en todos los niveles y es mucho más avanzada y compleja que CSS 2. Puedes consultar el estado actual de cada componente de CSS 3 en [w3.org/Style/CSS/current-work](http://www.w3.org/Style/CSS/current-work). También existe un [blog oficial](http://www.w3.org/blog/CSS) en el que se publican todas las novedades relacionadas con el estándar CSS.
+Desde hace varios años, el organismo W3C trabaja en la elaboración de la próxima versión de CSS, conocida como CSS3. Esta nueva versión incluye multitud de cambios importantes en todos los niveles y es mucho más avanzada y compleja que CSS 2. Puedes consultar el estado actual de cada componente de CSS3 en [w3.org/Style/CSS/current-work](http://www.w3.org/Style/CSS/current-work). También existe un [blog oficial](http://www.w3.org/blog/CSS) en el que se publican todas las novedades relacionadas con el estándar CSS.
 
-Mientras CSS 3 se convierte en un estandar, los distintos navegadores pueden incluir o no las mejoras propuestas, o incluso añadir las suyas propias. La web [Can I use...](http://caniuse.com/) incluye un listado completo de funcionalidades soportadas por los ditintos navegadores.
+Mientras CSS3 se convierte en un estandar, los distintos navegadores pueden incluir o no las mejoras propuestas, o incluso añadir las suyas propias. La web [Can I use...](http://caniuse.com/) incluye un listado completo de funcionalidades soportadas por los ditintos navegadores.
 
 ## Funcionamiento básico de CSS
 
@@ -162,7 +162,7 @@ Aunque generalmente se emplea la etiqueta `<link>` para enlazar los archivos CSS
         </body>
     </html>
 
-En este caso, para incluir en la página HTML los estilos definidos en archivos CSS externos se utiliza una regla especial de tipo `@import`. Las reglas de tipo @import siempre preceden a cualquier otra regla CSS (con la única excepción de la regla `@charset`).
+En este caso, para incluir en la página HTML los estilos definidos en archivos CSS externos se utiliza una regla especial de tipo `@import`. Las reglas de tipo `@import` siempre preceden a cualquier otra regla CSS (con la única excepción de la regla `@charset`).
 
 La URL del archivo CSS externo se indica mediante una cadena de texto encerrada con comillas simples o dobles o mediante la palabra reservada url(). De esta forma, las siguientes reglas `@import` son equivalentes:
 
