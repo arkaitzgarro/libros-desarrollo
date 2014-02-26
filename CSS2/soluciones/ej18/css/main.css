@@ -1,0 +1,33 @@
+ul {margin: 0; padding: 0;}
+ul li {list-style: none;}
+
+/* Colors */
+.bg-gray { background-color: #f7f7f7;}
+
+/* Layout */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix:before, .clearfix:after{display:table;content:" "}
+.clearfix:after{clear:both}
+.fleft {float: left;}
+.fright {float: right;}
+.col-25 {width: 25%;}
+.col-50 {width: 50%;}
+.col-75 {width: 75%;}
+.wrapper {width: 990px; margin: 0 auto; padding: 20px 0;}
+
+/* A1 */
+.breadcrum li {display: inline;}
+.breadcrum li::after {content: "/"}
+.breadcrum li:last-child::after {content: ""}
+.breadcrum li a {margin-right: 5px;}
+
+/* A2 */
+.well {
+    padding: 15px;
+    background-color: #FFF;
+    box-shadow: 0 0 10px 1px #888;
+}
