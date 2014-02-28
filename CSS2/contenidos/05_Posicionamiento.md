@@ -309,7 +309,7 @@ CSS permite controlar la forma en la que los contenidos fluyen alrededor de los 
 
 ![Forzando a que un elemento no fluya alrededor de otro elemento posicionado mediante float](imagenes/cap05/posicionamiento-float-06.png)
 
-La propiedad clear permite modificar el comportamiento por defecto del posicionamiento flotante para forzar a un elemento a mostrarse debajo de cualquier caja flotante. La regla CSS que se aplica al segundo párrafo del ejemplo anterior es la siguiente:
+La propiedad `clear` permite modificar el comportamiento por defecto del posicionamiento flotante para forzar a un elemento a mostrarse debajo de cualquier caja flotante. La regla CSS que se aplica al segundo párrafo del ejemplo anterior es la siguiente:
 
     [html]
     <p style="clear: left;">...</p>
