@@ -1,7 +1,7 @@
-Fundamentos para el desarrollo web (Frontend)
-=============================================
+Libros sobre desarrollo
+=======================
 
-Este repositorio contiene material didáctico en constante evolución para poder aprender los fundamentos del desarrollo web, orientado a la parte frontend. Dicho material incluye libros sobre XHTML, CSS 2.1 y 3, Responsive Web Design, JavaScript, Ajax, jQuery y HTML, con ejercicios y soluciones para cada uno de los libros.
+Este repositorio contiene material didáctico en constante evolución para poder aprender a desarrollar en un entorno web (y en un futuro también para Android). Dicho material incluye libros sobre XHTML, CSS 2.1 y 3, Responsive Web Design, JavaScript, Ajax, jQuery y HTML, con ejercicios y soluciones para cada uno de los libros.
 
 Existe una versión online de estos libros en la siguiente dirección: http://www.arkaitzgarro.com/publicaciones.
 
