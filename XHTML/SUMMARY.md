@@ -31,4 +31,7 @@
 * [Imágenes y objetos](imagenes-y-objetos/index.md)
    * [Mapas](imagenes-y-objetos/imagenes.md)
    * [Objetos](imagenes-y-objetos/objetos.md)
+* [Tablas](tablas/index.md)
+   * [Tablas básicas](tablas/tablas-basicas.md)
+   * [Tablas avanzadas](tablas/tablas-avanzadas.md)
 
