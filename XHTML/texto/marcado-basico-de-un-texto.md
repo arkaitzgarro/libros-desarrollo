@@ -18,17 +18,18 @@ El siguiente paso posterior a la **estructuración** del texto consistiría en e
 
 Un ejemplo de **código HTML** con las etiquetas `<em>` y `<strong>` sería:
 
-    [html]
-    <html>
-        <head>
-            <title>Etiquetas em y strong</title>
-        </head>
-        <body>
-            <p>El lenguaje HTML permite marcar algunos segmentos de texto
-            como <em>muy importantes</em> y otros segmentos como <strong>los
-            más importantes</strong>.</p>
-        </body>
-    </html>
+```html
+<html>
+    <head>
+        <title>Etiquetas em y strong</title>
+    </head>
+    <body>
+        <p>El lenguaje HTML permite marcar algunos segmentos de texto
+        como <em>muy importantes</em> y otros segmentos como <strong>los
+        más importantes</strong>.</p>
+    </body>
+</html>```
+
 
 Y un navegador lo visualizaría de esta manera:
 
