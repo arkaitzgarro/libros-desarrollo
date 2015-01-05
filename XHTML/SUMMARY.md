@@ -40,4 +40,6 @@
    * [Formularios avanzados](formularios/formularios-avanzados.md)
    * [Otros elementos de formulario](formularios/otros-elementos-de-formulario.md)
 * [Estructura y layout](estructura-y-layout/index.md)
+* [Metainformación](metainformacion/index.md)
+   * [Estructura de la cabecera](metainformacion/estructura-de-la-cabecera.md)
 
