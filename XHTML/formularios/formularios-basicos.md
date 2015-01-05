@@ -23,7 +23,7 @@ Un ejemplo de **código HTML** con ambas etiquetas sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Formulario sencillo definido con las etiquetas form e input](../assets/chapter09/formulario_sencillo.png)
+![Formulario sencillo definido con las etiquetas form e input](../images/chapter09/formulario_sencillo.png)
 
 La etiqueta `<form>` encierra todos los contenidos del formulario (botones, cuadros de texto, listas desplegables) y la etiqueta `<input>` permite definir varios tipos diferentes de elementos (botones y cuadros de texto).
 

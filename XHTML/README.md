@@ -6,7 +6,7 @@ XHTML (*y también HTML*) es un lenguaje de marcas (al igual que XML), el cual n
 
 ## Sobre esta edición
 
-**Fecha de última actualización:** 2015/01/04
+**Fecha de última actualización:** 2015/01/05
 
 **Nota:** este libro ha sido publicado utilizando [GitBook](http://www.gitbook.io) y es libre y de código abierto, por lo que no dudes en contribuir o crear incidencias en [GitHub](https://github.com/arkaitzgarro/libros-desarrollo.git). Puedes descargar el **PDF** o la versión en **ePUB** en [https://github.com/arkaitzgarro/libros-desarrollo](https://github.com/arkaitzgarro/libros-desarrollo/tree/master/XHTML).
 

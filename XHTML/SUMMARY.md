@@ -5,7 +5,8 @@
    * [El cliente manda una petición](que-es-http/el-ciente-manda-una-peticion.md)
    * [El servidor devuelve una respuesta](que-es-http/el-servidor-devuelve-una-respuesta.md)
    * [Métodos de petición](que-es-http/metodos-de-peticion.md)
-* [Introducción](introduccion/index.md)
+* Introducción
+   * [¿Qué es HTML?](introduccion/que-es-html.md)
    * [Estructura y primer documento](introduccion/estructura-y-primer-documento.md)
 * [Etiquetas, atributos y elementos](etiquetas-atributos-elementos/intro.md)
    * [Tipos de atributos](etiquetas-atributos-elementos/tipos-de-atributos.md)
@@ -28,8 +29,9 @@
    * [Listas ordenadas](listas/listas-ordenadas.md)
    * [Listas de definiciones](listas/listas-de-definiciones.md)
    * [Listas anidadas](listas/listas-anidadas.md)
-* [Imágenes y objetos](imagenes-y-objetos/index.md)
-   * [Mapas](imagenes-y-objetos/imagenes.md)
+* Imágenes y objetos
+   * [Imágenes](imagenes-y-objetos/imagenes.md)
+   * [Mapas](imagenes-y-objetos/mapas.md)
    * [Objetos](imagenes-y-objetos/objetos.md)
 * [Tablas](tablas/index.md)
    * [Tablas básicas](tablas/tablas-basicas.md)
@@ -42,7 +44,10 @@
 * [Estructura y layout](estructura-y-layout/index.md)
 * [Metainformación](metainformacion/index.md)
    * [Estructura de la cabecera](metainformacion/estructura-de-la-cabecera.md)
-* [Otras etiquetas importantes](otras-etiquetas-importantes/index.md)
+   * [Metadatos](metainformacion/metadatos.md)
+   * [DOCTYPE](metainformacion/doctype.md)
+* Otras etiquetas importantes
+   * [Comentarios](otras-etiquetas-importantes/comentarios.md)
    * [JavaScript](otras-etiquetas-importantes/javascript.md)
 * [Validación](validacion/index.md)
    * [Validador del W3C](validacion/validador-del-w3c.md)

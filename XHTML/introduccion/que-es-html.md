@@ -1,4 +1,4 @@
-# Introducción
+# ¿Qué es HTML?
 
 **HTML** *(HyperText Markup Language)* es un lenguaje de marcas usado, de manera predominante, para la elaboración de páginas web. El lenguaje **HTML** es utilizado en forma de texto para describir y crear la estructura de estas páginas, tanto por programas, que traducen un diseño de página en código HTML, como por parte de las personas de manera directa.
 
