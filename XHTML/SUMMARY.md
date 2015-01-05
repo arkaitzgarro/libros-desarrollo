@@ -42,4 +42,6 @@
 * [Estructura y layout](estructura-y-layout/index.md)
 * [Metainformación](metainformacion/index.md)
    * [Estructura de la cabecera](metainformacion/estructura-de-la-cabecera.md)
+* [Otras etiquetas importantes](otras-etiquetas-importantes/index.md)
+   * [JavaScript](otras-etiquetas-importantes/javascript.md)
 
