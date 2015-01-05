@@ -39,7 +39,7 @@ Un ejemplo de **código HTML** de una lista anidada sería:
 
 Que un navegador visualizaría de esta manera:
 
-![Ejemplo lista anidada](../assets/chapter06/lista_anidada.png)
+![Ejemplo lista anidada](../images/chapter06/lista_anidada.png)
 
 <div class="exercise">
   <p class="title">Ejercicio 8</p>

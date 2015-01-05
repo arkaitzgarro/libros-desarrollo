@@ -4,7 +4,7 @@ Desde sus primeras versiones, HTML incluyó el soporte para crear tablas de dato
 
 Las **tablas en HTML** utilizan los mismos conceptos de filas, columnas, cabeceras y títulos que los que se utilizan en cualquier otro entorno y pueden contener elementos simples, agrupaciones de filas y de columnas, cabeceras y pies de tabla, subdivisiones, cabeceras múltiples y otros elementos complejos.
 
-![Partes que componen una tabla compleja](../assets/chapter08/estructura_tabla.png)
+![Partes que componen una tabla compleja](../images/chapter08/estructura_tabla.png)
 
 El problema de las tablas es que no siempre se utilizan adecuadamente. Aunque parezca obvio, las tablas se deben utilizar para mostrar información tabular.
 

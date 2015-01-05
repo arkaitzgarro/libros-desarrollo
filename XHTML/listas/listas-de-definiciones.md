@@ -62,4 +62,4 @@ Un ejemplo de **código HTML** con estas tres etiquetas sería:
 
 Que un navegador visualizaría de esta manera:
 
-![Ejemplo lista definiciones](../assets/chapter06/lista_de_definicion.png)
+![Ejemplo lista definiciones](../images/chapter06/lista_de_definicion.png)

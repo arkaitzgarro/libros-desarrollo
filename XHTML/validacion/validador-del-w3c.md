@@ -2,7 +2,7 @@
 
 La validación de las páginas web no requiere el uso de editores avanzados como Dreamweaver, ya que el organismo W3C ha creado una herramienta que se puede utilizar gratuitamente a través de Internet: [http://validator.w3.org/](http://validator.w3.org/)
 
-![Validador W3C](../assets/chapter13/w3c.png)
+![Validador W3C](../images/chapter13/w3c.png)
 
 Aunque la herramienta sólo está disponible en inglés, su uso es muy intuitivo:
 
@@ -12,7 +12,7 @@ Aunque la herramienta sólo está disponible en inglés, su uso es muy intuitivo
 
 La siguiente imagen muestra el **resultado de la validación** de la página principal de Google realizada mediante la opción Validate by URI:
 
-![Resultado de validar www.google.com](../assets/chapter13/w3c_google.png)
+![Resultado de validar www.google.com](../images/chapter13/w3c_google.png)
 
 Si la página no pasa correctamente la prueba de validación, se muestra el listado completo de fallos junto con la ayuda necesaria para resolver cada uno de los errores.
 

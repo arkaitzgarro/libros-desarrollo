@@ -4,7 +4,7 @@ La etiqueta `<input>` permite crear diez tipos diferentes de controles de formul
 
 Las áreas de texto son útiles cuando se debe introducir una gran cantidad de texto, ya que es mucho más cómodo de introducir que en un campo de texto normal:
 
-![Ejemplo de uso de la etiqueta textarea](../assets/chapter09/textarea.png)
+![Ejemplo de uso de la etiqueta textarea](../images/chapter09/textarea.png)
 
 ```html
 <form action="insertar_producto.php" method="post">
@@ -31,7 +31,7 @@ El principal inconveniente de los elementos `<textarea>` es que el lenguaje HTML
 
 Por otra parte, el otro control disponible para los formularios es el de las listas desplegables:
 
-![Ejemplo de uso de la etiqueta select](../assets/chapter09/select.png)
+![Ejemplo de uso de la etiqueta select](../images/chapter09/select.png)
 
 La imagen anterior muestra los tres tipos de listas desplegables disponibles. El primero es el de las listas más utilizadas que sólo muestran un valor cada vez y sólo permiten seleccionar un valor. El segundo tipo de lista es el que sólo permite seleccionar un valor pero muestra varios a la vez. Por último, el tercer tipo de lista desplegable es aquella que muestra varios valores y permite realizar selecciones múltiples.
 
@@ -93,7 +93,7 @@ La etiqueta `<select>` define la lista y encierra todas las opciones que muestra
 
 Por otra parte, las listas desplegables permiten agrupar sus opciones de forma que el usuario pueda encontrar fácilmente las opciones cuando la lista es muy larga:
 
-![Ejemplo de uso de la etiqueta optgroup](../assets/chapter09/optgroup.png)
+![Ejemplo de uso de la etiqueta optgroup](../images/chapter09/optgroup.png)
 
 El **código HTML** correspondiente a la imagen anterior sería:
 

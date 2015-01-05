@@ -35,4 +35,4 @@ Un ejemplo de **código HTML** con las etiquetas `<ol>` y `<li>` sería:
 
 Que un navegador visualizaría de esta manera:
 
-![Ejemplo lista ordenada](../assets/chapter06/lista_ordenada.png)
+![Ejemplo lista ordenada](../images/chapter06/lista_ordenada.png)

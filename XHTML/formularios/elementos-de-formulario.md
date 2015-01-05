@@ -15,7 +15,7 @@ A continuación se muestran ejemplos para los diez controles que se pueden crear
 
 Se trata del elemento más utilizado en los formularios. En el caso más sencillo, se muestra un cuadro de texto vacío en el que el usuario puede escribir cualquier texto:
 
-![Ejemplo de etiqueta input (type=text)](../assets/chapter09/input_text.png)
+![Ejemplo de etiqueta input (type=text)](../images/chapter09/input_text.png)
 
 ```html
 Nombre <br/>
@@ -39,7 +39,7 @@ Por último, el __atributo `readonly`__ permite que el usuario pueda ver los con
 
 La única diferencia entre este control y el cuadro de texto normal es que el texto que el usuario escribe en un cuadro de contraseña no se ve en la pantalla. En su lugar, los navegadores ocultan el texto utilizando asteriscos o círculos, por lo que es ideal para escribir contraseñas y otros datos sensibles.
 
-![Ejemplo de etiqueta input (type=password)](../assets/chapter09/input_password.png)
+![Ejemplo de etiqueta input (type=password)](../images/chapter09/input_password.png)
 
 ```html
 Contraseña <br/>
@@ -51,7 +51,7 @@ Cambiando el valor del atributo `type` por `password` se transforma el cuadro de
 
 Los *checkbox* o "casillas de verificación" son controles de formulario que permiten al usuario seleccionar y deseleccionar opciones individualmente. Aunque en ocasiones se muestran varios *checkbox* juntos, cada uno de ellos es completamente independiente del resto. Por este motivo, se utilizan cuando el usuario puede activar y desactivar varias opciones relacionadas pero no excluyentes.
 
-![Ejemplo de etiqueta input (type=checkbox)](../assets/chapter09/input_checkbox.png)
+![Ejemplo de etiqueta input (type=checkbox)](../images/chapter09/input_checkbox.png)
 
 ```html
 Puestos de trabajo buscados <br/>
@@ -72,7 +72,7 @@ Si se quiere mostrar un *checkbox* seleccionado por defecto, se utiliza el atrib
 
 Los controles de tipo `radiobutton` son similares a los controles de tipo `checkbox`, pero presentan una diferencia muy importante: son mutuamente excluyentes. Los `radiobutton` se utilizan cuando el usuario solamente puede escoger una opción entre las distintas opciones relacionadas que se le presentan. Cada vez que se selecciona una opción, automáticamente se deselecciona la otra opción que estaba seleccionaba.
 
-![Ejemplo de etiqueta input (type=radio)](../assets/chapter09/input_radio.png)
+![Ejemplo de etiqueta input (type=radio)](../images/chapter09/input_radio.png)
 
 ```html
 Sexo <br/>
@@ -85,7 +85,7 @@ El valor del atributo `type` para estos controles de formulario es `radio`. El a
 
 La mayoría de formularios dispone de un botón para enviar al servidor los datos introducidos por el usuario:
 
-![Ejemplo de etiqueta input (type=submit)](../assets/chapter09/input_submit.png)
+![Ejemplo de etiqueta input (type=submit)](../images/chapter09/input_submit.png)
 
 ```html
 <input type="submit" name="buscar" value="Buscar" />```
@@ -96,7 +96,7 @@ El valor del atributo `type` para este control de formulario es `submit`. El nav
 
 Aunque su uso era muy popular hace unos años, la mayoría de formularios modernos ya no utilizan este tipo de botón. Se trata de un botón especial que borra todos los datos introducidos por el usuario y devuelve el formulario a su estado original:
 
-![Ejemplo de etiqueta input (type=reset)](../assets/chapter09/input_reset.png)
+![Ejemplo de etiqueta input (type=reset)](../images/chapter09/input_reset.png)
 
 ```html
 <input type="reset" name="limpiar" value="Borrar datos del formulario" />```
@@ -109,7 +109,7 @@ Como es habitual en los botones de formulario, el atributo `value` permite estab
 
 Los formularios también permiten adjuntar archivos para subirlos al servidor. Aunque desde el punto de vista de HTML y del navegador no existe ninguna limitación sobre el número, tipo o tamaño total de los archivos que se pueden adjuntar, todos los servidores añaden restricciones por motivos de seguridad.
 
-![Ejemplo de etiqueta input (type=file)](../assets/chapter09/input_file.png)
+![Ejemplo de etiqueta input (type=file)](../images/chapter09/input_file.png)
 
 ```html
 Fichero adjunto

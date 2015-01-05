@@ -39,4 +39,4 @@ Un ejemplo de **código HTML** con las etiquetas `<ul>` y `<li>` sería:
 
 Que un navegador visualizaría de esta manera:
 
-![Ejemplo lista no ordenada](../assets/chapter06/lista_no_ordenada.png)
+![Ejemplo lista no ordenada](../images/chapter06/lista_no_ordenada.png)

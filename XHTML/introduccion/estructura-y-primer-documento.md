@@ -27,7 +27,7 @@ Las páginas HTML se dividen en:
 
 Si guardásemos este código HTML con un editor de texto sin formato y la extensión **.html**, y lo abriésemos con cualquier navegador, esto sería lo que veríamos:
 
-![Aspecto que muestra el primer documento HTML en cualquier navegador](../assets/chapter02/html_intro_example.png)
+![Aspecto que muestra el primer documento HTML en cualquier navegador](../images/chapter02/html_intro_example.png)
 
 En este ejemplo anterior, hemos utilizado los *tags* `<html>`, `<head>` y `<body>`, las tres etiquetas principales de un documento HTML:
 

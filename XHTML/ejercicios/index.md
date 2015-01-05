@@ -6,7 +6,7 @@
 
 Determinar el código HTML correspondiente a la siguiente página:
 
-![Página HTML sencilla que resalta algunas partes del texto](../assets/chapter14/ej01.png)
+![Página HTML sencilla que resalta algunas partes del texto](../images/chapter14/ej01.png)
 
 ## Capítulo 4
 
@@ -14,25 +14,25 @@ Determinar el código HTML correspondiente a la siguiente página:
 
 Estructurar y marcar el siguiente texto [extraído de la Wikipedia](http://es.wikipedia.org/wiki/Exploraci%C3%B3n_espacial) para que el navegador lo muestre con el aspecto de la siguiente imagen:
 
-![Resultado de estructurar y marcar el texto original](../assets/chapter14/ej02.png)
+![Resultado de estructurar y marcar el texto original](../images/chapter14/ej02.png)
 
 ### Ejercicio 3
 
 Estructurar y marcar el siguiente texto para que el navegador lo muestre con el aspecto de la siguiente imagen:
 
-![Texto HTML correctamente estructurado y marcado](../assets/chapter14/ej03.png)
+![Texto HTML correctamente estructurado y marcado](../images/chapter14/ej03.png)
 
 ### Ejercicio 4
 
 Determinar el código HTML que corresponde al siguiente documento:
 
-![Texto HTML con espacios en blanco y nuevas líneas](../assets/chapter14/ej04.png)
+![Texto HTML con espacios en blanco y nuevas líneas](../images/chapter14/ej04.png)
 
 ### Ejercicio 5
 
 Determinar el código HTML que corresponde al siguiente documento:
 
-![Texto HTML que incluye caracteres especiales](../assets/chapter14/ej05.png)
+![Texto HTML que incluye caracteres especiales](../images/chapter14/ej05.png)
 
 ## Capítulo 5
 
@@ -40,15 +40,15 @@ Determinar el código HTML que corresponde al siguiente documento:
 
 A partir de la estructura de directorios y archivos indicada en la siguiente imagen:
 
-![Estructura de archivos y directorios de un sitio web de ejemplo](../assets/chapter14/ej0601.png)
+![Estructura de archivos y directorios de un sitio web de ejemplo](../images/chapter14/ej0601.png)
 
 1. Crear la siguiente página llamada `indice.html` que sirva como página principal del sitio:
 
-![Página principal del sitio web de ejemplo](../assets/chapter14/ej0602.png)
+![Página principal del sitio web de ejemplo](../images/chapter14/ej0602.png)
 
 2. Crear la página de índice del portfolio:
 
-![Página con la información sobre los proyectos realizados](../assets/chapter14/ej0603.png)
+![Página con la información sobre los proyectos realizados](../images/chapter14/ej0603.png)
 
 ### Ejercicio 7
 
@@ -60,13 +60,13 @@ Enlazar el favicon en todas las páginas del ejercicio 6 y añadir todos los atr
 
 Determinar el código HTML que corresponde a la siguiente lista anidada simple:
 
-![Ejemplo de lista anidada simple de dos niveles](../assets/chapter14/ej08.png)
+![Ejemplo de lista anidada simple de dos niveles](../images/chapter14/ej08.png)
 
 ### Ejercicio 9
 
 Determinar el código HTML que corresponde a la siguiente lista anidada compleja:
 
-![Ejemplo de lista anidada compleja de dos niveles](../assets/chapter14/ej09.png)
+![Ejemplo de lista anidada compleja de dos niveles](../images/chapter14/ej09.png)
 
 ## Capítulo 7
 
@@ -74,7 +74,7 @@ Determinar el código HTML que corresponde a la siguiente lista anidada compleja
 
 Modificar la página de índice del portfolio de los ejercicios 6 y 7 para mostrar directamente las imágenes de los proyectos.
 
-![Nueva página del portfolio que muestra la imagen de cada uno de los proyectos](../assets/chapter14/ej10.png)
+![Nueva página del portfolio que muestra la imagen de cada uno de los proyectos](../images/chapter14/ej10.png)
 
 ## Capítulo 8
 
@@ -82,7 +82,7 @@ Modificar la página de índice del portfolio de los ejercicios 6 y 7 para mostr
 
 Determinar el código HTML necesario para crear la tabla que se muestra en la siguiente imagen:
 
-![Tabla sencilla con celdas de cabecera](../assets/chapter14/ej11.png)
+![Tabla sencilla con celdas de cabecera](../images/chapter14/ej11.png)
 
 Utilizar las celdas de cabecera donde sea necesario y añadir todos los atributos posibles.
 
@@ -90,13 +90,13 @@ Utilizar las celdas de cabecera donde sea necesario y añadir todos los atributo
 
 Determinar el código HTML necesario para crear la tabla que se muestra en la siguiente imagen. Utilizar las celdas de cabecera donde sea necesario y añadir todos los atributos posibles.
 
-![Tabla con los resultados de una búsqueda](../assets/chapter14/ej12.png)
+![Tabla con los resultados de una búsqueda](../images/chapter14/ej12.png)
 
 ### Ejercicio 13
 
 Determinar el código HTML necesario para crear la tabla que se muestra en la siguiente imagen:
 
-![Ejemplo de tabla con una estructura compleja](../assets/chapter14/ej13.png)
+![Ejemplo de tabla con una estructura compleja](../images/chapter14/ej13.png)
 
 Emplear las etiquetas `<table>`, `<tr>`, `<td>`, `<th>`, `<caption>` y los atributos `colspan`, `rowspan`, `abbr`, `scope`, `summary`.
 
@@ -106,7 +106,7 @@ Emplear las etiquetas `<table>`, `<tr>`, `<td>`, `<th>`, `<caption>` y los atrib
 
 Determinar el código HTML necesario para crear el formulario que se muestra en la siguiente imagen:
 
-![Formulario con controles de varios tipos](../assets/chapter14/ej14.png)
+![Formulario con controles de varios tipos](../images/chapter14/ej14.png)
 
 1. Elegir el método más adecuado para el formulario (GET o POST) y cualquier otro atributo necesario.
 2. La aplicación que se encarga de procesar el formulario se encuentra en la raíz del servidor, carpeta "php" y archivo "insertar_cv.php" .
@@ -118,18 +118,18 @@ Determinar el código HTML necesario para crear el formulario que se muestra en 
 
 Determinar el código HTML necesario para crear el formulario que se muestra en la siguiente imagen:
 
-![Formulario con controles de tipo lista desplegable](../assets/chapter14/ej15.png)
+![Formulario con controles de tipo lista desplegable](../images/chapter14/ej15.png)
 
 ### Ejercicio 16
 
 Determinar el código HTML necesario para crear el formulario que se muestra en la siguiente imagen:
 
-![Formulario complejo](../assets/chapter14/ej16.png)
+![Formulario complejo](../images/chapter14/ej16.png)
 
 ## Ejercicio final
 
 Determinar el código HTML necesario para crear las siguientes páginas, utilizando el máximo de atributos posibles que añadan semántica al contenido. Crear así mismo, la estructura de directorios necesaria para almacenar imágenes (comunes y de post), hojas de estilos, scripts y los propios documentos HTML.
 
-![Portada del blog](../assets/final/portada.png)
+![Portada del blog](../images/final/portada.png)
 
-![Vista del post](../assets/final/post.png)
+![Vista del post](../images/final/post.png)

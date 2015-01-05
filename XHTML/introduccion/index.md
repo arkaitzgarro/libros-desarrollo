@@ -13,7 +13,7 @@ Este organismo **W3C** elabora las normas a seguir para la creación de las pág
 
 El estándar XHTML 1.0 incluye el 95% del estándar HTML 4.01, ya que sólo añade pequeñas mejoras y modificaciones menores. Este sería un sencillo gráfico del esquema de relación y evolución de los lenguajes **HTML** y **XHTML** *(eXtensible HyperText Markup Language)* - que es básicamente HTML expresado como **XML** válido, una versión más estricta a nivel técnico - :
 
-![Esquema de la evolución de HTML y XHTML](../assets/chapter02/xhtml.png)
+![Esquema de la evolución de HTML y XHTML](../images/chapter02/xhtml.png)
 
 ## HTML, CSS y Javascript
 
@@ -23,4 +23,4 @@ La posterior aparición de tecnologías como **JavaScript** provocó que las pá
 
 Una página web está compuesta, como vemos en este gráfico, por **contenidos, presentación e interacción**. Esto es, está subdividida de manera que, en vez de incluir en una misma página todo, se utilizan mecanismos para separar dichos contenidos: como son **CSS** y **JavaScript**.
 
-![Separación de contenidos](../assets/chapter02/contenidos.png)
+![Separación de contenidos](../images/chapter02/contenidos.png)

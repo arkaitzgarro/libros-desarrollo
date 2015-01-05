@@ -12,4 +12,4 @@ HTTP es el término utilizado para describir este sencillo lenguaje basado en te
 
 Es también uno de los protocolos que cierra la brecha entre los grupos de creación de redes y desarrollo de aplicaciones, ya que contiene información que es utilizada por los dos en la entrega y el desarrollo de aplicaciones basadas en web.
 
-![Proceso de una petición web](../assets/chapter01/http.png)
+![Proceso de una petición web](../images/chapter01/http.png)

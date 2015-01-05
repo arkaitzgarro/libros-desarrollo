@@ -6,9 +6,9 @@ Si JavaScript está bloqueado o deshabilitado y la página web requiere su uso p
 
 El siguiente ejemplo muestra una misma página web que requiere JavaScript tanto cuando se accede con JavaScript activado y como cuando se accede con JavaScript completamente desactivado.
 
-![Ejemplo de página compleja con JavaScript activado](../assets/chapter12/javascript.png)
+![Ejemplo de página compleja con JavaScript activado](../images/chapter12/javascript.png)
 
-![Ejemplo de página compleja con JavaScript desactivado](../assets/chapter12/nojavascript.png)
+![Ejemplo de página compleja con JavaScript desactivado](../images/chapter12/nojavascript.png)
 
 HTML define la etiqueta `<noscript>` para incluir un mensaje que los navegadores muestran cuando JavaScript se encuentra bloqueado o deshabilitado.
 

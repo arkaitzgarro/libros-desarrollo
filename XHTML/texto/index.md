@@ -9,8 +9,8 @@ El proceso posterior a estructurar el texto consiste en **marcar** los diferente
 
 Un **ejemplo** de texto original y otro de texto estructurado sería:
 
-![Resultado de estructurar un texto sencillo](../assets/chapter04/texto_estructurado.png)
+![Resultado de estructurar un texto sencillo](../images/chapter04/texto_estructurado.png)
 
 Este ejemplo muestra una transformación de un párrafo con un **texto simple** a un **texto estructurado y marcado** donde encontramos:
 
-![Resultado de marcar un texto sencillo](../assets/chapter04/texto_estructurado2.png)
+![Resultado de marcar un texto sencillo](../images/chapter04/texto_estructurado2.png)

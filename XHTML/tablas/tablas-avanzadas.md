@@ -4,7 +4,7 @@ Algunas **tablas complejas** están formadas por más elementos que filas y celd
 
 Un ejemplo clásico de tablas avanzadas es el de las tablas utilizadas en **contabilidad**, como por ejemplo la tabla que muestra el balance de una empresa:
 
-![Ejemplo de tabla compleja correspondiente al balance de una empresa](../assets/chapter08/tabla_balance.png)
+![Ejemplo de tabla compleja correspondiente al balance de una empresa](../images/chapter08/tabla_balance.png)
 
 Las partes que componen las tablas complejas se definen mediante las etiquetas `<thead>`, `<tbody>` y `<tfoot>`. La cabecera de la tabla se define con la etiqueta `<thead>`, el pie de la tabla se define mediante `<tfoot>` y cada sección de datos se define con una etiqueta `<tbody>`.
 
@@ -77,7 +77,7 @@ Un ejemplo de **código HTML** con las etiquetas `<thead>`, `<tbody>` y `<tfoot>
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de tabla avanzada con cabecera, pie y secciones](../assets/chapter08/tabla_avanzada.png)
+![Ejemplo de tabla avanzada con cabecera, pie y secciones](../images/chapter08/tabla_avanzada.png)
 
 Aunque al principio resulta extraño, el elemento `<tfoot>` siempre se escribe antes que cualquier elemento `<tbody>` en el código HTML. De hecho, si la etiqueta `<tfoot>` aparece después de un elemento `<tbody>`, la página no se considera válida.
 
@@ -124,7 +124,7 @@ Un ejemplo de **código HTML** con la etiqueta `<col>` sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de tabla avanzada que usa la etiqueta col](../assets/chapter08/tabla_avanzada_col.png)
+![Ejemplo de tabla avanzada que usa la etiqueta col](../images/chapter08/tabla_avanzada_col.png)
 
 Por otra parte, la etiqueta `<colgroup>` se emplea para agrupar de forma estructural varias columnas de la tabla. La forma habitual de indicar el número de columnas que abarca la agrupación es utilizar el atributo `span`, que establece el número de columnas de cada agrupación.
 
@@ -167,7 +167,7 @@ Un ejemplo de **código HTML** con la etiqueta `<colgroup>` sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de tabla avanzada que usa la etiqueta colgroup](../assets/chapter08/tabla_avanzada_colgroup.png)
+![Ejemplo de tabla avanzada que usa la etiqueta colgroup](../images/chapter08/tabla_avanzada_colgroup.png)
 
 El uso de las etiquetas `<col>` y `<colgroup>` no está muy extendido, ya que la mayoría de navegadores no soportan muchas de sus funcionalidades.
 

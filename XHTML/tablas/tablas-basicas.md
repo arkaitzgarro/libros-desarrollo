@@ -39,7 +39,7 @@ Un ejemplo de **código HTML** con una tabla sencilla sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de tabla sencilla creada con las etiquetas table, tr y td](../assets/chapter08/tabla_sencilla.png)
+![Ejemplo de tabla sencilla creada con las etiquetas table, tr y td](../images/chapter08/tabla_sencilla.png)
 
 La etiqueta `<table>` encierra todas las **filas y columnas de la tabla**. Las etiquetas `<tr>` (*table row*) definen cada fila de la tabla y encierran todas las columnas. Por último, la etiqueta `<td>` (*table data cell*) define cada una de las columnas de las filas (aunque realmente HTML no define columnas sino celdas de datos).
 
@@ -106,7 +106,7 @@ Un ejemplo de **código HTML** y una tabla compleja que ha fusionado dos columna
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo sencillo de fusión de columnas](../assets/chapter08/tabla_fusion_columnas.png)
+![Ejemplo sencillo de fusión de columnas](../images/chapter08/tabla_fusion_columnas.png)
 
 La primera fila de la tabla está formada sólo por una columna, mientras que la segunda fila está formada por dos columnas. En principio, podría pensarse en utilizar el siguiente código HTML para definir la tabla:
 
@@ -164,7 +164,7 @@ Utilizando los atributos `rowspan` y `colspan`, es posible diseñar tablas tan c
 
 Ejemplo de fusión de múltiples columnas:
 
-![Ejemplo complejo de fusión de columnas](../assets/chapter08/tabla_fusion_columnas_complejo.png)
+![Ejemplo complejo de fusión de columnas](../images/chapter08/tabla_fusion_columnas_complejo.png)
 
 El **código HTML** necesario para fusionar las columnas de la tabla anterior sería:
 
@@ -201,7 +201,7 @@ El **código HTML** necesario para fusionar las columnas de la tabla anterior se
 
 Ejemplo de fusión de múltiples filas:
 
-![Ejemplo complejo de fusión de filas](../assets/chapter08/tabla_fusion_filas_complejo.png)
+![Ejemplo complejo de fusión de filas](../images/chapter08/tabla_fusion_filas_complejo.png)
 
 El **código HTML** necesario para fusionar las filas de la tabla anterior sería:
 

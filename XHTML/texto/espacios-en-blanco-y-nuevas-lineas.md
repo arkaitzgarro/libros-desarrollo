@@ -23,7 +23,7 @@ Un ejemplo de este comportamiento sería:
 
 Que un navegador visualizaría de esta manera:
 
-![Ejemplo de uso de la etiqueta p con espacios en blanco y nuevas líneas](../assets/chapter04/espacios_en_blanco.png)
+![Ejemplo de uso de la etiqueta p con espacios en blanco y nuevas líneas](../images/chapter04/espacios_en_blanco.png)
 
 Sin embargo, existen alternativas para incluir **espacios en blanco adicionales**. Esto se consigue sustituyendo cada nuevo espacio en blanco por el texto `&nbsp;`.
 
@@ -48,7 +48,7 @@ Si quisiéramos visualizar el texto del ejemplo anterior con todos los espacios 
 
 Que un navegador visualizaría de esta manera:
 
-![Ejemplo de uso `&nbsp;`](../assets/chapter04/espacios_en_blanco2.png)
+![Ejemplo de uso `&nbsp;`](../images/chapter04/espacios_en_blanco2.png)
 
 Este ejemplo de **código HTML** incluye la etiqueta `<br/>`, que se explica a continuación.
 
@@ -105,7 +105,7 @@ Un ejemplo de **código HTML** con la etiqueta `<pre>` sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de uso de la etiqueta pre](../assets/chapter04/pre.png)
+![Ejemplo de uso de la etiqueta pre](../images/chapter04/pre.png)
 
 También existe la etiqueta `<code>` que se utiliza para mostrar código fuente de cualquier lenguaje de programación.
 
@@ -141,7 +141,7 @@ Un ejemplo de **código HTML** con la etiqueta `<code>` sería:
 </html>```
 
 
-![Ejemplo de uso de la etiqueta code](../assets/chapter04/code.png)
+![Ejemplo de uso de la etiqueta code](../images/chapter04/code.png)
 
 <div class="exercise">
   <p class="title">Ejercicio 4</p>

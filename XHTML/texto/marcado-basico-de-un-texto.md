@@ -72,7 +72,7 @@ Un ejemplo de **código HTML** con las etiquetas `<ins>` y `<del>` sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de uso de etiquetas ins y del](../assets/chapter04/ins_del.png)
+![Ejemplo de uso de etiquetas ins y del](../images/chapter04/ins_del.png)
 
 Además de estas dos, encontramos la etiqueta `<blockquote>` para incluir citas textuales en las páginas web.
 
@@ -103,7 +103,7 @@ Un ejemplo de **código HTML** con la etiqueta `<blockquote>` sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de uso de etiqueta blockquote](../assets/chapter04/blockquote.png)
+![Ejemplo de uso de etiqueta blockquote](../images/chapter04/blockquote.png)
 
 <div class="exercise">
   <p class="title">Ejercicio 2</p>

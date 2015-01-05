@@ -48,7 +48,7 @@ Un ejemplo de **código HTML** con las etiquetas `<fieldset>` y `<legend>` serí
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de uso de las etiquetas fieldset y legend](../assets/chapter09/formulario_fieldset_legend.png)
+![Ejemplo de uso de las etiquetas fieldset y legend](../images/chapter09/formulario_fieldset_legend.png)
 
 La etiqueta `<fieldset>` agrupa todos los controles de formulario a los que encierra. El navegador muestra por defecto un borde resaltado para cada agrupación. La etiqueta `<legend>` se incluye dentro de cada etiqueta `<fieldset>` y establece el título que muestra el navegador para cada agrupación de elementos.
 

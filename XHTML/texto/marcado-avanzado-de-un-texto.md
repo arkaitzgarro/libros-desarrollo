@@ -33,7 +33,7 @@ Un ejemplo de **código HTML** con la etiqueta `<acronym>` sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de uso de etiqueta acronym](../assets/chapter04/acronym.png)
+![Ejemplo de uso de etiqueta acronym](../images/chapter04/acronym.png)
 
 La etiqueta `<dfn>` proporciona al usuario la definición de todas las palabras para las que se considere apropiado, y la etiqueta `<cite>` se utiliza para marcar un texto como una citación:
 

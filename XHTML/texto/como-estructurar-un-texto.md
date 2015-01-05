@@ -31,7 +31,7 @@ Un ejemplo de **código HTML** con la etiqueta `<p>` sería:
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de texto HTML estructurado con párrafos](../assets/chapter04/ejemplo_parrafo.png)
+![Ejemplo de texto HTML estructurado con párrafos](../images/chapter04/ejemplo_parrafo.png)
 
 ### Secciones
 
@@ -66,4 +66,4 @@ Un ejemplo de **código HTML** con la etiqueta `<p>` más las etiquetas `<h1>`y 
 
 Y un navegador lo visualizaría de esta manera:
 
-![Ejemplo de texto HTML estructurado con párrafos y secciones](../assets/chapter04/ejemplo_secciones.png)
+![Ejemplo de texto HTML estructurado con párrafos y secciones](../images/chapter04/ejemplo_secciones.png)
