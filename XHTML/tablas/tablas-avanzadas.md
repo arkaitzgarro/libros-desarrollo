@@ -171,20 +171,6 @@ Y un navegador lo visualizaría de esta manera:
 
 El uso de las etiquetas `<col>` y `<colgroup>` no está muy extendido, ya que la mayoría de navegadores no soportan muchas de sus funcionalidades.
 
-<div class="exercise">
-  <p class="title">Ejercicio 11</p>
-</div>
+> **Ejercicio**
 
-[Ver enunciado](#ej11)
-
-<div class="exercise">
-  <p class="title">Ejercicio 12</p>
-</div>
-
-[Ver enunciado](#ej12)
-
-<div class="exercise">
-  <p class="title">Ejercicio 13</p>
-</div>
-
-[Ver enunciado](#ej13)
+> Realizar el ejercicio #13 del [capítulo de ejercicios](../ejercicios/).

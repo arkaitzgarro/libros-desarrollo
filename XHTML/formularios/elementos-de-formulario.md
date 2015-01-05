@@ -153,8 +153,6 @@ Algunos formularios complejos necesitan botones más avanzados que los de enviar
 
 El valor del atributo `type` para este control de formulario es `button`. Si pruebas a pulsar un botón de este tipo, verás que el navegador no hace nada: no envía los datos al servidor y no borra los datos introducidos. Este tipo de botones sólo son útiles si se utilizan junto con el lenguaje de programación JavaScript. Si la página incluye código JavaScript, los botones de este tipo se pueden programar para que realicen cualquier tarea compleja cuando se pulsa sobre ellos.
 
-<div class="exercise">
-  <p class="title">Ejercicio 14</p>
-</div>
+> **Ejercicio**
 
-[Ver enunciado](#ej14)
+> Realizar el ejercicio #14 del [capítulo de ejercicios](../ejercicios/).

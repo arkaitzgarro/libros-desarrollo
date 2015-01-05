@@ -99,8 +99,6 @@ La diferencia entre ambos viene dada por el **modelo de contenido**, por el **fo
 | `object`          |  Objeto genérico incluído |
 | `script`          |  Sentencias de *script* |
 
-<div class="exercise">
-  <p class="title">Ejercicio 1</p>
-</div>
+> **Ejercicio**
 
-[Ver enunciado](#ej01)
+> Realizar el ejercicio #1 del [capítulo de ejercicios](../ejercicios/).

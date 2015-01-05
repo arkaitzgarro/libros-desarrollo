@@ -236,3 +236,10 @@ El **código HTML** necesario para fusionar las filas de la tabla anterior serí
     </body>
 </html>```
 
+> **Ejercicio**
+
+> Realizar el ejercicio #11 del [capítulo de ejercicios](../ejercicios/).
+
+> **Ejercicio**
+
+> Realizar el ejercicio #12 del [capítulo de ejercicios](../ejercicios/).

@@ -48,8 +48,6 @@ El ejemplo anterior mezcla los dos tipos de medidas que se pueden utilizar, para
 
 La **anchura/altura** con la que se muestra una imagen no tiene que coincidir obligatoriamente con la anchura/altura real de la imagen. Sin embargo, cuando estos valores no coinciden, las imágenes se muestran deformadas. Si solamente se establece la altura o anchura de la imagen, el navegador calcula la el otro valor necesario para que se mantenga la proporción de la imagen.
 
-<div class="exercise">
-  <p class="title">Ejercicio 10</p>
-</div>
+> **Ejercicio**
 
-[Ver enunciado](#ej10)
+> Realizar el ejercicio #10 del [capítulo de ejercicios](../ejercicios/).

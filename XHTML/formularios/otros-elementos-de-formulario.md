@@ -128,14 +128,10 @@ La etiqueta `<optgroup>` permite agrupar opciones relacionadas dentro de una lis
 
 El único atributo que suele utilizarse con la etiqueta `<optgroup>` es `label`, que indica el nombre de cada agrupación. Los navegadores muestran de forma destacada el título de cada agrupación, de forma que el usuario pueda localizar más fácilmente la opción deseada.
 
-<div class="exercise">
-  <p class="title">Ejercicio 15</p>
-</div>
+> **Ejercicio**
 
-[Ver enunciado](#ej15)
+> Realizar el ejercicio #15 del [capítulo de ejercicios](../ejercicios/).
 
-<div class="exercise">
-  <p class="title">Ejercicio 16</p>
-</div>
+> **Ejercicio**
 
-[Ver enunciado](#ej16)
+> Realizar el ejercicio #16 del [capítulo de ejercicios](../ejercicios/).

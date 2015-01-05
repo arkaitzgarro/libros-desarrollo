@@ -102,14 +102,10 @@ Descarga un ZIP con todos los contenidos
 </head>```
 
 
-<div class="exercise">
-  <p class="title">Ejercicio 6</p>
-</div>
+> **Ejercicio**
 
-[Ver enunciado](#ej06)
+> Realizar el ejercicio #6 del [capítulo de ejercicios](../ejercicios/).
 
-<div class="exercise">
-  <p class="title">Ejercicio 7</p>
-</div>
+> **Ejercicio**
 
-[Ver enunciado](#ej07)
+> Realizar el ejercicio #7 del [capítulo de ejercicios](../ejercicios/).

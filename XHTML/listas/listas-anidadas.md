@@ -41,14 +41,10 @@ Que un navegador visualizaría de esta manera:
 
 ![Ejemplo lista anidada](../images/chapter06/lista_anidada.png)
 
-<div class="exercise">
-  <p class="title">Ejercicio 8</p>
-</div>
+> **Ejercicio**
 
-[Ver enunciado](#ej08)
+> Realizar el ejercicio #8 del [capítulo de ejercicios](../ejercicios/).
 
-<div class="exercise">
-  <p class="title">Ejercicio 9</p>
-</div>
+> **Ejercicio**
 
-[Ver enunciado](#ej09)
+> Realizar el ejercicio #9 del [capítulo de ejercicios](../ejercicios/).

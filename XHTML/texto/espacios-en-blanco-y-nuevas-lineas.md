@@ -143,14 +143,10 @@ Un ejemplo de **código HTML** con la etiqueta `<code>` sería:
 
 ![Ejemplo de uso de la etiqueta code](../images/chapter04/code.png)
 
-<div class="exercise">
-  <p class="title">Ejercicio 4</p>
-</div>
+> **Ejercicio**
 
-[Ver enunciado](#ej04)
+> Realizar el ejercicio #4 del [capítulo de ejercicios](../ejercicios/).
 
-<div class="exercise">
-  <p class="title">Ejercicio 5</p>
-</div>
+> **Ejercicio**
 
-[Ver enunciado](#ej05)
+> Realizar el ejercicio #5 del [capítulo de ejercicios](../ejercicios/).

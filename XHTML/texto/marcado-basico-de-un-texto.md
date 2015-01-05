@@ -105,14 +105,10 @@ Y un navegador lo visualizaría de esta manera:
 
 ![Ejemplo de uso de etiqueta blockquote](../images/chapter04/blockquote.png)
 
-<div class="exercise">
-  <p class="title">Ejercicio 2</p>
-</div>
+> **Ejercicio**
 
-[Ver enunciado](#ej02)
+> Realizar el ejercicio #2 del [capítulo de ejercicios](../ejercicios/).
 
-<div class="exercise">
-  <p class="title">Ejercicio 3</p>
-</div>
+> **Ejercicio**
 
-[Ver enunciado](#ej03)
+> Realizar el ejercicio #3 del [capítulo de ejercicios](../ejercicios/).
