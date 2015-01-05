@@ -44,4 +44,7 @@
    * [Estructura de la cabecera](metainformacion/estructura-de-la-cabecera.md)
 * [Otras etiquetas importantes](otras-etiquetas-importantes/index.md)
    * [JavaScript](otras-etiquetas-importantes/javascript.md)
+* [Validación](validacion/index.md)
+   * [Validador del W3C](validacion/validador-del-w3c.md)
+* [Ejercicios](ejercicios/index.md)
 
