@@ -34,4 +34,9 @@
 * [Tablas](tablas/index.md)
    * [Tablas básicas](tablas/tablas-basicas.md)
    * [Tablas avanzadas](tablas/tablas-avanzadas.md)
+* [Formularios](formularios/index.md)
+   * [Formularios básicos](formularios/formularios-basicos.md)
+   * [Elementos de formulario](formularios/elementos-de-formulario.md)
+   * [Formularios avanzados](formularios/formularios-avanzados.md)
+   * [Otros elementos de formulario](formularios/otros-elementos-de-formulario.md)
 
