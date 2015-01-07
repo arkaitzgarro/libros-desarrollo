@@ -1,0 +1,31 @@
+<html>
+<head>
+    <script type="text/javascript">
+        // Fechas "XX/XX/XXXX"
+        var datePattern = /\d\d\/\d\d\/\d\d\d\d/;
+        console.log("Nací el 05/04/1982 en Donostia.".search(datePattern));
+        
+        // Email
+        var mailAddress = /^[\w\.-]+@[\w\.-]+\.\w{2,3}$/;
+        console.log(mailAddress.test("kenny@test.net"));
+        console.log(mailAddress.test("I mailt kenny@tets.nets, but it didn wrok!"));
+        console.log(mailAddress.test("the_giant_sloth@gmail.com"));
+        
+        // escapeHTML
+        function escapeHTML(text) {
+            var replacements = {"<": "&lt;", ">": "&gt;",
+                                "&": "&amp;", "\"": "&quot;"};
+            return text.replace(/[<>&"]/g, function(character) {
+                return replacements[character];
+            });
+        }
+        console.log(escapeHTML("The 'pre-formatted' tag is written \"<pre>\"."));
+        
+        // reverse
+        var re = /(\w+)\s(\w+)/;
+        var str = "John Smith";
+        console.log(str.replace(re, "$2, $1"));
+    </script>
+</head>
+<body></body>
+</html>
