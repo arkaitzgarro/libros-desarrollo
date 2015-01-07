@@ -1,0 +1,100 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Ejercicio 7 - Sombras CSS</title>
+        <style type="text/css" media="screen">
+        .offset { overflow: hidden; margin: 20px 0 40px 20px; }
+        
+        .offset div {
+            background-color: #eee;
+            float:left;
+            margin: 20px 40px;
+            height: 65px;
+            width:160px;
+            text-align: center;
+        }
+        
+        .examplelabelboxshadow {
+            color: #888;
+            font-size: 20px;
+            position: relative;
+            top: 20px;
+        }
+        
+        .exampleboxshadow{
+            box-shadow: 10px 10px 5px #888;
+        }
+        
+        .exampleboxshadowa {
+            box-shadow: -5px -5px #888;
+        }
+        
+        .exampleboxshadowb {
+            box-shadow: -5px -5px 5px #888;
+        }
+
+        .exampleboxshadowc {
+            box-shadow: -5px -5px 0 5px #888;
+        }
+
+        .exampleboxshadowd {
+            box-shadow: -5px -5px 5px 5px #888;
+        }
+
+        .exampleboxshadowe {
+            box-shadow: 0 0 5px #888;
+        }
+
+        .exampleboxshadowf {
+            box-shadow: 0 0 5px 5px #888;
+        }
+
+        .exampleboxshadowg {
+            box-shadow: inset -5px -5px #888;
+        }
+
+        .exampleboxshadowh {
+            box-shadow: inset -5px -5px 5px #888;
+        }
+
+        .exampleboxshadowi {
+            box-shadow: inset -5px -5px 0 5px #888;
+        }
+
+        .exampleboxshadowj {
+            box-shadow: inset -5px -5px 5px 5px #888;
+        }
+
+        .exampleboxshadowk {
+            box-shadow: inset 0 0 5px #888;
+        }
+
+        .exampleboxshadowl {
+            box-shadow: inset 0 0 5px 5px #888;
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class="offset">
+            <div class="exampleboxshadowa"><span class="examplelabelboxshadow">A</span></div>
+            <div class="exampleboxshadowb"><span class="examplelabelboxshadow">B</span></div>
+            <div class="exampleboxshadowc"><span class="examplelabelboxshadow">C</span></div>
+            <div class="exampleboxshadowd"><span class="examplelabelboxshadow">D</span></div>
+            <div class="exampleboxshadowe"><span class="examplelabelboxshadow">E</span></div>
+            <div class="exampleboxshadowf"><span class="examplelabelboxshadow">F</span></div>
+        </div>
+        
+        <div class="offset">
+            <div class="exampleboxshadowg"><span class="examplelabelboxshadow">G</span></div>
+            <div class="exampleboxshadowh"><span class="examplelabelboxshadow">H</span></div>
+            <div class="exampleboxshadowi"><span class="examplelabelboxshadow">I</span></div>
+            <div class="exampleboxshadowj"><span class="examplelabelboxshadow">J</span></div>
+            <div class="exampleboxshadowk"><span class="examplelabelboxshadow">K</span></div>
+            <div class="exampleboxshadowl"><span class="examplelabelboxshadow">L</span></div>
+        </div>
+    </body>
+</html>

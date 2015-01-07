@@ -1,0 +1,104 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Ejercicio 5 - Transiciones CSS</title>
+        <script type="text/javascript" src="http://leaverou.github.io/prefixfree/prefixfree.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <style type="text/css" media="screen">
+        #container { width: 500px; height:500px; position: relative;}
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            font-size: 20px;
+            position:absolute;
+            padding: 5px;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        .ex01 .box {
+            left: 10px;
+            top: 10px;
+            animation-name: box1;
+        }
+        @keyframes box1 {
+            from {}
+            90% {
+                left: 450px;
+                top:130px;
+                width: 50px;
+                height: 50px;
+                background-color: blue;
+                color: yellow;
+                font-size: 18px;
+                transform: rotate(270deg);
+            }
+            to {
+                left: 10px;
+                top: 10px;
+                transform: rotate(0deg);
+            }
+        }
+        .ex02 .box {
+            left: 10px;
+            top: 130px;
+            animation-name: box2;
+        }
+        @keyframes box2 {
+            from {}
+            50% {
+                left: 450px;
+                top:10px;
+                width: 50px;
+                height: 50px;
+                background-color: blue;
+                color: yellow;
+                font-size: 18px;
+                transform: rotate(270deg);
+            }
+            to {
+                left: 10px;
+                top: 130px;
+                transform: rotate(0deg);
+            }
+        }
+        .ex03 .box {
+            left: 10px;
+            top: 250px;
+        }
+        .ex04 .box {
+            left: 10px;
+            top: 370px;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div class="ex01"><div class="box">Caja 1</div></div>
+            <div class="ex02"><div class="box">Caja 2</div></div>
+            <div class="ex03"><div class="box">Caja 3</div></div>
+            <div class="ex04"><div class="box">Caja 4</div></div>
+        </div>
+        <!--<script type="text/javascript">
+            $(document).ready(function(){
+                var box = $(".ex01 .box");
+                for(i=0; i<10000; i++){
+                    if(i % 2 == 0) {
+                        box.animate({
+                            left: '+=400',
+                            top: '+=100'
+                        }, 100);
+                    } else {
+                        box.animate({
+                            left: '-=400',
+                            top: '-=100'
+                        }, 100);
+                    }
+                }
+            });
+        </script>-->
+    </body>
+</html>

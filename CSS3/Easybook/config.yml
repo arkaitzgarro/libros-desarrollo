@@ -1,0 +1,86 @@
+book:
+    title:            "CSS 3"
+    author:           "Arkaitz Garro"
+    edition:          "Primera edición"
+    language:         es
+    publication_date: ~
+
+    generator: { name: easybook, version: 5.0-DEV }
+
+    contents:
+        # available content types: acknowledgement, afterword, appendix, author,
+        # chapter, conclusion, cover, dedication, edition, epilogue, foreword,
+        # glossary, introduction, license, lof (list of figures), lot (list of
+        # tables), part, preface, prologue, title, toc (table of contents)
+        - { element: cover }
+        - { element: edition }
+        - { element: license, content: 00_Licencia.md }
+        - { element: toc   }
+        - { element: chapter, number: 1, content: 01_Introduccion.md }
+        - { element: chapter, number: 2, content: 02_Selectors.md }
+        - { element: chapter, number: 3, content: 03_Basic_User_Interface.md }
+        - { element: chapter, number: 4, content: 04_Color.md }
+        - { element: chapter, number: 5, content: 05_Background_Border.md }
+        - { element: chapter, number: 6, content: 06_Image_Values.md }
+        - { element: chapter, number: 7, content: 07_Text.md }
+        - { element: chapter, number: 8, content: 08_Multicolumn_Layout.md }
+        - { element: chapter, number: 9, content: 09_Media_Queries.md }
+        - { element: chapter, number: 10, content: 10_Transforms.md }
+        - { element: chapter, number: 11, content: 11_Transitions.md }
+        - { element: chapter, number: 12, content: 12_Animations.md }
+        - { element: chapter, number: 13, content: 13_Ejercicios.md }
+
+        # - { element: chapter, number: 4, content: 04_Animaciones.md }
+        # - { element: chapter, number: 5, content: 05_Transformaciones.md }
+        # - { element: chapter, number: 6, content: 06_Transiciones.md }
+        # - { element: chapter, number: 7, content: 07_Bordes.md }
+        # - { element: chapter, number: 8, content: 08_Fondos.md }
+        # - { element: chapter, number: 9, content: 09_Color.md }
+        # - { element: chapter, number: 10, content: 10_Texto.md }
+        # - { element: chapter, number: 11, content: 11_Degradados.md }
+        # - { element: chapter, number: 12, content: 12_Ejercicios.md }
+
+    editions:
+        #ebook:
+        #    format:         epub
+        #    highlight_code: false
+        #    include_styles: true
+        #    labels:         ['appendix', 'chapter']  # labels also available for: "figure", "table"
+        #    theme:          clean
+        #    toc:
+        #        deep:       1
+        #        elements:   ["appendix", "chapter", "part"]
+
+        print:
+            format:         pdf
+            highlight_cache: true
+            highlight_code: true
+            include_styles: true
+            isbn:           ~
+            labels:         ["appendix", "chapter"]  # labels also available for: "figure", "table"
+            margin:
+                top:        25mm
+                bottom:     25mm
+                inner:      30mm
+                outter:     20mm
+            page_size:      A4
+            theme:          clean
+            toc:
+                deep:       2
+                elements:   ["appendix", "chapter", "part"]
+            two_sided:      true
+
+        web:
+            format:         html
+            highlight_cache: true
+            highlight_code: true
+            include_styles: true
+            labels:         ["appendix", "chapter"]  # labels also available for: "figure", "table"
+            theme:          clean
+            toc:
+                deep:       2
+                elements:   ["appendix", "chapter"]
+
+        website:
+            extends:        web
+            format:         html_chunked

@@ -1,0 +1,423 @@
+.toc .level-1:first-child {
+    margin-top: 0;
+}
+
+code, pre {
+    font-family: Inconsolata, "Droid Sans Mono", Consolas, Monaco, monospace;
+    font-size: 16px;
+}
+
+code {
+    border: none;
+    line-height: 1.6em;
+    padding: 2px;
+    background-color: #f8f8f8;
+}
+
+pre code {
+    background-color: transparent;
+}
+
+.figure img {
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+}
+
+div.exercise {
+    border-left: 5px solid #EEE;
+    margin: 1em 0;
+    padding: 0 0 0 .75em;
+}
+
+div.exercise p.title {
+    font-weight: bold;
+    margin-bottom: .25em;
+}
+
+#figure-1-1 img,
+#figure-2-1 img,
+#figure-2-2 img,
+#figure-4-1 img,
+#figure-4-2 img,
+#figure-7-1 img,
+#figure-8-1 img,
+#figure-8-7 img,
+#figure-10-1 img {
+    box-shadow: none;
+}
+
+.item.chapter h1 span {
+    display: inline;
+    color: #777;
+}
+
+.item.chapter h1 span:after {
+    content: "."
+}
+
+/* Example Transition B - Timing Functions */
+
+div.exampletransitionb {
+    width: 520px;
+}
+
+div.exampletransitionb div {
+    width: 100px;
+    margin: 5px 0;
+    padding: 5px;
+    color: white;
+    background-color: #ED8029;
+    border-radius: 5px;
+    text-align: right;
+}
+
+div.exampletransitionb:hover div {
+    width: 500px;
+}
+
+div.exampletransitionb div.ease {
+    -webkit-transition: 3s ease;
+    -moz-transition: 3s ease;
+    -o-transition: 3s ease;
+    -ms-transition: 3s ease;
+    transition: 3s ease;
+}
+
+div.exampletransitionb div.linear {
+    -webkit-transition: 3s linear;
+    -moz-transition: 3s linear;
+    -o-transition: 3s linear;
+    -ms-transition: 3s linear;
+    transition: 3s linear;
+}
+
+div.exampletransitionb div.easein {
+    -webkit-transition: 3s ease-in;
+    -moz-transition: 3s ease-in;
+    -o-transition: 3s ease-in;
+    -ms-transition: 3s ease-in;
+    transition: 3s ease-in;
+}
+
+div.exampletransitionb div.easeout {
+    -webkit-transition: 3s ease-out;
+    -moz-transition: 3s ease-out;
+    -o-transition: 3s ease-out;
+    -ms-transition: 3s ease-out;
+    transition: 3s ease-out;
+}
+
+div.exampletransitionb div.easeinout {
+    -webkit-transition: 3s ease-in-out;
+    -moz-transition: 3s ease-in-out;
+    -o-transition: 3s ease-in-out;
+    -ms-transition: 3s ease-in-out;
+    transition: 3s ease-in-out;
+}
+
+/* Example Transition C - Delay */
+
+div.exampletransitionc {
+    width: 520px;
+}
+
+div.exampletransitionc div {
+    width: 100px;
+    margin: 5px 0;
+    padding: 5px;
+    color: white;
+    background-color: #ED8029;
+    text-align: right;
+    border-radius: 5px;
+}
+
+div.exampletransitionc:hover div {
+    width: 500px;
+}
+
+div.exampletransitionc div.no {
+    -webkit-transition: 3s linear;
+    -moz-transition: 3s linear;
+    -o-transition: 3s linear;
+    -ms-transition: 3s linear;
+    transition: 3s linear;
+}
+
+div.exampletransitionc div.one {
+    -webkit-transition: 3s linear 1s;
+    -moz-transition: 3s linear 1s;
+    -o-transition: 3s linear 1s;
+    -ms-transition: 3s linear 1s;
+    transition: 3s linear 1s;
+}
+
+div.exampletransitionc div.two {
+    -webkit-transition: 3s linear 2s;
+    -moz-transition: 3s linear 2s;
+    -o-transition: 3s linear 2s;
+    -ms-transition: 3s linear 2s;
+    transition: 3s linear 2s;
+}
+
+div.exampletransitionc div.three {
+    -webkit-transition: 3s linear 3s;
+    -moz-transition: 3s linear 3s;
+    -o-transition: 3s linear 3s;
+    -ms-transition: 3s linear 3s;
+    transition: 3s linear 3s;
+}
+
+div.exampletransitionc div.five {
+    -webkit-transition: 3s linear 5s;
+    -moz-transition: 3s linear 5s;
+    -o-transition: 3s linear 5s;
+    -ms-transition: 3s linear 5s;
+    transition: 3s linear 5s;
+}
+
+div.exampletransitionc div.minustwo {
+    -webkit-transition: 3s linear -2s;
+    -moz-transition: 3s linear -2s;
+    -o-transition: 3s linear -2s;
+    -ms-transition: 3s linear -2s;
+    transition: 3s linear -2s;
+}
+
+/* CSS3 Preview - multiple backgrounds examples */
+
+.examplemultiplebackgrounds {
+width: 500px;
+height: 250px;
+background-image: url(http://www.css3.info/wp-content/themes/new_css3/img/sheep.png), url(http://www.css3.info/wp-content/themes/new_css3/img/betweengrassandsky.png);
+background-repeat: no-repeat;
+background-position: center bottom, left top;
+padding: 5px;
+}
+
+.examplemultiplebackgrounds p {
+color: white;
+font-weight: bold;
+}
+
+.examplemultiplebackgroundsa {
+width: 500px;
+height: 250px;
+background-image: url(http://www.css3.info/wp-content/themes/new_css3/img/decoration.png), url(http://www.css3.info/wp-content/themes/new_css3/img/ribbon.png), url(http://www.css3.info/wp-content/themes/new_css3/img/old_paper.jpg);
+background-repeat: no-repeat;
+background-position: left top, right bottom, left top;
+
+}
+
+.examplemultiplebackgroundsb {
+display: inline-block;
+margin: 1em; padding: 1em;
+background-image: url(http://www.css3.info/wp-content/themes/new_css3/img/left.png), url(http://www.css3.info/wp-content/themes/new_css3/img/right.png), url(http://www.css3.info/wp-content/themes/new_css3/img/main.png);
+background-repeat: no-repeat, no-repeat, repeat-x;
+background-position: left top, right top, left top ;
+}
+
+/* CSS3 Preview - background-size examples */
+
+.examplebackgroundsize1 {
+width: 550px;
+height: 250px;
+background-image: url(http://www.css3.info/wp-content/themes/new_css3/img/betweengrassandsky.png);
+background-repeat: no-repeat;
+background-color: #EEE;
+background-size: auto;
+margin: 10px 0;
+color: white;
+font-weight: bold;
+}
+
+.examplebackgroundsize2 {
+width: 550px;
+height: 250px;
+background-image: url(http://www.css3.info/wp-content/themes/new_css3/img/betweengrassandsky.png);
+background-repeat: no-repeat;
+background-color: #EEE;
+background-size: 275px 125px;
+margin: 10px 0;
+color: white;
+font-weight: bold;
+}
+
+
+.examplebackgroundsizea {
+width: 550px;
+height: 250px;
+background-image: url(http://www.css3.info/wp-content/themes/new_css3/img/betweengrassandsky.png);
+background-repeat: no-repeat;
+background-color: #EEE;
+background-size: auto;
+margin: 10px 0;
+color: white;
+font-weight: bold;
+}
+
+.examplebackgroundsizeb {
+width: 550px;
+height: 250px;
+background-image: url(http://www.css3.info/wp-content/themes/new_css3/img/betweengrassandsky.png);
+background-repeat: no-repeat;
+background-color: #EEE;
+background-size: 200px;
+margin: 10px 0;
+color: white;
+font-weight: bold;
+}
+
+.examplebackgroundsizec {
+width: 550px;
+height: 250px;
+background-image: url(http://www.css3.info/wp-content/themes/new_css3/img/betweengrassandsky.png);
+background-repeat: no-repeat;
+background-color: #EEE;
+background-size: auto 125px;
+margin: 10px 0;
+color: white;
+font-weight: bold;
+}
+
+.examplebackgroundsized {
+width: 550px;
+height: 250px;
+background-image: url(http://www.css3.info/wp-content/themes/new_css3/img/betweengrassandsky.png);
+background-repeat: no-repeat;
+background-color: #EEE;
+background-size: 200px 200px;
+margin: 10px 0;
+color: white;
+font-weight: bold;
+}
+
+.examplebackgroundsizee {
+width: 550px;
+height: 250px;
+background-image: url(http://www.css3.info/wp-content/themes/new_css3/img/betweengrassandsky.png);
+background-repeat: no-repeat;
+background-color: #EEE;
+background-size: 50%;
+margin: 10px 0;
+color: white;
+font-weight: bold;
+}
+
+.examplebackgroundsizef {
+width: 550px;
+height: 250px;
+background-image: url(http://www.css3.info/wp-content/themes/new_css3/img/betweengrassandsky.png);
+background-repeat: no-repeat;
+background-color: #EEE;
+background-size: auto 25%;
+margin: 10px 0;
+color: white;
+font-weight: bold;
+}
+
+.examplebackgroundsizeg {
+width: 550px;
+height: 250px;
+background-image: url(http://www.css3.info/wp-content/themes/new_css3/img/betweengrassandsky.png);
+background-repeat: no-repeat;
+background-color: #EEE;
+background-size: 80% 125px;
+margin: 10px 0;
+color: white;
+font-weight: bold;
+}
+
+.examplebackgroundsizeh {
+width: 495px;
+height: 225px;
+background-image: url(http://www.css3.info/wp-content/themes/new_css3/img/betweengrassandsky.png);
+background-repeat: no-repeat;
+background-color: #EEE;
+background-size: contain;
+margin: 10px 0;
+color: white;
+font-weight: bold;
+}
+
+.examplebackgroundsizei {
+width: 580px;
+height: 200px;
+background-image: url(http://www.css3.info/wp-content/themes/new_css3/img/betweengrassandsky.png);
+background-repeat: no-repeat;
+background-color: #EEE;
+background-size: contain;
+margin: 10px 0;
+color: white;
+font-weight: bold;
+}
+
+.examplebackgroundsizek {
+width: 495px;
+height: 225px;
+background-image: url(http://www.css3.info/wp-content/themes/new_css3/img/betweengrassandsky.png);
+background-repeat: no-repeat;
+background-color: #EEE;
+background-size: cover;
+margin: 10px 0;
+color: white;
+font-weight: bold;
+}
+
+.examplebackgroundsizel {
+width: 580px;
+height: 200px;
+background-image: url(http://www.css3.info/wp-content/themes/new_css3/img/betweengrassandsky.png);
+background-repeat: no-repeat;
+background-color: #EEE;
+background-size: cover;
+margin: 10px 0;
+color: white;
+font-weight: bold;
+}
+
+.examplebackgroundsizen {
+width: 580px;
+height: 200px;
+background-image: url(http://www.css3.info/wp-content/themes/new_css3/img/sheep.png), url(http://www.css3.info/wp-content/themes/new_css3/img/sheep.png), url(http://www.css3.info/wp-content/themes/new_css3/img/betweengrassandsky.png);
+background-repeat: no-repeat;
+background-position: 20px 100px, 450px 50px, center bottom;
+background-color: #EEE;
+background-size: 70px, auto, cover;
+margin: 10px 0;
+color: white;
+font-weight: bold;
+}
+
+div.example {padding: 0.5em; margin-bottom: 1em;}
+div.example h3 {font-size: x-large; display: block; text-align: center; border: none}
+div.example4 {background: #CCF; padding: 1em}
+  h3.example4a {color: white}
+  h3.example4b {color: white; text-shadow: black 0.1em 0.1em 0.2em}
+  h3.example5 {color: blue; text-shadow: 0.2em 0.5em 0.1em #600,
+    -0.3em 0.1em 0.1em #060, 0.4em -0.3em 0.1em #006}
+  div.example6 {background: #CCC; padding: 1em}
+  h3.example6a {color: #D1D1D1; text-shadow: -1px -1px white, 1px 1px #333;
+    letter-spacing: 2px}
+  h3.example6b {color: #C8C8C8; text-shadow: 1px 1px white, -1px -1px #444;
+    letter-spacing: 2px}
+    
+@font-face {
+font-family: Delicious;
+src: url('http://www.css3.info/wp-content/uploads/2008/06/delicious-roman.otf');
+}
+
+@font-face {
+font-family: Delicious;
+font-weight: bold;
+src: url('http://www.css3.info/wp-content/uploads/2008/06/delicious-bold.otf');
+}
+
+#preview-font_face p {
+font-family: Delicious, Verdana, sans-serif;
+font-size: 200%;
+line-height: 1.2;
+}
+
+#preview-font_face p em {
+font-style: normal;
+font-weight: bold;
+}

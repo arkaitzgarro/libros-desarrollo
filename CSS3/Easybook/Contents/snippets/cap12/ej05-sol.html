@@ -1,0 +1,124 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Ejercicio 5 - Transiciones CSS</title>
+        <style type="text/css" media="screen">
+        #container { width: 500px; height:500px; position: relative;}
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            font-size: 20px;
+            position:absolute;
+            padding: 5px;
+        }
+        .box:hover {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            color: yellow;
+            font-size: 18px;
+            position:absolute;
+        }
+        .ex01 .box {
+            left: 10px;
+            top: 10px;
+            -webkit-transition-property: width height background-color font-size left top transform -webkit-transform color;
+            -webkit-transition-duration:0.5s;
+            -webkit-transition-timing-function: ease-in-out;
+            transition-property: width height background-color font-size left top transform -webkit-transform color;
+            transition-duration:0.5s;
+            transition-timing-function: ease-in-out;
+        }
+        .ex01 .box:hover{
+            transform: rotate(270deg);
+            -webkit-transform: rotate(270deg);
+            left: 450px;
+            top:130px;
+            -webkit-transition-property: width height background-color font-size left top transform -webkit-transform color;
+            -webkit-transition-duration:0.5s;
+            -webkit-transition-timing-function: ease-in-out;
+            transition-property: width height background-color font-size left top transform -webkit-transformv color;
+            transition-duration:0.5s;
+            transition-timing-function: ease-in-out;
+        }
+        .ex02 .box {
+            left: 10px;
+            top: 130px;
+            -webkit-transition-property: width height background-color font-size left top transform -webkit-transform color;
+            -webkit-transition-duration:0.5s;
+            -webkit-transition-timing-function: ease-in-out;
+            transition-property: width height background-color font-size left top transform -webkit-transform color;
+            transition-duration:0.5s;
+            transition-timing-function: ease-in-out;
+        }
+        .ex02 .box:hover{
+            transform: rotate(270deg);
+            -webkit-transform: rotate(270deg);
+            left: 450px;
+            top: 10px;
+            -webkit-transition-property: width height background-color font-size left top transform -webkit-transform color;
+            -webkit-transition-duration:0.5s;
+            -webkit-transition-timing-function: ease-in-out;
+            transition-property: width height background-color font-size left top transform -webkit-transformv color;
+            transition-duration:0.5s;
+            transition-timing-function: ease-in-out;
+        }
+        .ex03 .box {
+            left: 10px;
+            top: 250px;
+            -webkit-transition-property: width height background-color font-size left top transform -webkit-transform color;
+            -webkit-transition-duration:0.5s;
+            -webkit-transition-timing-function: ease-in-out;
+            transition-property: width height background-color font-size left top transform -webkit-transform color;
+            transition-duration:0.5s;
+            transition-timing-function: ease-in-out;
+        }
+        .ex03 .box:hover{
+            transform: rotate(270deg);
+            -webkit-transform: rotate(270deg);
+            left: 450px;
+            top:370px;
+            -webkit-transition-property: width height background-color font-size left top transform -webkit-transform color;
+            -webkit-transition-duration:0.5s;
+            -webkit-transition-timing-function: ease-in-out;
+            transition-property: width height background-color font-size left top transform -webkit-transformv color;
+            transition-duration:0.5s;
+            transition-timing-function: ease-in-out;
+        }
+        .ex04 .box {
+            left: 10px;
+            top: 370px;
+            -webkit-transition-property: width height background-color font-size left top transform -webkit-transform color;
+            -webkit-transition-duration:0.5s;
+            -webkit-transition-timing-function: ease-in-out;
+            transition-property: width height background-color font-size left top transform -webkit-transform color;
+            transition-duration:0.5s;
+            transition-timing-function: ease-in-out;
+        }
+        .ex04 .box:hover{
+            transform: rotate(270deg);
+            -webkit-transform: rotate(270deg);
+            left: 450px;
+            top:250px;
+            -webkit-transition-property: width height background-color font-size left top transform -webkit-transform color;
+            -webkit-transition-duration:0.5s;
+            -webkit-transition-timing-function: ease-in-out;
+            transition-property: width height background-color font-size left top transform -webkit-transformv color;
+            transition-duration:0.5s;
+            transition-timing-function: ease-in-out;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div class="ex01"><div class="box">Caja 1</div></div>
+            <div class="ex02"><div class="box">Caja 2</div></div>
+            <div class="ex03"><div class="box">Caja 3</div></div>
+            <div class="ex04"><div class="box">Caja 4</div></div>
+        </div>
+    </body>
+</html>

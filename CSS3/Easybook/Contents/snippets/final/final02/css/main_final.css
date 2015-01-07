@@ -1,0 +1,56 @@
+.start {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 5em;
+}
+
+#clock {
+    position: relative;
+    width: 378px;
+    height: 378px;
+    background-image: url('../img/clockFace.png');
+    left: 50%;
+    margin: 5em 0 0 -189px;
+}
+
+#clock div {
+    position: absolute;
+}
+
+
+/* ANIMACIONES Y TRANSFORMACIONES */
+
+/*@-webkit-keyframes tick {
+    0% { -webkit-transform: rotate(0deg); }
+    12% { -webkit-transform:rotate(6deg); }
+    100% { -webkit-transform: rotate(6deg); }
+}*/
+
+#clock img[src*='second'] {
+    -webkit-animation-name: tick;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: steps(60,end);
+    -webkit-animation-iteration-count: infinite;
+}
+
+#clock img[src*='minute'] {
+    -webkit-animation-name: tick;
+    -webkit-animation-duration: 600s;
+    -webkit-animation-timing-function: steps(60,end);
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 0.17s;
+}
+
+#clock img[src*='hour'] {
+    -webkit-animation-name: tick;
+    -webkit-animation-duration: 7200s;
+    -webkit-animation-timing-function: steps(12,end);
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 60s;
+}
+
+@-webkit-keyframes tick {
+    0% { -webkit-transform: rotate(0deg) }
+    100% { -webkit-transform: rotate(360deg) }
+}
