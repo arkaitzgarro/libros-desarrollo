@@ -1,0 +1,44 @@
+.toc .level-1:first-child {
+    margin-top: 0;
+}
+
+code, pre {
+    font-family: Inconsolata, "Droid Sans Mono", Consolas, Monaco, monospace;
+    font-size: 16px;
+}
+
+code {
+    border: none;
+    line-height: 1.6em;
+    padding: 2px;
+    background-color: #f8f8f8;
+}
+
+pre code {
+    background-color: transparent;
+}
+
+.figure img {
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+}
+
+#figure-1-1 img,
+#figure-2-1 img,
+#figure-2-2 img,
+#figure-4-1 img,
+#figure-4-2 img,
+#figure-7-1 img,
+#figure-8-1 img,
+#figure-8-7 img,
+#figure-10-1 img {
+    box-shadow: none;
+}
+
+.item.chapter h1 span {
+    display: inline;
+    color: #777;
+}
+
+.item.chapter h1 span:after {
+    content: "."
+}
