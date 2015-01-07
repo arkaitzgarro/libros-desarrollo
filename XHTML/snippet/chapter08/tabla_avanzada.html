@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Ejemplo de tabla avanzada</title>
+        <style type="text/css">
+          table {border-collapse:collapse;}
+          td, th {border: 1px solid gray;}
+        </style>
+    </head>
+    <body>
+        <table summary="An&aacute;lisis de ventas anuales" cellspacing="0" cellpadding="10">
+          <caption>An&aacute;lisis de ventas anuales</caption>
+          <thead>
+            <tr>
+              <th rowspan="2" scope="col">A&Ntilde;O</th>
+              <th colspan="4" scope="col">Expansi&oacute;n de ventas</th>
+            </tr>
+            <tr>
+              <th scope="col">Producto A</th>
+              <th scope="col">Producto B</th>
+              <th scope="col">Producto C</th>
+              <th scope="col">Producto D</th>
+            </tr>
+          </thead>
+
+          <tfoot>
+            <tr>
+              <th rowspan="2" scope="col">A&Ntilde;O</th>
+              <th scope="col">Producto A</th>
+              <th scope="col">Producto B</th>
+              <th scope="col">Producto C</th>
+              <th scope="col">Producto D</th>
+            </tr>
+            <tr>
+              <th colspan="4" scope="col">Expansi&oacute;n de ventas</th>
+            </tr>
+          </tfoot>
+
+          <tbody>
+            <tr>
+              <th scope="row">N-3</th><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+            <tr>
+              <th scope="row">N-2</th><td>3</td><td>5</td><td>8</td><td>4</td>
+            </tr>
+            <tr>
+              <th scope="row">N-1</th><td>4</td><td>4</td><td>7</td><td>3</td>
+            </tr>
+            <tr>
+              <th scope="row">N</th><td>5</td><td>7</td><td>6</td><td>2</td>
+            </tr>
+          </tbody>
+        </table>
+    </body>
+</html>

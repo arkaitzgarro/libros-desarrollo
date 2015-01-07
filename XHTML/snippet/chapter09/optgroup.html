@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Ejemplo de etiqueta select</title>
+    </head>
+    <body>
+    <h3>Datos seleccionables</h3>
+    <form action="http://www.enlace.es/formulario.php" method="post">
+        <label for="programa">Programa seleccionado</label> <br/>
+        <select id="programa" name="programa">
+          <optgroup label="Sistemas Operativos">
+            <option value="Windows" selected="selected">Windows</option>
+            <option value="Mac">Mac</option>
+            <option value="Linux">Linux</option>
+            <option value="Other">Otro</option>
+          </optgroup>
+          <optgroup label="Navegadores">
+            <option value="ie" selected="selected">Internet Explorer</option>
+            <option value="Firefox">Firefox</option>
+            <option value="Safari">Safari</option>
+            <option value="Opera">Opera</option>
+            <option value="Other">Otro</option>
+          </optgroup>
+        </select>
+    </form>
+    </body>
+</html>
