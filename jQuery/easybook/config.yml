@@ -1,0 +1,75 @@
+book:
+    title:            "jQuery"
+    author:           "Arkaitz Garro"
+    edition:          "Primera edición"
+    language:         es
+    publication_date: ~
+
+    generator: { name: easybook, version: 5.0-DEV }
+
+    contents:
+        # available content types: acknowledgement, afterword, appendix, author,
+        # chapter, conclusion, cover, dedication, edition, epilogue, foreword,
+        # glossary, introduction, license, lof (list of figures), lot (list of
+        # tables), part, preface, prologue, title, toc (table of contents)
+        - { element: cover }
+        - { element: edition }
+        - { element: license, content: 00_Licencia.md }
+        - { element: toc   }
+        - { element: chapter, number: 1, content: cap01-bienvenido.md }
+        - { element: chapter, number: 2, content: cap02-conceptos-basicos-javascript.md }
+        - { element: chapter, number: 3, content: cap03-conceptos-basicos-jquery.md }
+        - { element: chapter, number: 4, content: cap04-nucleo-jquery.md }
+        - { element: chapter, number: 5, content: cap05-eventos.md }
+        - { element: chapter, number: 6, content: cap06-efectos.md }
+        - { element: chapter, number: 7, content: cap07-ajax.md }
+        - { element: chapter, number: 8, content: cap08-extensiones.md }
+        - { element: chapter, number: 9, content: cap09-mejoras-rendimiento.md }
+        - { element: chapter, number: 10, content: cap10-organizacion-codigo.md }
+        - { element: chapter, number: 11, content: cap11-eventos-personalizados.md }
+        - { element: chapter, number: 12, content: cap12-funciones-diferidas.md }
+
+    editions:
+        #ebook:
+        #    format:         epub
+        #    highlight_code: false
+        #    include_styles: true
+        #    labels:         ['appendix', 'chapter']  # labels also available for: "figure", "table"
+        #    theme:          clean
+        #    toc:
+        #        deep:       1
+        #        elements:   ["appendix", "chapter", "part"]
+
+        print:
+            format:         pdf
+            highlight_cache: true
+            highlight_code: true
+            include_styles: true
+            isbn:           ~
+            labels:         ["appendix", "chapter"]  # labels also available for: "figure", "table"
+            margin:
+                top:        25mm
+                bottom:     25mm
+                inner:      30mm
+                outter:     20mm
+            page_size:      A4
+            theme:          clean
+            toc:
+                deep:       2
+                elements:   ["appendix", "chapter", "part"]
+            two_sided:      true
+
+        web:
+            format:         html
+            highlight_cache: true
+            highlight_code: true
+            include_styles: true
+            labels:         ["appendix", "chapter"]  # labels also available for: "figure", "table"
+            theme:          clean
+            toc:
+                deep:       2
+                elements:   ["appendix", "chapter"]
+
+        website:
+            extends:        web
+            format:         html_chunked
