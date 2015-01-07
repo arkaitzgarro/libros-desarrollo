@@ -1,0 +1,5 @@
+Fondo degradado
+Bordes redondeados
+Fuente web:
+    Texto: <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+    Títulos: <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
