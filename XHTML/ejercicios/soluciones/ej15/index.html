@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Rellena tu CV</title>
+</head>
+
+<body>
+
+    <h3>Rellena tu CV</h3>
+
+    <form action="http://192.168.1.46/XHTML/ej14/post.php" method="post" enctype="multipart/form-data">
+
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <label for="provincia">Provincia</label>
+            <br/>
+            <select id="provincia" name="provincia">
+                <option value="" selected="selected">- selecciona -</option>
+                <option value="01">Álava/Araba</option>
+                <option value="02">Albacete</option>
+                <option value="03">Alicante/Alacant</option>
+                <option value="04">Almería</option>
+                <option value="33">Asturias</option>
+                <option value="05">Ávila</option>
+                <option value="06">Badajoz</option>
+                <option value="07">Balears (Illes)</option>
+                <option value="08">Barcelona</option>
+                <option value="09">Burgos</option>
+                <option value="10">Cáceres</option>
+                <option value="11">Cádiz</option>
+                <option value="39">Cantabria</option>
+                <option value="12">Castellón/Castelló</option>
+                <option value="51">Ceuta</option>
+                <option value="13">Ciudad Real</option>
+                <option value="14">Córdoba</option>
+                <option value="15">Coruña (A)</option>
+                <option value="16">Cuenca</option>
+                <option value="17">Girona</option>
+                <option value="18">Granada</option>
+                <option value="19">Guadalajara</option>
+                <option value="20">Guipúzcoa/Gipuzkoa</option>
+                <option value="21">Huelva</option>
+                <option value="22">Huesca</option>
+                <option value="23">Jaén</option>
+                <option value="24">León</option>
+                <option value="27">Lugo</option>
+                <option value="25">Lleida</option>
+                <option value="28">Madrid</option>
+                <option value="29">Málaga</option>
+                <option value="52">Melilla</option>
+                <option value="30">Murcia</option>
+                <option value="31">Navarra</option>
+                <option value="32">Ourense</option>
+                <option value="34">Palencia</option>
+                <option value="35">Palmas (Las)</option>
+                <option value="36">Pontevedra</option>
+                <option value="26">Rioja (La)</option>
+                <option value="37">Salamanca</option>
+                <option value="38">Santa Cruz de Tenerife</option>
+                <option value="40">Segovia</option>
+                <option value="41">Sevilla</option>
+                <option value="42">Soria</option>
+                <option value="43">Tarragona</option>
+                <option value="44">Teruel</option>
+                <option value="45">Toledo</option>
+                <option value="46">Valencia/València</option>
+                <option value="47">Valladolid</option>
+                <option value="48">Vizcaya/Bizkaia</option>
+                <option value="49">Zamora</option>
+                <option value="50">Zaragoza</option>
+            </select>
+
+            <br/>
+            <br/>
+
+            <label for="fecha_dia">Fecha de nacimiento</label>
+            <br/>
+            <input type="text" size="3" maxlength="2" id="fecha_dia" name="fecha_dia" />
+            de
+            <select id="fecha_mes" name="fecha_mes">
+                <option value="1">Enero</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Mayo</option>
+                <option value="6">Junio</option>
+                <option value="7">Julio</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11" selected>Noviembre</option>
+                <option value="12">Diciembre</option>
+            </select>
+            de
+            <input type="text" size="5" maxlength="4" id="fecha_ano" name="fecha_ano" />
+
+            <br/>
+            <br/>
+
+            <label for="temasDeInteres">Temas de interés</label>
+            <br/>
+            <select multiple="multiple" size="5" id="temasDeInteres" name="temasDeInteres[]">
+                <option value="3105">Administración de bases de datos</option>
+                <option value="3106">Análisis y programación</option>
+                <option value="3107">Arquitectura</option>
+                <option value="3108">Calidad</option>
+                <option value="3109">ERP, CRM, Business Intelligence</option>
+                <option value="3110">Gestión de proyectos</option>
+                <option value="3111">Hardware, redes y seguridad</option>
+                <option value="3112">Helpdesk</option>
+                <option value="3113">Sistemas</option>
+                <option value="3114">Telecomunicaciones</option>
+            </select>
+            <br>
+            <input type="Submit" value="Enviar">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
